@@ -1,0 +1,4 @@
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_deliveries-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_deliveries-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_deliveries-high]: mTopicName : t2db_deliveries-high : Wed Dec 04 11:50:40 IST 2024

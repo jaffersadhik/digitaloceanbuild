@@ -1,0 +1,10 @@
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: t2db-full-message-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: sleepForAWhile(1000); : mTopicName t2db-full-message-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: t2db-full-message-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: sleepForAWhile(1000); : mTopicName t2db-full-message-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: t2db-full-message-high : Wed Dec 04 11:50:40 IST 2024

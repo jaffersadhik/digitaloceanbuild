@@ -1,0 +1,72 @@
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : subt2tb
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : subt2tb
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : t2e
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : t2e
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:22 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : t2e
+Nov 28, 2024 9:31:22 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:32 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : t2e
+Nov 28, 2024 9:34:33 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:49 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : t2e
+Nov 30, 2024 7:14:49 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : t2e
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]

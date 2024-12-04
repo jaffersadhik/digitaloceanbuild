@@ -1,0 +1,18 @@
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_master_log-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_client_handover_master_log-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_log-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_client_handover_log-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_retry_data-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_client_handover_retry_data-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_master_log-high]: mTopicName : t2db_client_handover_master_log-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_log-high]: mTopicName : t2db_client_handover_log-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_retry_data-high]: mTopicName : t2db_client_handover_retry_data-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_master_log-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_client_handover_master_log-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_log-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_client_handover_log-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [t2db_client_handover_retry_data-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_client_handover_retry_data-high : Wed Dec 04 11:50:39 IST 2024

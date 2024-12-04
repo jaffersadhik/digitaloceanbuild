@@ -1,0 +1,56 @@
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : subt2tb
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:49:15 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 20, 2024 9:49:15 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 10:05:48 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnp
+Nov 20, 2024 10:05:48 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 10:05:51 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'ADNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 10:05:51 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SDNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:06:44 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnp
+Nov 23, 2024 1:06:44 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:06:47 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'ADNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:06:47 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SDNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:30:09 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnp
+Nov 28, 2024 9:30:09 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:30:13 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'ADNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:30:13 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SDNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:33:45 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnp
+Nov 28, 2024 9:33:45 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:33:57 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'ADNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:33:58 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SDNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:13:47 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnp
+Nov 30, 2024 7:13:47 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:13:50 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'ADNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:13:50 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SDNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:24:40 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnp
+Nov 30, 2024 1:24:40 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'DNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:24:43 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'ADNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:24:43 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SDNP' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]

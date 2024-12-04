@@ -1,0 +1,28 @@
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : subt2tb
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:49:15 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 20, 2024 9:49:15 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:06:35 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 23, 2024 1:06:36 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:29:57 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 28, 2024 9:29:57 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:33:37 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 28, 2024 9:33:37 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:13:36 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 30, 2024 7:13:36 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:24:28 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 30, 2024 1:24:28 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]

@@ -1,0 +1,46 @@
+Dec 04, 2024 11:49:54 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : goto sleep for the milli second  : 30000
+Dec 04, 2024 11:49:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:49:56 IST 2024
+Dec 04, 2024 11:49:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:01 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:01 IST 2024
+Dec 04, 2024 11:50:01 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:06 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:06 IST 2024
+Dec 04, 2024 11:50:06 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:09 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PrometheusControl]: t_PrometheusControl : Wed Dec 04 11:50:09 IST 2024
+Dec 04, 2024 11:50:09 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PrometheusControl]: t_PrometheusControl : goto sleep for the milli second  : 300000
+Dec 04, 2024 11:50:11 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:11 IST 2024
+Dec 04, 2024 11:50:11 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:16 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:16 IST 2024
+Dec 04, 2024 11:50:16 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:21 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:21 IST 2024
+Dec 04, 2024 11:50:21 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:24 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : Wed Dec 04 11:50:24 IST 2024
+Dec 04, 2024 11:50:24 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : goto sleep for the milli second  : 30000
+Dec 04, 2024 11:50:26 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:26 IST 2024
+Dec 04, 2024 11:50:26 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:31 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:31 IST 2024
+Dec 04, 2024 11:50:31 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:50:36 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:50:36 IST 2024
+Dec 04, 2024 11:50:36 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000

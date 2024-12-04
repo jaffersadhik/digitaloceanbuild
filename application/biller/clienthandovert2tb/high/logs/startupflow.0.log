@@ -1,0 +1,996 @@
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_submission-low
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_submission~common~t2db_submission-low
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_SUBMISSION-COMMON-t2db_submission-low
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_SUBMISSION, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_submission, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_submission-low'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-submission-low'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_submission~consumer~1~null-172.18.0.2  topicName : t2db-submission-low
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_submission-low=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_submission-low
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_submission-low=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_submission-low aClassName : com.itextos.beacon.platform.topic2table.impl.billing.SubmissionTableInserter
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_submission~t2db_submission-low~1'started for Component 'T2DB_SUBMISSION' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_submission-low' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_submission-high
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_submission~common~t2db_submission-high
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_SUBMISSION-COMMON-t2db_submission-high
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_SUBMISSION, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_submission, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_submission-high'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-submission-high'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_submission~consumer~1~null-172.19.0.2  topicName : t2db-submission-high
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_submission-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}}
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_submission-high
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_submission-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_submission-high aClassName : com.itextos.beacon.platform.topic2table.impl.billing.SubmissionTableInserter
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_submission~t2db_submission-high~1'started for Component 'T2DB_SUBMISSION' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_submission-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_deliveries-high
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_deliveries~common~t2db_deliveries-high
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_DELIVERIES-COMMON-t2db_deliveries-high
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_DELIVERIES, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_deliveries, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_deliveries-high'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-deliveries-high'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_deliveries~consumer~1~null-172.19.0.3  topicName : t2db-deliveries-high
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_deliveries-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}}
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_deliveries-high
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_deliveries-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_deliveries-high aClassName : com.itextos.beacon.platform.topic2table.impl.billing.DeliveriesTableInserter
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:49:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_deliveries~t2db_deliveries-high~1'started for Component 'T2DB_DELIVERIES' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_deliveries-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:58:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:58:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:58:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_retry_data-high
+Nov 20, 2024 9:58:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:58:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_retry_data~common~t2db_client_handover_retry_data-high
+Nov 20, 2024 9:58:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_RETRY_DATA-COMMON-t2db_client_handover_retry_data-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_RETRY_DATA, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_retry_data, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_retry_data-high'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-retry-data-high'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-retry-data-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}}
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_retry_data-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_retry_data-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryDataTableInserter
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_retry_data~t2db_client_handover_retry_data-high~1'started for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_retry_data-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_log~common~t2db_client_handover_log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_LOG-COMMON-t2db_client_handover_log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_log, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_log-high'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-log-high'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2ddc9a9f}}
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2ddc9a9f}
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryLogTableInserter
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_log~t2db_client_handover_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_log-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_master_log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_master_log~common~t2db_client_handover_master_log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_MASTER_LOG-COMMON-t2db_client_handover_master_log-high
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_MASTER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_master_log, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:58:22 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_master_log-high'
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-master-log-high'
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-master-log-high
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74ea2410}}
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_master_log-high
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74ea2410}
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_master_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryMasterLogTableInserter
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:58:23 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_master_log~t2db_client_handover_master_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_master_log-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_retry_data-high
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_retry_data~common~t2db_client_handover_retry_data-high
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_RETRY_DATA-COMMON-t2db_client_handover_retry_data-high
+Nov 23, 2024 1:08:00 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_RETRY_DATA, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_retry_data, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:08:00 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:08:00 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:08:00 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_retry_data-high'
+Nov 23, 2024 1:08:00 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-retry-data-high'
+Nov 23, 2024 1:08:00 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:08:00 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-retry-data-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_retry_data-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_retry_data-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryDataTableInserter
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_retry_data~t2db_client_handover_retry_data-high~1'started for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_retry_data-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_log~common~t2db_client_handover_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_LOG-COMMON-t2db_client_handover_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_log, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_log-high'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-log-high'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2e385cce}}
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2e385cce}
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryLogTableInserter
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_log~t2db_client_handover_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_log-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_master_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_master_log~common~t2db_client_handover_master_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_MASTER_LOG-COMMON-t2db_client_handover_master_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_MASTER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_master_log, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_master_log-high'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-master-log-high'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-master-log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74ea2410}}
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_master_log-high
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74ea2410}
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_master_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryMasterLogTableInserter
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:08:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_master_log~t2db_client_handover_master_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_master_log-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:31:36 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:36 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:31:36 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_retry_data-high
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_retry_data~common~t2db_client_handover_retry_data-high
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_RETRY_DATA-COMMON-t2db_client_handover_retry_data-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_RETRY_DATA, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_retry_data, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_retry_data-high'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-retry-data-high'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-retry-data-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~2~null-172.19.0.7  topicName : t2db-client-handover-retry-data-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~3~null-172.19.0.7  topicName : t2db-client-handover-retry-data-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}}
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_retry_data-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_retry_data-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryDataTableInserter
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_retry_data~t2db_client_handover_retry_data-high~1'started for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_retry_data-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_log-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_log~common~t2db_client_handover_log-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_LOG-COMMON-t2db_client_handover_log-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_log, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_log-high'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-log-high'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-log-high
+Nov 28, 2024 9:31:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~2~null-172.19.0.7  topicName : t2db-client-handover-log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~3~null-172.19.0.7  topicName : t2db-client-handover-log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2767e23c}}
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2767e23c}
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryLogTableInserter
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_log~t2db_client_handover_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_log-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_master_log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_master_log~common~t2db_client_handover_master_log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_MASTER_LOG-COMMON-t2db_client_handover_master_log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_MASTER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_master_log, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_master_log-high'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-master-log-high'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~1~null-172.19.0.7  topicName : t2db-client-handover-master-log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~2~null-172.19.0.7  topicName : t2db-client-handover-master-log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~3~null-172.19.0.7  topicName : t2db-client-handover-master-log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6cb107fd}}
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_master_log-high
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6cb107fd}
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_master_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryMasterLogTableInserter
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:42 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_master_log~t2db_client_handover_master_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_master_log-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:34:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:34:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_retry_data-high
+Nov 28, 2024 9:34:39 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:34:39 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_retry_data~common~t2db_client_handover_retry_data-high
+Nov 28, 2024 9:34:39 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_RETRY_DATA-COMMON-t2db_client_handover_retry_data-high
+Nov 28, 2024 9:34:47 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_RETRY_DATA, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_retry_data, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:34:47 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:34:47 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:34:47 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_retry_data-high'
+Nov 28, 2024 9:34:47 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-retry-data-high'
+Nov 28, 2024 9:34:47 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:34:47 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3012646b}}
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_retry_data-high
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3012646b}
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_retry_data-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryDataTableInserter
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_retry_data~t2db_client_handover_retry_data-high~1'started for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_retry_data-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_log~common~t2db_client_handover_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_LOG-COMMON-t2db_client_handover_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_log, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_log-high'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-log-high'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@5386659f}}
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@5386659f}
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryLogTableInserter
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_log~t2db_client_handover_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_log-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_master_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_master_log~common~t2db_client_handover_master_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_MASTER_LOG-COMMON-t2db_client_handover_master_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_MASTER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_master_log, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_master_log-high'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-master-log-high'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3de8f619}}
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_master_log-high
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3de8f619}
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_master_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryMasterLogTableInserter
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_master_log~t2db_client_handover_master_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_master_log-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:14:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:14:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_retry_data-high
+Nov 30, 2024 7:15:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:15:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_retry_data~common~t2db_client_handover_retry_data-high
+Nov 30, 2024 7:15:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_RETRY_DATA-COMMON-t2db_client_handover_retry_data-high
+Nov 30, 2024 7:15:03 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_RETRY_DATA, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_retry_data, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:15:03 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:15:03 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:15:03 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_retry_data-high'
+Nov 30, 2024 7:15:03 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-retry-data-high'
+Nov 30, 2024 7:15:03 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:15:03 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~4~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~5~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2e8c1c9b}}
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_retry_data-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2e8c1c9b}
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_retry_data-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryDataTableInserter
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_retry_data~t2db_client_handover_retry_data-high~1'started for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_retry_data-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_log~common~t2db_client_handover_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_LOG-COMMON-t2db_client_handover_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_log, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_log-high'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-log-high'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~4~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~5~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@72c8e7b}}
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@72c8e7b}
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryLogTableInserter
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_log~t2db_client_handover_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_log-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_master_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_master_log~common~t2db_client_handover_master_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_MASTER_LOG-COMMON-t2db_client_handover_master_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_MASTER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_master_log, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_master_log-high'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-master-log-high'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~4~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~5~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2235eaab}}
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_master_log-high
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@2235eaab}
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_master_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryMasterLogTableInserter
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:15:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_master_log~t2db_client_handover_master_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_master_log-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:26:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:26:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_retry_data-high
+Nov 30, 2024 1:26:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:26:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_retry_data~common~t2db_client_handover_retry_data-high
+Nov 30, 2024 1:26:01 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_RETRY_DATA-COMMON-t2db_client_handover_retry_data-high
+Nov 30, 2024 1:26:04 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_RETRY_DATA, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_retry_data, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:26:04 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:26:04 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:26:04 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_retry_data-high'
+Nov 30, 2024 1:26:04 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-retry-data-high'
+Nov 30, 2024 1:26:04 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:26:04 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~4~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_retry_data~consumer~5~null-172.19.0.10  topicName : t2db-client-handover-retry-data-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}}
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_retry_data-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_retry_data-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_retry_data-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryDataTableInserter
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_retry_data~t2db_client_handover_retry_data-high~1'started for Component 'T2DB_CLIENT_HANDOVER_RETRY_DATA' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_retry_data-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_log~common~t2db_client_handover_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_LOG-COMMON-t2db_client_handover_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_log, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_log-high'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-log-high'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~4~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_log~consumer~5~null-172.19.0.10  topicName : t2db-client-handover-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@194fad1}}
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@194fad1}
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryLogTableInserter
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_log~t2db_client_handover_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_log-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_client_handover_master_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_client_handover_master_log~common~t2db_client_handover_master_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_CLIENT_HANDOVER_MASTER_LOG-COMMON-t2db_client_handover_master_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_CLIENT_HANDOVER_MASTER_LOG, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_client_handover_master_log, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_client_handover_master_log-high'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-client-handover-master-log-high'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~1~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~2~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~3~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~4~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_client_handover_master_log~consumer~5~null-172.19.0.10  topicName : t2db-client-handover-master-log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@503f91c3}}
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_client_handover_master_log-high
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_client_handover_master_log-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@503f91c3}
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_client_handover_master_log-high aClassName : com.itextos.beacon.platform.topic2table.impl.clienthandover.ClientHandoverRetryMasterLogTableInserter
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_client_handover_master_log~t2db_client_handover_master_log-high~1'started for Component 'T2DB_CLIENT_HANDOVER_MASTER_LOG' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_client_handover_master_log-high' Thread index '1' with sleep time millis '100'

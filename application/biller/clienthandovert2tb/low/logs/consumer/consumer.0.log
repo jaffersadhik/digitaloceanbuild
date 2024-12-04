@@ -1,0 +1,402 @@
+Nov 20, 2024 9:48:36 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-submission-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:48:36 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-submission-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:49:24 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name : 't2db-deliveries-low-1 Time taken 169 records 1
+Nov 20, 2024 9:50:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-deliveries-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:50:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-deliveries-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:58:27 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:58:27 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:58:27 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:58:27 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:58:27 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:58:27 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:08:07 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:08:07 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:08:07 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:08:07 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:08:07 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:08:07 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:25 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:25 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 28, 2024 9:33:00 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  isCompletelyStopped : true
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:42 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:42 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:15:09 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:27 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:26:10 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-master-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-retry-data-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:19 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:19 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-client-handover-log-low-5, Consumer InMem Collection Size >>>>>>>> 0

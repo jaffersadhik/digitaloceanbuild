@@ -1,0 +1,66 @@
+Dec 01, 2024 6:54:18 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {}
+Dec 01, 2024 6:54:19 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059458667]}}}
+Dec 01, 2024 6:54:20 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059458667]}}}
+Dec 01, 2024 6:54:22 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059461226]}}}
+Dec 01, 2024 6:54:23 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059463728]}}}
+Dec 01, 2024 6:54:24 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059463728]}}}
+Dec 01, 2024 6:54:25 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059463728]}}}
+Dec 01, 2024 6:54:26 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059466229]}}}
+Dec 01, 2024 6:54:27 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059466229]}}}
+Dec 01, 2024 6:54:28 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059468730]}}}
+Dec 01, 2024 6:54:29 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059468730]}}}
+Dec 01, 2024 6:56:24 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059582446]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059583770]}}}
+Dec 01, 2024 6:56:25 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059584947]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059583770]}}}
+Dec 01, 2024 6:56:26 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059584947]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059583770]}}}
+Dec 01, 2024 6:56:27 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059584947]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059586271]}}}
+Dec 01, 2024 6:56:28 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059587447]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059586271]}}}
+Dec 01, 2024 6:56:29 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059587447]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059588772]}}}
+Dec 01, 2024 6:56:30 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059589948]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059588772]}}}
+Dec 01, 2024 6:56:31 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059589948]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059588772]}}}
+Dec 01, 2024 6:56:32 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059589948]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059591273]}}}
+Dec 01, 2024 6:56:33 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059592449]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059591273]}}}
+Dec 01, 2024 6:56:34 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733059592449]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733059593773]}}}
+Dec 02, 2024 6:49:54 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145592153]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145593648]}}}
+Dec 02, 2024 6:49:55 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145594555]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145594654]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145593648]}}}
+Dec 02, 2024 6:49:56 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145594555]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145594654]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145596149]}}}
+Dec 02, 2024 6:49:57 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145597071]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145597155]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145596149]}}}
+Dec 02, 2024 6:49:59 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145599572]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145597155]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145598650]}}}
+Dec 02, 2024 6:50:00 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145599572]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145599656]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145598650]}}}
+Dec 02, 2024 6:50:01 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145599572]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145599656]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145601151]}}}
+Dec 02, 2024 6:50:02 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145602073]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145602202]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145601151]}}}
+Dec 02, 2024 6:50:03 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145602073]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145602202]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145603652]}}}
+Dec 02, 2024 6:50:04 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145604574]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145602202]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145603652]}}}
+Dec 02, 2024 6:50:05 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {t2db_full_message~trans={t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145604574]}}, t2db_full_message~bulk={t2db-error-log-low={1=Producer [mComponent=T2DB_ERROR_LOG, mTopicName=t2db-error-log-low, lastFlushed=1733145604703]}, t2db-full-message-low={1=Producer [mComponent=T2DB_FULL_MESSAGE, mTopicName=t2db-full-message-low, lastFlushed=1733145603652]}}}

@@ -1,0 +1,1284 @@
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_submission-low
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_submission~common~t2db_submission-low
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_SUBMISSION-COMMON-t2db_submission-low
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_SUBMISSION, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_submission, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_submission-low'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-submission-low'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_submission~consumer~1~null-172.18.0.2  topicName : t2db-submission-low
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_submission-low=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_submission-low
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_submission-low=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_submission-low aClassName : com.itextos.beacon.platform.topic2table.impl.billing.SubmissionTableInserter
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:46:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_submission~t2db_submission-low~1'started for Component 'T2DB_SUBMISSION' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_submission-low' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_submission-high
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_submission~common~t2db_submission-high
+Nov 20, 2024 9:48:30 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_SUBMISSION-COMMON-t2db_submission-high
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_SUBMISSION, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_submission, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_submission-high'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-submission-high'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_submission~consumer~1~null-172.19.0.2  topicName : t2db-submission-high
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_submission-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}}
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_submission-high
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_submission-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_submission-high aClassName : com.itextos.beacon.platform.topic2table.impl.billing.SubmissionTableInserter
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:48:32 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_submission~t2db_submission-high~1'started for Component 'T2DB_SUBMISSION' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_submission-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : t2db_deliveries-high
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  t2db_deliveries~common~t2db_deliveries-high
+Nov 20, 2024 9:49:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for T2DB_DELIVERIES-COMMON-t2db_deliveries-high
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=T2DB_DELIVERIES, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_t2db_deliveries, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'t2db_deliveries-high'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 't2db-deliveries-high'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~t2db_deliveries~consumer~1~null-172.19.0.3  topicName : t2db-deliveries-high
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={t2db_deliveries-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}}
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 't2db_deliveries-high
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {t2db_deliveries-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@82de64a}
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : t2db_deliveries-high aClassName : com.itextos.beacon.platform.topic2table.impl.billing.DeliveriesTableInserter
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:49:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:49:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~t2db_deliveries~t2db_deliveries-high~1'started for Component 'T2DB_DELIVERIES' Cluster 'common' Actual Cluster 'COMMON' Topic name 't2db_deliveries-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_mt-high
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_mt~common~dlr_query_mt-high
+Nov 20, 2024 9:53:52 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQMT-COMMON-dlr_query_mt-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQMT, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_mt, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_mt-high'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-mt-high'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~1~null-172.19.0.5  topicName : dlr-query-mt-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@4c1909a3}}
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_mt-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@4c1909a3}
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_mt-high aClassName : com.itextos.beacon.platform.t2e.processor.MTDlrQProcessor
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_mt~dlr_query_mt-high~1'started for Component 'DLRQMT' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_mt-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_dn-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_dn~common~dlr_query_dn-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQDN-COMMON-dlr_query_dn-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQDN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_dn, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_dn-high'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-dn-high'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~1~null-172.19.0.5  topicName : dlr-query-dn-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@55a147cc}}
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_dn-high
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@55a147cc}
+Nov 20, 2024 9:53:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_dn-high aClassName : com.itextos.beacon.platform.t2e.processor.DNDlrQProcessor
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_dn~dlr_query_dn-high~1'started for Component 'DLRQDN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_dn-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : aging_insert-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  aging_insert~common~aging_insert-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for AGIN-COMMON-aging_insert-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=AGIN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_aging_insert, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'aging_insert-high'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'aging-insert-high'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~1~null-172.19.0.5  topicName : aging-insert-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@78e4deb0}}
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'aging_insert-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@78e4deb0}
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : aging_insert-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingInsertProcessor
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~aging_insert~aging_insert-high~1'started for Component 'AGIN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'aging_insert-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : update_aging-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  update_aging~common~update_aging-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for UADN-COMMON-update_aging-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=UADN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_update_aging, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'update_aging-high'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'update-aging-high'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~1~null-172.19.0.5  topicName : update-aging-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@7161d8d1}}
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'update_aging-high
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@7161d8d1}
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : update_aging-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingUpdateProcessor
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 20, 2024 9:53:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~update_aging~update_aging-high~1'started for Component 'UADN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'update_aging-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_mt-high
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_mt~common~dlr_query_mt-high
+Nov 23, 2024 1:07:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQMT-COMMON-dlr_query_mt-high
+Nov 23, 2024 1:07:50 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQMT, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_mt, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:07:50 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:07:50 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:07:50 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_mt-high'
+Nov 23, 2024 1:07:50 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-mt-high'
+Nov 23, 2024 1:07:50 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:07:50 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~1~null-172.19.0.5  topicName : dlr-query-mt-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@428640fa}}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_mt-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@428640fa}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_mt-high aClassName : com.itextos.beacon.platform.t2e.processor.MTDlrQProcessor
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_mt~dlr_query_mt-high~1'started for Component 'DLRQMT' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_mt-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_dn-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_dn~common~dlr_query_dn-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQDN-COMMON-dlr_query_dn-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQDN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_dn, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_dn-high'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-dn-high'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~1~null-172.19.0.5  topicName : dlr-query-dn-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@71ba6d4e}}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_dn-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@71ba6d4e}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_dn-high aClassName : com.itextos.beacon.platform.t2e.processor.DNDlrQProcessor
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_dn~dlr_query_dn-high~1'started for Component 'DLRQDN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_dn-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : aging_insert-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  aging_insert~common~aging_insert-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for AGIN-COMMON-aging_insert-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=AGIN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_aging_insert, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'aging_insert-high'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'aging-insert-high'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~1~null-172.19.0.5  topicName : aging-insert-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e9175d8}}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'aging_insert-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e9175d8}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : aging_insert-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingInsertProcessor
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~aging_insert~aging_insert-high~1'started for Component 'AGIN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'aging_insert-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : update_aging-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  update_aging~common~update_aging-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for UADN-COMMON-update_aging-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=UADN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_update_aging, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'update_aging-high'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'update-aging-high'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~1~null-172.19.0.5  topicName : update-aging-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74e28667}}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'update_aging-high
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74e28667}
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : update_aging-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingUpdateProcessor
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:07:51 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~update_aging~update_aging-high~1'started for Component 'UADN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'update_aging-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:31:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:31:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_mt-high
+Nov 28, 2024 9:31:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:31:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_mt~common~dlr_query_mt-high
+Nov 28, 2024 9:31:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQMT-COMMON-dlr_query_mt-high
+Nov 28, 2024 9:31:30 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQMT, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_mt, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:31:30 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:31:30 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:31:30 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_mt-high'
+Nov 28, 2024 9:31:30 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-mt-high'
+Nov 28, 2024 9:31:30 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:31:30 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~1~null-172.19.0.5  topicName : dlr-query-mt-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~2~null-172.19.0.5  topicName : dlr-query-mt-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~3~null-172.19.0.5  topicName : dlr-query-mt-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@f09733f}}
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_mt-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@f09733f}
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_mt-high aClassName : com.itextos.beacon.platform.t2e.processor.MTDlrQProcessor
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_mt~dlr_query_mt-high~1'started for Component 'DLRQMT' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_mt-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_dn-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_dn~common~dlr_query_dn-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQDN-COMMON-dlr_query_dn-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQDN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_dn, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_dn-high'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-dn-high'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~1~null-172.19.0.5  topicName : dlr-query-dn-high
+Nov 28, 2024 9:31:32 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~2~null-172.19.0.5  topicName : dlr-query-dn-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~3~null-172.19.0.5  topicName : dlr-query-dn-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@413d1baf}}
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_dn-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@413d1baf}
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_dn-high aClassName : com.itextos.beacon.platform.t2e.processor.DNDlrQProcessor
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_dn~dlr_query_dn-high~1'started for Component 'DLRQDN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_dn-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : aging_insert-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  aging_insert~common~aging_insert-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for AGIN-COMMON-aging_insert-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=AGIN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_aging_insert, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'aging_insert-high'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'aging-insert-high'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~1~null-172.19.0.5  topicName : aging-insert-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~2~null-172.19.0.5  topicName : aging-insert-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~3~null-172.19.0.5  topicName : aging-insert-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6b695b06}}
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'aging_insert-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6b695b06}
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : aging_insert-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingInsertProcessor
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~aging_insert~aging_insert-high~1'started for Component 'AGIN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'aging_insert-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : update_aging-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  update_aging~common~update_aging-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for UADN-COMMON-update_aging-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=UADN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_update_aging, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'update_aging-high'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'update-aging-high'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~1~null-172.19.0.5  topicName : update-aging-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~2~null-172.19.0.5  topicName : update-aging-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~3~null-172.19.0.5  topicName : update-aging-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6f15d60e}}
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'update_aging-high
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6f15d60e}
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : update_aging-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingUpdateProcessor
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:31:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~update_aging~update_aging-high~1'started for Component 'UADN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'update_aging-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:34:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:34:33 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_mt-high
+Nov 28, 2024 9:34:34 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:34:34 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_mt~common~dlr_query_mt-high
+Nov 28, 2024 9:34:34 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQMT-COMMON-dlr_query_mt-high
+Nov 28, 2024 9:34:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQMT, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_mt, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:34:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:34:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:34:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_mt-high'
+Nov 28, 2024 9:34:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-mt-high'
+Nov 28, 2024 9:34:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:34:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~1~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~2~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~3~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@4b45a2f5}}
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_mt-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@4b45a2f5}
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_mt-high aClassName : com.itextos.beacon.platform.t2e.processor.MTDlrQProcessor
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_mt~dlr_query_mt-high~1'started for Component 'DLRQMT' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_mt-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_dn-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_dn~common~dlr_query_dn-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQDN-COMMON-dlr_query_dn-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQDN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_dn, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_dn-high'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-dn-high'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~1~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~2~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~3~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6caf0677}}
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_dn-high
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6caf0677}
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_dn-high aClassName : com.itextos.beacon.platform.t2e.processor.DNDlrQProcessor
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_dn~dlr_query_dn-high~1'started for Component 'DLRQDN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_dn-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : aging_insert-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  aging_insert~common~aging_insert-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for AGIN-COMMON-aging_insert-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=AGIN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_aging_insert, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'aging_insert-high'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'aging-insert-high'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~1~null-172.19.0.9  topicName : aging-insert-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~2~null-172.19.0.9  topicName : aging-insert-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~3~null-172.19.0.9  topicName : aging-insert-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@4f32a3ad}}
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'aging_insert-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@4f32a3ad}
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : aging_insert-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingInsertProcessor
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~aging_insert~aging_insert-high~1'started for Component 'AGIN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'aging_insert-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : update_aging-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  update_aging~common~update_aging-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for UADN-COMMON-update_aging-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=UADN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_update_aging, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'update_aging-high'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'update-aging-high'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~1~null-172.19.0.9  topicName : update-aging-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~2~null-172.19.0.9  topicName : update-aging-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~3~null-172.19.0.9  topicName : update-aging-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@7857fe2}}
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'update_aging-high
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@7857fe2}
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : update_aging-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingUpdateProcessor
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:34:46 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~update_aging~update_aging-high~1'started for Component 'UADN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'update_aging-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:14:49 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:49 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:14:49 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_mt-high
+Nov 30, 2024 7:14:50 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:14:50 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_mt~common~dlr_query_mt-high
+Nov 30, 2024 7:14:50 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQMT-COMMON-dlr_query_mt-high
+Nov 30, 2024 7:14:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQMT, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_mt, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:14:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:14:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:14:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_mt-high'
+Nov 30, 2024 7:14:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-mt-high'
+Nov 30, 2024 7:14:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:14:54 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~1~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~2~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~3~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~4~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~5~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74ea2410}}
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_mt-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@74ea2410}
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_mt-high aClassName : com.itextos.beacon.platform.t2e.processor.MTDlrQProcessor
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_mt~dlr_query_mt-high~1'started for Component 'DLRQMT' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_mt-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_dn-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_dn~common~dlr_query_dn-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQDN-COMMON-dlr_query_dn-high
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQDN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_dn, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_dn-high'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-dn-high'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:14:55 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~1~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~2~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~3~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~4~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~5~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@17bffc17}}
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_dn-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@17bffc17}
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_dn-high aClassName : com.itextos.beacon.platform.t2e.processor.DNDlrQProcessor
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_dn~dlr_query_dn-high~1'started for Component 'DLRQDN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_dn-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : aging_insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  aging_insert~common~aging_insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for AGIN-COMMON-aging_insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=AGIN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_aging_insert, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'aging_insert-high'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'aging-insert-high'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~1~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~2~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~3~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~4~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~5~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@311bf055}}
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'aging_insert-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@311bf055}
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : aging_insert-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingInsertProcessor
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~aging_insert~aging_insert-high~1'started for Component 'AGIN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'aging_insert-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : update_aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  update_aging~common~update_aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for UADN-COMMON-update_aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=UADN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_update_aging, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'update_aging-high'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'update-aging-high'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~1~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~2~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~3~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~4~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~5~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3eb91815}}
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'update_aging-high
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3eb91815}
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : update_aging-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingUpdateProcessor
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:14:56 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~update_aging~update_aging-high~1'started for Component 'UADN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'update_aging-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQMT' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_mt-high
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_mt~common~dlr_query_mt-high
+Nov 30, 2024 1:25:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQMT-COMMON-dlr_query_mt-high
+Nov 30, 2024 1:25:52 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQMT, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_mt, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:25:52 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:25:52 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:25:52 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_mt-high'
+Nov 30, 2024 1:25:52 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-mt-high'
+Nov 30, 2024 1:25:52 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:25:52 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~1~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~2~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~3~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~4~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_mt~consumer~5~null-172.19.0.9  topicName : dlr-query-mt-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@173ed316}}
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_mt-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_mt-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@173ed316}
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_mt-high aClassName : com.itextos.beacon.platform.t2e.processor.MTDlrQProcessor
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_mt~dlr_query_mt-high~1'started for Component 'DLRQMT' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_mt-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'DLRQDN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : dlr_query_dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  dlr_query_dn~common~dlr_query_dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for DLRQDN-COMMON-dlr_query_dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=DLRQDN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_dlr_query_dn, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'dlr_query_dn-high'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'dlr-query-dn-high'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~1~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~2~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~3~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~4~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~dlr_query_dn~consumer~5~null-172.19.0.9  topicName : dlr-query-dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3ad83a66}}
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'dlr_query_dn-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {dlr_query_dn-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3ad83a66}
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : dlr_query_dn-high aClassName : com.itextos.beacon.platform.t2e.processor.DNDlrQProcessor
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~dlr_query_dn~dlr_query_dn-high~1'started for Component 'DLRQDN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'dlr_query_dn-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'AGIN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : aging_insert-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  aging_insert~common~aging_insert-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for AGIN-COMMON-aging_insert-high
+Nov 30, 2024 1:25:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=AGIN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_aging_insert, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'aging_insert-high'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'aging-insert-high'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~1~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~2~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~3~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~4~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~aging_insert~consumer~5~null-172.19.0.9  topicName : aging-insert-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6d5620ce}}
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'aging_insert-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {aging_insert-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6d5620ce}
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : aging_insert-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingInsertProcessor
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~aging_insert~aging_insert-high~1'started for Component 'AGIN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'aging_insert-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'UADN' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : update_aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  update_aging~common~update_aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for UADN-COMMON-update_aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=UADN, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_update_aging, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'update_aging-high'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'update-aging-high'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~1~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~2~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~3~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~4~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~update_aging~consumer~5~null-172.19.0.9  topicName : update-aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@5e17553a}}
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'update_aging-high
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {update_aging-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@5e17553a}
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : update_aging-high aClassName : com.itextos.beacon.platform.t2e.processor.AgingUpdateProcessor
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:25:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~update_aging~update_aging-high~1'started for Component 'UADN' Cluster 'common' Actual Cluster 'COMMON' Topic name 'update_aging-high' Thread index '1' with sleep time millis '100'

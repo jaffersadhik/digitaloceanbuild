@@ -1,0 +1,146 @@
+Nov 20, 2024 9:48:36 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-submission-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:48:36 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-submission-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:49:24 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name : 't2db-deliveries-low-1 Time taken 169 records 1
+Nov 20, 2024 9:50:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-deliveries-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:50:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-deliveries-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:56:30 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:56:30 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:11 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:11 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:25 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:25 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:37 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:37 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:30:42 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:30:42 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:30:42 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:30:42 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:30:42 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:30:42 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:34:31 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:34:31 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:34:31 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:34:31 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:34:31 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:34:31 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:10 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:11 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 7:14:11 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:35 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:06 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:19 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:19 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:19 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:19 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-smpp-post-log-low-3, Consumer InMem Collection Size >>>>>>>> 0

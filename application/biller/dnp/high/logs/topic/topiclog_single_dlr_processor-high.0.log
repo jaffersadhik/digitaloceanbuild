@@ -1,0 +1,22 @@
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [single_dlr_processor-high]: mTopicName : single_dlr_processor-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [dlr_processor-high]: mTopicName : dlr_processor-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [aging_dn_processor-high]: mTopicName : aging_dn_processor-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [single_dlr_processor-high]: goto sleep mSleepInMillis : 100  mTopicName : single_dlr_processor-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [dlr_processor-high]: goto sleep mSleepInMillis : 100  mTopicName : dlr_processor-high : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [aging_dn_processor-high]: goto sleep mSleepInMillis : 100  mTopicName : aging_dn_processor-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [single_dlr_processor-high]: mTopicName : single_dlr_processor-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [dlr_processor-high]: mTopicName : dlr_processor-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [aging_dn_processor-high]: mTopicName : aging_dn_processor-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [single_dlr_processor-high]: goto sleep mSleepInMillis : 100  mTopicName : single_dlr_processor-high : Wed Dec 04 11:50:40 IST 2024
+Dec 04, 2024 11:50:40 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [dlr_processor-high]: goto sleep mSleepInMillis : 100  mTopicName : dlr_processor-high : Wed Dec 04 11:50:40 IST 2024

@@ -1,0 +1,18 @@
+Nov 20, 2024 10:00:18 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : goto sleep for the milli second  : 1000
+Nov 20, 2024 10:00:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : Wed Nov 20 10:00:19 IST 2024
+Nov 20, 2024 10:00:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : goto sleep for the milli second  : 1000
+Nov 20, 2024 10:00:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Nov 20 10:00:19 IST 2024
+Nov 20, 2024 10:00:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Nov 20, 2024 10:00:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : Wed Nov 20 10:00:19 IST 2024
+Nov 20, 2024 10:00:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000
+Nov 20, 2024 10:00:20 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : Wed Nov 20 10:00:20 IST 2024
+Nov 20, 2024 10:00:20 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : goto sleep for the milli second  : 1000

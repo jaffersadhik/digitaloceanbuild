@@ -1,0 +1,6 @@
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: t2db-smpp-post-log-low : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: sleepForAWhile(1000); : mTopicName t2db-smpp-post-log-low : Wed Dec 04 11:50:39 IST 2024
+Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: t2db-smpp-post-log-low : Wed Dec 04 11:50:39 IST 2024

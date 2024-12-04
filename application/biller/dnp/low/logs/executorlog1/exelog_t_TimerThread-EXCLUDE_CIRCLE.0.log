@@ -1,0 +1,22 @@
+Nov 28, 2024 9:29:58 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SingleDnDataDelete]: t_SingleDnDataDelete : goto sleep for the milli second  : 1000
+Nov 28, 2024 9:29:59 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SingleDnDataDelete]: t_SingleDnDataDelete : Thu Nov 28 21:29:59 IST 2024
+Nov 28, 2024 9:29:59 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SingleDnDataDelete]: t_SingleDnDataDelete : goto sleep for the milli second  : 1000
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Thu Nov 28 21:30:00 IST 2024
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SingleDnDataDelete]: t_SingleDnDataDelete : Thu Nov 28 21:30:00 IST 2024
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SingleDnDataDelete]: t_SingleDnDataDelete : goto sleep for the milli second  : 1000
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_CarrierErrorInfoInmemReaper]: t_CarrierErrorInfoInmemReaper : Thu Nov 28 21:30:00 IST 2024
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_CarrierErrorInfoInmemReaper]: t_CarrierErrorInfoInmemReaper : goto sleep for the milli second  : 30000
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : Thu Nov 28 21:30:00 IST 2024
+Nov 28, 2024 9:30:00 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000

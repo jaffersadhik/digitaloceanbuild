@@ -1,0 +1,32 @@
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : subt2tb
+Nov 20, 2024 9:46:57 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_SUBMISSION' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:49:15 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : dnt2tb
+Nov 20, 2024 9:49:15 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_DELIVERIES' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 9:51:07 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : fullmsgt2tb
+Nov 20, 2024 9:51:07 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_FULL_MESSAGE' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:07:29 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : fullmsgt2tb
+Nov 23, 2024 1:07:29 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_FULL_MESSAGE' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:31:01 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : fullmsgt2tb
+Nov 28, 2024 9:31:01 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_FULL_MESSAGE' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:34:19 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : fullmsgt2tb
+Nov 28, 2024 9:34:19 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_FULL_MESSAGE' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:14:30 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : fullmsgt2tb
+Nov 30, 2024 7:14:30 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_FULL_MESSAGE' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:25:24 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : fullmsgt2tb
+Nov 30, 2024 1:25:25 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'T2DB_FULL_MESSAGE' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]

@@ -1,0 +1,378 @@
+Nov 20, 2024 9:48:36 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-submission-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:48:36 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-submission-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:49:24 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name : 't2db-deliveries-low-1 Time taken 169 records 1
+Nov 20, 2024 9:50:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-deliveries-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:50:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 't2db-deliveries-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 20, 2024 9:54:00 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:59 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 23, 2024 1:07:59 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:25 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 27, 2024 10:11:25 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:37 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 28, 2024 9:31:40 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:35 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:41 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:42 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 6:56:42 AM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:28 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:36 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:36 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:36 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:18:36 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:57 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Nov 30, 2024 1:25:58 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:16 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:17 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'aging-insert-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-3, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'update-aging-low-4, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-dn-low-5, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-1, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
+Dec 03, 2024 8:08:18 PM com.itextos.beacon.smslog.ConsumerLog log
+INFO:  : Topic Name Topic Name : 'dlr-query-mt-low-2, Consumer InMem Collection Size >>>>>>>> 0
