@@ -1,0 +1,9 @@
+services:
+  japi:
+    image: 10.122.0.2:5000/beacontomcathttp:17nov2024
+    environment: [
+       id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m,profile=do1 , module=all,hostip=10.122.0.5]
+    ports: ['80:8080']
+    volumes: ['./config/log4j2-common.xml:/log4j2-common.xml']
+    restart: always
+version: '3'
