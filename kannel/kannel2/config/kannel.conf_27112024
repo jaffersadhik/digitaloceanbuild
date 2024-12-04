@@ -1,0 +1,343 @@
+group = core
+admin-port =  17101
+admin-password = admin123
+dlr-storage= mysql
+smsbox-port = 18101
+log-file = "/var/log/kannel/bearerbox1.log"
+log-level = 3
+access-log = "/var/log/kannel/access1.log"
+store-type = spool
+store-location =  /var/spool/kannel
+sms-resend-retry = 0
+
+
+
+
+group = smsbox
+bearerbox-host = bearerbox
+smsbox-id = SMSBOXID
+log-file = "/var/log/kannel/smsbox1.log"
+log-level = 3
+sendsms-port = 35001
+immediate-sendsms-reply = true
+http-request-retry = 5
+
+
+
+
+group = sendsms-user
+username = Net4
+password = Netin
+max-messages = 50
+concatenation = true
+
+
+
+
+group = mysql-connection
+id = mytestdlr
+host = mysql
+port = 3306
+username = root
+password =
+database = gw
+max-connections = 110
+
+
+
+
+group = dlr-db
+id = mytestdlr
+table = dlr_unitia
+field-smsc = smsc
+field-timestamp = ts
+field-destination = destination
+field-source = source
+field-service = service
+field-url = url
+field-mask = mask
+field-status = status
+field-boxc-id = boxc
+
+
+
+
+group = sms-service
+keyword = default
+text = "No action specified"
+
+group = smpp-tlv
+name = entityid
+tag = 0x1400
+type = octetstring
+length = 30
+
+group = smpp-tlv
+name = templateid
+tag = 0x1401
+type = octetstring
+length = 30
+
+
+group = smpp-tlv
+name = telemarketerid
+tag = 0x1402
+type = octetstring
+length = 60
+
+group = smpp-tlv
+name = messagetype
+tag = 0x1414
+type = octetstring
+length = 3
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
+group = smsc
+smsc = smpp
+smsc-id = TW
+allowed-smsc-id  = TW
+transceiver-mode = 1
+throughput = 1000
+host = smpp.technowizards.co.in
+port = 2775
+#use-ssl=1
+system-type = " "
+smsc-username = "digital"
+smsc-password = "9dsR6dbg"
+address-range = " "
+source-addr-ton=5
+source-addr-npi=0
+dest-addr-ton=1
+dest-addr-npi=1
+#reconnect-delay = 2
+alt-charset = 1
+enquire-link-interval = 30
+#max-pending-submits = 100
+log-file="/var/log/kannel/KANNEL_TW.log"
+log-level=0
+
+
