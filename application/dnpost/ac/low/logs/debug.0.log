@@ -1,0 +1,36 @@
+Nov 18, 2024 7:21:15 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 18, 2024 7:21:15 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 8:09:35 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 19, 2024 8:09:35 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 7:16:46 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 20, 2024 7:16:46 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:18:37 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 23, 2024 1:18:37 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:20:44 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 23, 2024 1:20:44 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:40:57 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 28, 2024 9:40:57 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:42:35 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 28, 2024 9:42:35 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:17:11 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 30, 2024 7:17:11 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : ac
+Nov 30, 2024 1:26:09 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]

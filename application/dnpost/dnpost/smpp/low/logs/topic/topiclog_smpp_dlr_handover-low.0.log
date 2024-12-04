@@ -1,0 +1,2 @@
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [smpp_dlr_handover-low]: goto sleep mSleepInMillis : 100  mTopicName : smpp_dlr_handover-low : Wed Dec 04 11:52:56 IST 2024

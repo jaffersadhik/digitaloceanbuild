@@ -1,0 +1,6 @@
+Nov 20, 2024 6:58:50 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000
+Nov 20, 2024 6:58:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : Wed Nov 20 06:58:56 IST 2024
+Nov 20, 2024 6:58:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000

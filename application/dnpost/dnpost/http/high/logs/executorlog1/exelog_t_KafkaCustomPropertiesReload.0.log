@@ -1,0 +1,52 @@
+Dec 04, 2024 11:52:00 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : Wed Dec 04 11:52:00 IST 2024
+Dec 04, 2024 11:52:00 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : goto sleep for the milli second  : 30000
+Dec 04, 2024 11:52:02 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:02 IST 2024
+Dec 04, 2024 11:52:02 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:07 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:07 IST 2024
+Dec 04, 2024 11:52:07 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:12 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:12 IST 2024
+Dec 04, 2024 11:52:12 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:17 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:17 IST 2024
+Dec 04, 2024 11:52:17 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:22 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:22 IST 2024
+Dec 04, 2024 11:52:22 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:27 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:27 IST 2024
+Dec 04, 2024 11:52:27 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:30 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : Wed Dec 04 11:52:30 IST 2024
+Dec 04, 2024 11:52:30 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : goto sleep for the milli second  : 30000
+Dec 04, 2024 11:52:32 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:32 IST 2024
+Dec 04, 2024 11:52:32 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:37 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:37 IST 2024
+Dec 04, 2024 11:52:37 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:42 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:42 IST 2024
+Dec 04, 2024 11:52:42 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:47 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:47 IST 2024
+Dec 04, 2024 11:52:47 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000
+Dec 04, 2024 11:52:52 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:52 IST 2024
+Dec 04, 2024 11:52:52 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000

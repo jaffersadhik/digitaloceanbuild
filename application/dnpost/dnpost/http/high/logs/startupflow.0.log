@@ -1,0 +1,376 @@
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.4  topicName : http-dlr-handover-high
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@31fa1761}}
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@31fa1761}
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 18, 2024 7:37:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'
+Nov 19, 2024 8:07:58 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 8:07:58 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 19, 2024 8:07:58 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 19, 2024 8:07:58 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 19, 2024 8:07:58 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 19, 2024 8:07:59 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.4  topicName : http-dlr-handover-high
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 19, 2024 8:08:00 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.5  topicName : http-dlr-handover-high
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@71a8adcf}}
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@71a8adcf}
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:18:45 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.5  topicName : http-dlr-handover-high
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 23, 2024 1:20:54 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.5  topicName : http-dlr-handover-high
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~2~null-172.21.0.5  topicName : http-dlr-handover-high
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~3~null-172.21.0.5  topicName : http-dlr-handover-high
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}}
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:41:07 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~2~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~3~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3012646b}}
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@3012646b}
+Nov 28, 2024 9:42:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 28, 2024 9:42:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:42:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 28, 2024 9:42:44 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~2~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~3~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~4~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~5~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6892b3b6}}
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6892b3b6}
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 7:17:21 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : http_dlr_handover-high
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  http_dlr_handover~common~http_dlr_handover-high
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for HTTP_DLR-COMMON-http_dlr_handover-high
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=HTTP_DLR, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_http_dlr_handover, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'http_dlr_handover-high'
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'http-dlr-handover-high'
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~1~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~2~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~3~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~4~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~http_dlr_handover~consumer~5~null-172.21.0.3  topicName : http-dlr-handover-high
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}}
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'http_dlr_handover-high
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {http_dlr_handover-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : http_dlr_handover-high aClassName : com.itextos.beacon.httpclienthandover.common.DataProcessor
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractKafkaComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:19 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~http_dlr_handover~http_dlr_handover-high~1'started for Component 'HTTP_DLR' Cluster 'common' Actual Cluster 'COMMON' Topic name 'http_dlr_handover-high' Thread index '1' with sleep time millis '100'

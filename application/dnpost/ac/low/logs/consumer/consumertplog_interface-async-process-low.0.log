@@ -1,0 +1,6 @@
+Dec 04, 2024 11:52:55 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: interface-async-process-low : Wed Dec 04 11:52:55 IST 2024
+Dec 04, 2024 11:52:55 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: sleepForAWhile(1000); : mTopicName interface-async-process-low : Wed Dec 04 11:52:55 IST 2024
+Dec 04, 2024 11:52:55 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: interface-async-process-low : Wed Dec 04 11:52:55 IST 2024

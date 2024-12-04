@@ -1,0 +1,12 @@
+Dec 04, 2024 11:52:55 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [http_dlr_handover-high]: mTopicName : http_dlr_handover-high : Wed Dec 04 11:52:55 IST 2024
+Dec 04, 2024 11:52:55 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [http_dlr_handover-high]: goto sleep mSleepInMillis : 100  mTopicName : http_dlr_handover-high : Wed Dec 04 11:52:55 IST 2024
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [http_dlr_handover-high]: mTopicName : http_dlr_handover-high : Wed Dec 04 11:52:56 IST 2024
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [http_dlr_handover-high]: goto sleep mSleepInMillis : 100  mTopicName : http_dlr_handover-high : Wed Dec 04 11:52:56 IST 2024
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [http_dlr_handover-high]: mTopicName : http_dlr_handover-high : Wed Dec 04 11:52:56 IST 2024
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [http_dlr_handover-high]: goto sleep mSleepInMillis : 100  mTopicName : http_dlr_handover-high : Wed Dec 04 11:52:56 IST 2024

@@ -1,0 +1,8 @@
+Nov 19, 2024 7:47:18 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [smpp_dlr_handover-low]: goto sleep mSleepInMillis : 100  mTopicName : smpp_dlr_handover-low : Tue Nov 19 07:47:18 IST 2024
+Nov 19, 2024 7:47:18 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [smpp_dlr_handover-low]: mTopicName : smpp_dlr_handover-low : Tue Nov 19 07:47:18 IST 2024
+Nov 19, 2024 7:47:18 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [smpp_dlr_handover-low]: goto sleep mSleepInMillis : 100  mTopicName : smpp_dlr_handover-low : Tue Nov 19 07:47:18 IST 2024
+Nov 19, 2024 7:47:18 AM com.itextos.beacon.smslog.TopicLog log
+INFO: [GENERAL] [smpp_dlr_handover-low]: mTopicName : smpp_dlr_handover-low : Tue Nov 19 07:47:18 IST 2024

@@ -1,0 +1,54 @@
+Nov 18, 2024 7:19:07 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 18, 2024 7:19:07 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 18, 2024 7:19:07 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 8:10:13 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 19, 2024 8:10:13 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 19, 2024 8:10:13 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 7:17:34 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 20, 2024 7:17:34 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 20, 2024 7:17:34 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:19:26 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 23, 2024 1:19:26 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 23, 2024 1:19:27 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:21:37 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 23, 2024 1:21:37 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 23, 2024 1:21:37 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:41:49 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 28, 2024 9:41:49 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 28, 2024 9:41:49 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:43:10 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 28, 2024 9:43:10 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 28, 2024 9:43:10 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:18:00 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 30, 2024 7:18:00 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 30, 2024 7:18:00 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:27:02 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : rch
+Nov 30, 2024 1:27:02 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application RCH
+Nov 30, 2024 1:27:02 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'RCH' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]

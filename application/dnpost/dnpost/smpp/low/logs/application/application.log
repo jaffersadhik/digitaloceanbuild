@@ -1,0 +1,987 @@
+2024-11-19 07:47:01.195 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '0' Response from Redis '-1'
+2024-11-19 07:47:01.225 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '0' Response from Redis '-1'
+2024-11-19 07:47:01.229 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet 'null' Curr Offset '0'
+2024-11-19 07:47:58.442 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '0' Response from Redis '-1'
+2024-11-19 07:47:58.442 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-19 07:47:58.446 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-19 07:47:58.446 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-19 07:47:58.448 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-19 07:47:58.452 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 07:47:58.453 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 07:47:58.453 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-19 07:47:58.477 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-19 08:06:54.152 [FATAL] [Thread-0                 ] [c.i.b.c.d.ShutdownHandler     ] [lambda$addHook$0         ] Calling the shutdown process of 'SMPP_DLR'
+2024-11-19 08:06:54.152 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] Shutdownhook process Started for Component 'SMPP_DLR'
+java.lang.Exception: Called from
+	at com.itextos.beacon.commonlib.componentconsumer.processor.ProcessorInfo.shutdown(ProcessorInfo.java:317) ~[common-componentconsumer-1.0.jar!/:?]
+	at com.itextos.beacon.commonlib.daemonprocess.ShutdownHandler.lambda$addHook$0(ShutdownHandler.java:52) ~[common-daemonprocess-1.0.jar!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-19 08:06:54.161 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Stop initiated. Stopping all consumers.
+2024-11-19 08:06:54.161 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-19 08:06:54.162 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Wait for 2 seconds to process the pending messages.
+2024-11-19 08:06:54.672 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:06:54.673 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-19 08:06:54.673 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-19 08:06:54.673 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-19 08:06:54.673 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-19 08:06:54.674 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-19 08:06:54.675 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-19 08:06:54.676 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:06:54.676 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:06:54.676 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-19 08:06:54.676 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-19 08:06:54.676 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-19 08:06:54.677 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-19 08:06:54.677 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-19 08:06:54.677 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-19 08:06:54.678 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-19 08:06:54.678 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:06:54.678 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:06:54.679 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-19 08:06:54.679 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-19 08:06:54.680 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-19 08:06:54.680 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-19 08:06:54.681 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-19 08:06:54.681 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:06:54.681 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:06:54.681 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-19 08:06:54.696 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1731983814681]
+2024-11-19 08:06:54.697 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-19 08:06:56.163 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Got up after 2 seconds of sleep.
+2024-11-19 08:06:56.163 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Although some of the consumer messages may be stuck in memory. Try to clear them.
+2024-11-19 08:06:56.167 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Attempt Count : 1 Checking for the component 'smpp_dlr_handover~common~smpp_dlr_handover-low'Consumer Inmem size = '0'
+2024-11-19 08:06:56.168 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerStopped   ] Waiting for the inmemory to clear... Attempt Count : 1
+2024-11-19 08:06:56.168 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForProducerInmemory  ] Although some of the Producer messages may be stuck in memory. Try to clear them.
+2024-11-19 08:06:56.168 [FATAL] [Thread-0                 ] [stractCommonComponentProcessor] [stopProcessing           ] smpp_dlr_handover-low Messages count in memory 0
+2024-11-19 08:06:56.169 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [flushProducers           ] Calling FLUSH PRODUCERS METHOD {}
+2024-11-19 08:06:56.169 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [isAllProducersCompleted  ] Checking for the producers to close.
+2024-11-19 08:06:56.169 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] SMPP_DLR Lock file not found. Something went wrong. Check the lock file settings.
+2024-11-19 08:06:56.170 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] Lock file updated ...
+2024-11-19 08:06:56.171 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] SMPP_DLR Process Completed Successfully ...............
+2024-11-19 08:07:08.210 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-19 08:07:11.476 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-19 08:07:11.479 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-19 08:07:11.480 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-19 08:07:11.481 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-19 08:07:11.487 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:07:11.488 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:07:11.488 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-19 08:07:11.504 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-19 08:07:23.600 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-19 08:07:23.601 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-19 08:07:23.601 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-19 08:07:23.602 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-19 08:07:23.603 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:07:23.603 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-19 08:07:23.604 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-19 08:07:25.109 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-20 07:19:24.945 [FATAL] [Thread-0                 ] [c.i.b.c.d.ShutdownHandler     ] [lambda$addHook$0         ] Calling the shutdown process of 'SMPP_DLR'
+2024-11-20 07:19:24.946 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] Shutdownhook process Started for Component 'SMPP_DLR'
+java.lang.Exception: Called from
+	at com.itextos.beacon.commonlib.componentconsumer.processor.ProcessorInfo.shutdown(ProcessorInfo.java:317) ~[common-componentconsumer-1.0.jar!/:?]
+	at com.itextos.beacon.commonlib.daemonprocess.ShutdownHandler.lambda$addHook$0(ShutdownHandler.java:52) ~[common-daemonprocess-1.0.jar!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-20 07:19:24.954 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Stop initiated. Stopping all consumers.
+2024-11-20 07:19:24.954 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-20 07:19:24.954 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Wait for 2 seconds to process the pending messages.
+2024-11-20 07:19:25.284 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-20 07:19:25.284 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-20 07:19:25.285 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-20 07:19:25.285 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-20 07:19:25.285 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-20 07:19:25.285 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-20 07:19:25.287 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-20 07:19:25.288 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-20 07:19:25.289 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-20 07:19:25.289 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-20 07:19:25.289 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-20 07:19:25.289 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-20 07:19:25.289 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-20 07:19:25.289 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-20 07:19:25.289 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-20 07:19:25.291 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-20 07:19:25.291 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-20 07:19:25.291 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-20 07:19:25.291 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-20 07:19:25.293 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-20 07:19:25.293 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-20 07:19:25.293 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-20 07:19:25.294 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-20 07:19:25.295 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-20 07:19:25.295 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-20 07:19:25.295 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-20 07:19:25.322 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732067365295]
+2024-11-20 07:19:25.322 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-20 07:19:26.955 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Got up after 2 seconds of sleep.
+2024-11-20 07:19:26.955 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Although some of the consumer messages may be stuck in memory. Try to clear them.
+2024-11-20 07:19:26.958 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Attempt Count : 1 Checking for the component 'smpp_dlr_handover~common~smpp_dlr_handover-low'Consumer Inmem size = '0'
+2024-11-20 07:19:26.959 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerStopped   ] Waiting for the inmemory to clear... Attempt Count : 1
+2024-11-20 07:19:26.959 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForProducerInmemory  ] Although some of the Producer messages may be stuck in memory. Try to clear them.
+2024-11-20 07:19:26.959 [FATAL] [Thread-0                 ] [stractCommonComponentProcessor] [stopProcessing           ] smpp_dlr_handover-low Messages count in memory 0
+2024-11-20 07:19:26.959 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [flushProducers           ] Calling FLUSH PRODUCERS METHOD {}
+2024-11-20 07:19:26.959 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [isAllProducersCompleted  ] Checking for the producers to close.
+2024-11-20 07:19:26.960 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] SMPP_DLR Lock file not found. Something went wrong. Check the lock file settings.
+2024-11-20 07:19:26.961 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] Lock file updated ...
+2024-11-20 07:19:26.962 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] SMPP_DLR Process Completed Successfully ...............
+2024-11-23 13:19:02.973 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-23 13:21:00.910 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-23 13:21:00.918 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-23 13:21:00.921 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-23 13:21:00.924 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-23 13:21:00.935 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:00.936 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:00.937 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-23 13:21:00.982 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-23 13:21:01.773 [FATAL] [Thread-0                 ] [c.i.b.c.d.ShutdownHandler     ] [lambda$addHook$0         ] Calling the shutdown process of 'SMPP_DLR'
+2024-11-23 13:21:01.774 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] Shutdownhook process Started for Component 'SMPP_DLR'
+java.lang.Exception: Called from
+	at com.itextos.beacon.commonlib.componentconsumer.processor.ProcessorInfo.shutdown(ProcessorInfo.java:317) ~[common-componentconsumer-1.0.jar!/:?]
+	at com.itextos.beacon.commonlib.daemonprocess.ShutdownHandler.lambda$addHook$0(ShutdownHandler.java:52) ~[common-daemonprocess-1.0.jar!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-23 13:21:01.808 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Stop initiated. Stopping all consumers.
+2024-11-23 13:21:01.811 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-23 13:21:01.811 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Wait for 2 seconds to process the pending messages.
+2024-11-23 13:21:02.008 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:02.010 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-23 13:21:02.010 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-23 13:21:02.010 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-23 13:21:02.010 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-23 13:21:02.011 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-23 13:21:02.013 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-23 13:21:02.015 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:02.015 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:02.015 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-23 13:21:02.016 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-23 13:21:02.016 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-23 13:21:02.018 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-23 13:21:02.019 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-23 13:21:02.019 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-23 13:21:02.022 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-23 13:21:02.023 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:02.024 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:02.024 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-23 13:21:02.026 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-23 13:21:02.026 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-23 13:21:02.027 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-23 13:21:02.028 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-23 13:21:02.032 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:02.032 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-23 13:21:02.032 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-23 13:21:02.088 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732348262031]
+2024-11-23 13:21:02.088 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-23 13:21:03.812 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Got up after 2 seconds of sleep.
+2024-11-23 13:21:03.813 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Although some of the consumer messages may be stuck in memory. Try to clear them.
+2024-11-23 13:21:03.817 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Attempt Count : 1 Checking for the component 'smpp_dlr_handover~common~smpp_dlr_handover-low'Consumer Inmem size = '0'
+2024-11-23 13:21:03.818 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerStopped   ] Waiting for the inmemory to clear... Attempt Count : 1
+2024-11-23 13:21:03.818 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForProducerInmemory  ] Although some of the Producer messages may be stuck in memory. Try to clear them.
+2024-11-23 13:21:03.818 [FATAL] [Thread-0                 ] [stractCommonComponentProcessor] [stopProcessing           ] smpp_dlr_handover-low Messages count in memory 0
+2024-11-23 13:21:03.818 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [flushProducers           ] Calling FLUSH PRODUCERS METHOD {}
+2024-11-23 13:21:03.818 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [isAllProducersCompleted  ] Checking for the producers to close.
+2024-11-23 13:21:03.819 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] SMPP_DLR Lock file not found. Something went wrong. Check the lock file settings.
+2024-11-23 13:21:03.820 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] Lock file updated ...
+2024-11-23 13:21:03.820 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] SMPP_DLR Process Completed Successfully ...............
+2024-11-23 13:21:18.061 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-28 21:41:12.366 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-28 21:41:12.376 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-28 21:41:12.377 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-28 21:41:12.379 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-28 21:41:12.385 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:12.385 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:12.385 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:41:12.422 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-28 21:41:14.958 [FATAL] [Thread-0                 ] [c.i.b.c.d.ShutdownHandler     ] [lambda$addHook$0         ] Calling the shutdown process of 'SMPP_DLR'
+2024-11-28 21:41:14.958 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] Shutdownhook process Started for Component 'SMPP_DLR'
+java.lang.Exception: Called from
+	at com.itextos.beacon.commonlib.componentconsumer.processor.ProcessorInfo.shutdown(ProcessorInfo.java:317) ~[common-componentconsumer-1.0.jar!/:?]
+	at com.itextos.beacon.commonlib.daemonprocess.ShutdownHandler.lambda$addHook$0(ShutdownHandler.java:52) ~[common-daemonprocess-1.0.jar!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28 21:41:14.969 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Stop initiated. Stopping all consumers.
+2024-11-28 21:41:14.970 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-28 21:41:14.970 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Wait for 2 seconds to process the pending messages.
+2024-11-28 21:41:15.674 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:15.675 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:41:15.675 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:41:15.675 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-28 21:41:15.676 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-28 21:41:15.676 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-28 21:41:15.678 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-28 21:41:15.679 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:15.679 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:15.679 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:41:15.679 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:41:15.679 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:41:15.680 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-28 21:41:15.680 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-28 21:41:15.680 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-28 21:41:15.684 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-28 21:41:15.685 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:15.685 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:15.685 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:41:15.687 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-28 21:41:15.687 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-28 21:41:15.688 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-28 21:41:15.689 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-28 21:41:15.690 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:15.691 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:41:15.692 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:41:15.718 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732810275690]
+2024-11-28 21:41:15.719 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-28 21:41:16.971 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Got up after 2 seconds of sleep.
+2024-11-28 21:41:16.971 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Although some of the consumer messages may be stuck in memory. Try to clear them.
+2024-11-28 21:41:16.977 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Attempt Count : 1 Checking for the component 'smpp_dlr_handover~common~smpp_dlr_handover-low'Consumer Inmem size = '0'
+2024-11-28 21:41:16.978 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerStopped   ] Waiting for the inmemory to clear... Attempt Count : 1
+2024-11-28 21:41:16.978 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForProducerInmemory  ] Although some of the Producer messages may be stuck in memory. Try to clear them.
+2024-11-28 21:41:16.978 [FATAL] [Thread-0                 ] [stractCommonComponentProcessor] [stopProcessing           ] smpp_dlr_handover-low Messages count in memory 0
+2024-11-28 21:41:16.978 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [flushProducers           ] Calling FLUSH PRODUCERS METHOD {}
+2024-11-28 21:41:16.982 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [isAllProducersCompleted  ] Checking for the producers to close.
+2024-11-28 21:41:16.983 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] SMPP_DLR Lock file not found. Something went wrong. Check the lock file settings.
+2024-11-28 21:41:16.985 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] Lock file updated ...
+2024-11-28 21:41:16.986 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] SMPP_DLR Process Completed Successfully ...............
+2024-11-28 21:41:27.272 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-28 21:42:17.539 [FATAL] [Thread-0                 ] [c.i.b.c.d.ShutdownHandler     ] [lambda$addHook$0         ] Calling the shutdown process of 'SMPP_DLR'
+2024-11-28 21:42:17.540 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] Shutdownhook process Started for Component 'SMPP_DLR'
+java.lang.Exception: Called from
+	at com.itextos.beacon.commonlib.componentconsumer.processor.ProcessorInfo.shutdown(ProcessorInfo.java:317) ~[common-componentconsumer-1.0.jar!/:?]
+	at com.itextos.beacon.commonlib.daemonprocess.ShutdownHandler.lambda$addHook$0(ShutdownHandler.java:52) ~[common-daemonprocess-1.0.jar!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-28 21:42:17.556 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Stop initiated. Stopping all consumers.
+2024-11-28 21:42:17.557 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-28 21:42:17.557 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-28 21:42:17.557 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-28 21:42:17.558 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Wait for 2 seconds to process the pending messages.
+2024-11-28 21:42:17.944 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.947 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:42:17.947 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:42:17.949 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-28 21:42:17.949 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 0
+2024-11-28 21:42:17.952 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.952 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:42:17.952 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:42:17.952 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-28 21:42:17.952 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-28 21:42:17.953 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-28 21:42:17.951 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: No Redis Updation Required.
+2024-11-28 21:42:17.957 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.958 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:42:17.958 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:42:17.958 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-28 21:42:17.958 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 0
+2024-11-28 21:42:17.958 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: No Redis Updation Required.
+2024-11-28 21:42:17.961 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-28 21:42:17.964 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.968 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.968 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.968 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:42:17.969 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:42:17.969 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:42:17.969 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-28 21:42:17.969 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 0
+2024-11-28 21:42:17.969 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: No Redis Updation Required.
+2024-11-28 21:42:17.970 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.970 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.971 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:42:17.971 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.971 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:42:17.971 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:42:17.971 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:42:17.972 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-28 21:42:17.972 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-28 21:42:17.972 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-28 21:42:17.975 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.975 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.975 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:42:17.977 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-28 21:42:17.982 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-28 21:42:17.983 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-28 21:42:17.988 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 0
+2024-11-28 21:42:17.985 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-28 21:42:17.988 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: No Redis Updation Required.
+2024-11-28 21:42:17.991 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.992 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:17.992 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:42:18.006 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:18.007 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:18.007 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:42:18.019 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732810337991]
+2024-11-28 21:42:18.020 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-28 21:42:18.021 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-28 21:42:18.024 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-28 21:42:18.032 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732810337969]
+2024-11-28 21:42:18.034 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-28 21:42:18.034 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-28 21:42:18.041 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-28 21:42:18.046 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:18.049 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-28 21:42:18.049 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-28 21:42:18.073 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732810338042]
+2024-11-28 21:42:18.073 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-28 21:42:19.558 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Got up after 2 seconds of sleep.
+2024-11-28 21:42:19.559 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Although some of the consumer messages may be stuck in memory. Try to clear them.
+2024-11-28 21:42:19.562 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Attempt Count : 1 Checking for the component 'smpp_dlr_handover~common~smpp_dlr_handover-low'Consumer Inmem size = '0'
+2024-11-28 21:42:19.563 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerStopped   ] Waiting for the inmemory to clear... Attempt Count : 1
+2024-11-28 21:42:19.563 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForProducerInmemory  ] Although some of the Producer messages may be stuck in memory. Try to clear them.
+2024-11-28 21:42:19.563 [FATAL] [Thread-0                 ] [stractCommonComponentProcessor] [stopProcessing           ] smpp_dlr_handover-low Messages count in memory 0
+2024-11-28 21:42:19.563 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [flushProducers           ] Calling FLUSH PRODUCERS METHOD {}
+2024-11-28 21:42:19.563 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [isAllProducersCompleted  ] Checking for the producers to close.
+2024-11-28 21:42:19.564 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] SMPP_DLR Lock file not found. Something went wrong. Check the lock file settings.
+2024-11-28 21:42:19.565 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] Lock file updated ...
+2024-11-28 21:42:19.566 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] SMPP_DLR Process Completed Successfully ...............
+2024-11-28 21:43:02.529 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-30 06:56:12.117 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 06:56:12.120 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 1
+2024-11-30 06:56:12.122 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 06:56:12.123 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 06:56:12.129 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 06:56:12.129 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 06:56:12.130 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 06:56:17.900 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '4' Response from Redis '-1'
+2024-11-30 06:56:17.901 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '5' Response from Redis '-1'
+2024-11-30 06:56:17.901 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '6' Response from Redis '-1'
+2024-11-30 06:56:17.910 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '4' Response from Redis '-1'
+2024-11-30 06:56:17.910 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '5' Response from Redis '-1'
+2024-11-30 06:56:17.910 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '6' Response from Redis '-1'
+2024-11-30 06:56:17.911 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '5' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:17.911 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '4' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:17.911 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '6' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:18.717 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '1' Response from Redis '-1'
+2024-11-30 06:56:18.717 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '7' Response from Redis '-1'
+2024-11-30 06:56:18.717 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '2' Response from Redis '-1'
+2024-11-30 06:56:18.717 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '8' Response from Redis '-1'
+2024-11-30 06:56:18.717 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '3' Response from Redis '-1'
+2024-11-30 06:56:18.718 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '9' Response from Redis '-1'
+2024-11-30 06:56:18.724 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '7' Response from Redis '-1'
+2024-11-30 06:56:18.724 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '8' Response from Redis '-1'
+2024-11-30 06:56:18.724 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '9' Response from Redis '-1'
+2024-11-30 06:56:18.724 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '1' Response from Redis '-1'
+2024-11-30 06:56:18.725 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '9' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:18.725 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '8' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:18.725 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '7' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:18.726 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '2' Response from Redis '-1'
+2024-11-30 06:56:18.727 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '3' Response from Redis '-1'
+2024-11-30 06:56:18.727 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '1' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:18.727 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-30 06:56:18.727 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '3' Redis offSet 'null' Curr Offset '0'
+2024-11-30 06:56:18.728 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '2' Redis offSet 'null' Curr Offset '0'
+2024-11-30 07:17:25.818 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '7' Response from Redis '-1'
+2024-11-30 07:17:25.818 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '8' Response from Redis '-1'
+2024-11-30 07:17:25.820 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '1' Response from Redis '-1'
+2024-11-30 07:17:25.821 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '9' Response from Redis '-1'
+2024-11-30 07:17:25.821 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '2' Response from Redis '-1'
+2024-11-30 07:17:25.821 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 07:17:25.822 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:25.822 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '3' Response from Redis '-1'
+2024-11-30 07:17:25.822 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 07:17:25.822 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 07:17:25.823 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 07:17:25.822 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 07:17:25.823 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 4
+2024-11-30 07:17:25.824 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 07:17:25.824 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 07:17:25.824 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 07:17:25.825 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 07:17:25.825 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 07:17:25.825 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 07:17:25.827 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:25.828 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:25.828 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:25.828 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:25.831 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:25.831 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:25.996 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '4' Response from Redis '-1'
+2024-11-30 07:17:25.996 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '5' Response from Redis '-1'
+2024-11-30 07:17:25.997 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '6' Response from Redis '-1'
+2024-11-30 07:17:25.997 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 07:17:25.997 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:25.998 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 07:17:25.998 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 07:17:25.998 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 07:17:25.999 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 07:17:26.003 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:26.004 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:26.005 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:26.024 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '5' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.025 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '4' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.025 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '6' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.920 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '9' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.921 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '8' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.921 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '7' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.931 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '1' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.931 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.931 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '3' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:26.931 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '2' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:28.256 [FATAL] [Thread-0                 ] [c.i.b.c.d.ShutdownHandler     ] [lambda$addHook$0         ] Calling the shutdown process of 'SMPP_DLR'
+2024-11-30 07:17:28.256 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] Shutdownhook process Started for Component 'SMPP_DLR'
+java.lang.Exception: Called from
+	at com.itextos.beacon.commonlib.componentconsumer.processor.ProcessorInfo.shutdown(ProcessorInfo.java:317) ~[common-componentconsumer-1.0.jar!/:?]
+	at com.itextos.beacon.commonlib.daemonprocess.ShutdownHandler.lambda$addHook$0(ShutdownHandler.java:52) ~[common-daemonprocess-1.0.jar!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-30 07:17:28.267 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Stop initiated. Stopping all consumers.
+2024-11-30 07:17:28.267 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 07:17:28.268 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 07:17:28.268 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 07:17:28.268 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Wait for 2 seconds to process the pending messages.
+2024-11-30 07:17:29.117 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.117 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 07:17:29.117 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 07:17:29.118 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 07:17:29.118 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:29.118 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 07:17:29.118 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 07:17:29.118 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 07:17:29.120 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:29.121 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 07:17:29.122 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 07:17:29.122 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 07:17:29.124 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.124 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 07:17:29.124 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 07:17:29.124 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 4
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 07:17:29.125 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 07:17:29.126 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 07:17:29.127 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.127 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.127 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.127 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 07:17:29.127 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 07:17:29.127 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 07:17:29.127 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 4
+2024-11-30 07:17:29.128 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 07:17:29.128 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 07:17:29.128 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 07:17:29.128 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 07:17:29.129 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 07:17:29.129 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.130 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.130 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 07:17:29.131 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.131 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:29.133 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 07:17:29.137 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 07:17:29.137 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 07:17:29.138 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 07:17:29.138 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 4
+2024-11-30 07:17:29.138 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 07:17:29.138 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 07:17:29.138 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 07:17:29.138 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 07:17:29.139 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 07:17:29.139 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.139 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.140 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.144 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 07:17:29.144 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.144 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.145 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.159 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732931249144]
+2024-11-30 07:17:29.163 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 07:17:29.190 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732931249139]
+2024-11-30 07:17:29.191 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 07:17:29.295 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.296 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 07:17:29.297 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 07:17:29.297 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 07:17:29.297 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:29.298 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 07:17:29.303 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 07:17:29.303 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 07:17:29.305 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 07:17:29.305 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.305 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.305 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.305 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 07:17:29.306 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 07:17:29.306 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 07:17:29.308 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:29.308 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 07:17:29.308 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 07:17:29.309 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 07:17:29.310 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 07:17:29.310 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.310 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.310 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.312 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 07:17:29.312 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 3
+2024-11-30 07:17:29.312 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 07:17:29.312 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 07:17:29.313 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 07:17:29.314 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 07:17:29.315 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.315 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 07:17:29.315 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 07:17:29.328 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732931249315]
+2024-11-30 07:17:29.330 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 07:17:30.269 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Got up after 2 seconds of sleep.
+2024-11-30 07:17:30.269 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Although some of the consumer messages may be stuck in memory. Try to clear them.
+2024-11-30 07:17:30.273 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Attempt Count : 1 Checking for the component 'smpp_dlr_handover~common~smpp_dlr_handover-low'Consumer Inmem size = '0'
+2024-11-30 07:17:30.273 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerStopped   ] Waiting for the inmemory to clear... Attempt Count : 1
+2024-11-30 07:17:30.273 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForProducerInmemory  ] Although some of the Producer messages may be stuck in memory. Try to clear them.
+2024-11-30 07:17:30.273 [FATAL] [Thread-0                 ] [stractCommonComponentProcessor] [stopProcessing           ] smpp_dlr_handover-low Messages count in memory 0
+2024-11-30 07:17:30.274 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [flushProducers           ] Calling FLUSH PRODUCERS METHOD {}
+2024-11-30 07:17:30.274 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [isAllProducersCompleted  ] Checking for the producers to close.
+2024-11-30 07:17:30.274 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] SMPP_DLR Lock file not found. Something went wrong. Check the lock file settings.
+2024-11-30 07:17:30.276 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] Lock file updated ...
+2024-11-30 07:17:30.276 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] SMPP_DLR Process Completed Successfully ...............
+2024-11-30 07:17:38.931 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '5' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:38.932 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '3' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:38.942 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '1' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:38.932 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '7' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:38.958 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '2' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:38.961 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:38.961 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '6' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:38.962 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '4' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:39.218 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '9' Redis offSet '0' Curr Offset '0'
+2024-11-30 07:17:39.218 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '8' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:04.139 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:18:04.143 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 2
+2024-11-30 13:18:04.144 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 13:18:04.144 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 13:18:04.145 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:18:04.151 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.151 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.151 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:18:04.365 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:18:04.365 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 2
+2024-11-30 13:18:04.366 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 13:18:04.366 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 13:18:04.367 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:18:04.367 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.368 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.368 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:18:04.380 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:18:04.381 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 2
+2024-11-30 13:18:04.381 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 13:18:04.381 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 13:18:04.382 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:18:04.383 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.383 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.384 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:18:04.528 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:18:04.529 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 2
+2024-11-30 13:18:04.529 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 13:18:04.529 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 13:18:04.531 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:18:04.532 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.532 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.533 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:18:04.638 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:18:04.639 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 2
+2024-11-30 13:18:04.639 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 13:18:04.640 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 13:18:04.641 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:18:04.642 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.642 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:18:04.642 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:18:10.754 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '20' Response from Redis '-1'
+2024-11-30 13:18:10.754 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '21' Response from Redis '-1'
+2024-11-30 13:18:10.754 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '22' Response from Redis '-1'
+2024-11-30 13:18:10.755 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '23' Response from Redis '-1'
+2024-11-30 13:18:10.755 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '24' Response from Redis '-1'
+2024-11-30 13:18:10.768 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '20' Response from Redis '-1'
+2024-11-30 13:18:10.768 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '21' Response from Redis '-1'
+2024-11-30 13:18:10.769 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '22' Response from Redis '-1'
+2024-11-30 13:18:10.769 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '23' Response from Redis '-1'
+2024-11-30 13:18:10.769 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '24' Response from Redis '-1'
+2024-11-30 13:18:10.770 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '21' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.770 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '20' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.770 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '24' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.770 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '23' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.771 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '22' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.979 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '5' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:10.980 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '9' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:10.980 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '8' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:10.980 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '7' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:10.980 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '6' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:10.988 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '10' Response from Redis '-1'
+2024-11-30 13:18:10.989 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '11' Response from Redis '-1'
+2024-11-30 13:18:10.989 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '12' Response from Redis '-1'
+2024-11-30 13:18:10.989 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '13' Response from Redis '-1'
+2024-11-30 13:18:10.990 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '14' Response from Redis '-1'
+2024-11-30 13:18:10.995 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '10' Response from Redis '-1'
+2024-11-30 13:18:10.995 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '11' Response from Redis '-1'
+2024-11-30 13:18:10.996 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '12' Response from Redis '-1'
+2024-11-30 13:18:10.996 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '13' Response from Redis '-1'
+2024-11-30 13:18:10.996 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '14' Response from Redis '-1'
+2024-11-30 13:18:10.997 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '13' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.997 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '12' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.997 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '11' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.997 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '10' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:10.997 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '14' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:11.137 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '16' Response from Redis '-1'
+2024-11-30 13:18:11.137 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '17' Response from Redis '-1'
+2024-11-30 13:18:11.137 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '18' Response from Redis '-1'
+2024-11-30 13:18:11.138 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '19' Response from Redis '-1'
+2024-11-30 13:18:11.138 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '15' Response from Redis '-1'
+2024-11-30 13:18:11.145 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '16' Response from Redis '-1'
+2024-11-30 13:18:11.146 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '17' Response from Redis '-1'
+2024-11-30 13:18:11.146 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '18' Response from Redis '-1'
+2024-11-30 13:18:11.147 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '19' Response from Redis '-1'
+2024-11-30 13:18:11.147 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '15' Response from Redis '-1'
+2024-11-30 13:18:11.147 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '17' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:11.150 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '16' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:11.150 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '15' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:11.150 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '19' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:11.150 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '18' Redis offSet 'null' Curr Offset '0'
+2024-11-30 13:18:11.245 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '1' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:11.246 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:11.246 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '4' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:11.246 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '3' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:18:11.246 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '2' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:23.112 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '10' Response from Redis '-1'
+2024-11-30 13:26:23.113 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '11' Response from Redis '-1'
+2024-11-30 13:26:23.113 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '12' Response from Redis '-1'
+2024-11-30 13:26:23.113 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '13' Response from Redis '-1'
+2024-11-30 13:26:23.114 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '14' Response from Redis '-1'
+2024-11-30 13:26:23.114 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:23.115 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:23.115 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '10' offset '0'
+2024-11-30 13:26:23.116 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '11' offset '0'
+2024-11-30 13:26:23.116 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '12' offset '0'
+2024-11-30 13:26:23.116 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '13' offset '0'
+2024-11-30 13:26:23.116 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '14' offset '0'
+2024-11-30 13:26:23.118 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:23.120 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.120 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.121 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:23.246 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '16' Response from Redis '-1'
+2024-11-30 13:26:23.249 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '17' Response from Redis '-1'
+2024-11-30 13:26:23.249 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '18' Response from Redis '-1'
+2024-11-30 13:26:23.249 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '19' Response from Redis '-1'
+2024-11-30 13:26:23.250 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '15' Response from Redis '-1'
+2024-11-30 13:26:23.250 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:23.250 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:23.250 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '16' offset '0'
+2024-11-30 13:26:23.250 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '17' offset '0'
+2024-11-30 13:26:23.251 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '18' offset '0'
+2024-11-30 13:26:23.251 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '19' offset '0'
+2024-11-30 13:26:23.252 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '15' offset '0'
+2024-11-30 13:26:23.253 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:23.256 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.256 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.256 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:23.366 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:23.366 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:23.366 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 13:26:23.371 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 13:26:23.371 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 13:26:23.371 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 13:26:23.371 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 13:26:23.372 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:23.375 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.376 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.376 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:23.944 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '20' Response from Redis '-1'
+2024-11-30 13:26:23.945 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '21' Response from Redis '-1'
+2024-11-30 13:26:23.945 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '22' Response from Redis '-1'
+2024-11-30 13:26:23.945 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '23' Response from Redis '-1'
+2024-11-30 13:26:23.945 [ERROR] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [getPartitionOffset       ] Off set is not set for the topic 'smpp-dlr-handover-low' and Partition '24' Response from Redis '-1'
+2024-11-30 13:26:23.946 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:23.946 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:23.947 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '20' offset '0'
+2024-11-30 13:26:23.947 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '21' offset '0'
+2024-11-30 13:26:23.949 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '22' offset '0'
+2024-11-30 13:26:23.949 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '23' offset '0'
+2024-11-30 13:26:23.949 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '24' offset '0'
+2024-11-30 13:26:23.951 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:23.952 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.952 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:23.952 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:24.170 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:24.170 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:24.171 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 13:26:24.171 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 13:26:24.171 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 13:26:24.171 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 13:26:24.171 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 13:26:24.175 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:24.176 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:24.176 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:24.177 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:24.227 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '13' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.227 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '12' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.227 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '11' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.228 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '10' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.228 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '14' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.227 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '5' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.228 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '9' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.229 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '8' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.229 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '7' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.231 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '6' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.348 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '17' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.348 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '16' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.349 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '15' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.349 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '19' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.349 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '18' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.469 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '1' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.469 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.470 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '4' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.470 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '3' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:24.470 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '2' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:25.052 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '21' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:25.054 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '20' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:25.054 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '24' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:25.055 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '23' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:25.055 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '22' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:27.058 [FATAL] [Thread-0                 ] [c.i.b.c.d.ShutdownHandler     ] [lambda$addHook$0         ] Calling the shutdown process of 'SMPP_DLR'
+2024-11-30 13:26:27.058 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] Shutdownhook process Started for Component 'SMPP_DLR'
+java.lang.Exception: Called from
+	at com.itextos.beacon.commonlib.componentconsumer.processor.ProcessorInfo.shutdown(ProcessorInfo.java:317) ~[common-componentconsumer-1.0.jar!/:?]
+	at com.itextos.beacon.commonlib.daemonprocess.ShutdownHandler.lambda$addHook$0(ShutdownHandler.java:52) ~[common-daemonprocess-1.0.jar!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-11-30 13:26:27.069 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Stop initiated. Stopping all consumers.
+2024-11-30 13:26:27.070 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 13:26:27.070 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 13:26:27.070 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 13:26:27.070 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 13:26:27.070 [FATAL] [Thread-0                 ] [c.i.b.c.k.c.Consumer          ] [stopConsuming            ] smpp-dlr-handover-low          STOP INVOKED
+2024-11-30 13:26:27.071 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Wait for 2 seconds to process the pending messages.
+2024-11-30 13:26:27.246 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.247 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.247 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.247 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 13:26:27.247 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.248 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '20' offset '0'
+2024-11-30 13:26:27.248 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '21' offset '0'
+2024-11-30 13:26:27.248 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '22' offset '0'
+2024-11-30 13:26:27.248 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '23' offset '0'
+2024-11-30 13:26:27.249 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '24' offset '0'
+2024-11-30 13:26:27.253 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 13:26:27.253 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.253 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.254 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.254 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.254 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.254 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 13:26:27.254 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.254 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '20' offset '0'
+2024-11-30 13:26:27.255 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '21' offset '0'
+2024-11-30 13:26:27.255 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '22' offset '0'
+2024-11-30 13:26:27.255 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '23' offset '0'
+2024-11-30 13:26:27.256 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '24' offset '0'
+2024-11-30 13:26:27.257 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 13:26:27.258 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.260 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.260 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.261 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:27.262 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.262 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '20' offset '0'
+2024-11-30 13:26:27.262 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '21' offset '0'
+2024-11-30 13:26:27.262 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '22' offset '0'
+2024-11-30 13:26:27.262 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '23' offset '0'
+2024-11-30 13:26:27.263 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '24' offset '0'
+2024-11-30 13:26:27.263 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:27.264 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.264 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.264 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.355 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732953387264]
+2024-11-30 13:26:27.355 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 13:26:27.475 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.478 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.478 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.478 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 13:26:27.478 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.478 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 13:26:27.479 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 13:26:27.480 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 13:26:27.480 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 13:26:27.480 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 13:26:27.482 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 13:26:27.482 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.482 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.482 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.483 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.483 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.483 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 13:26:27.483 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.483 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 13:26:27.483 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 13:26:27.483 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 13:26:27.484 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 13:26:27.484 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 13:26:27.485 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 13:26:27.485 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.485 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.485 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.487 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:27.487 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.488 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '5' offset '0'
+2024-11-30 13:26:27.488 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '6' offset '0'
+2024-11-30 13:26:27.488 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '7' offset '0'
+2024-11-30 13:26:27.488 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '8' offset '0'
+2024-11-30 13:26:27.488 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '9' offset '0'
+2024-11-30 13:26:27.490 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:27.491 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.491 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.491 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.515 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732953387491]
+2024-11-30 13:26:27.515 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 13:26:27.516 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.516 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.516 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.517 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 13:26:27.517 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.517 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '10' offset '0'
+2024-11-30 13:26:27.517 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '11' offset '0'
+2024-11-30 13:26:27.517 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '12' offset '0'
+2024-11-30 13:26:27.517 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '13' offset '0'
+2024-11-30 13:26:27.517 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '14' offset '0'
+2024-11-30 13:26:27.519 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 13:26:27.520 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.520 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.521 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.521 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.521 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.521 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 13:26:27.521 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.521 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '10' offset '0'
+2024-11-30 13:26:27.521 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '11' offset '0'
+2024-11-30 13:26:27.522 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '12' offset '0'
+2024-11-30 13:26:27.522 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '13' offset '0'
+2024-11-30 13:26:27.522 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '14' offset '0'
+2024-11-30 13:26:27.523 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 13:26:27.523 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.523 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.523 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.524 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:27.525 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.525 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '10' offset '0'
+2024-11-30 13:26:27.525 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '11' offset '0'
+2024-11-30 13:26:27.526 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '12' offset '0'
+2024-11-30 13:26:27.526 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '13' offset '0'
+2024-11-30 13:26:27.526 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '14' offset '0'
+2024-11-30 13:26:27.527 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:27.528 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.528 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.528 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.549 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732953387528]
+2024-11-30 13:26:27.550 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 13:26:27.651 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.651 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.652 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.652 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 13:26:27.652 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.652 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '16' offset '0'
+2024-11-30 13:26:27.652 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '17' offset '0'
+2024-11-30 13:26:27.653 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '18' offset '0'
+2024-11-30 13:26:27.653 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '19' offset '0'
+2024-11-30 13:26:27.653 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '15' offset '0'
+2024-11-30 13:26:27.654 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 13:26:27.654 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.655 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.655 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.655 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.655 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.655 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 13:26:27.655 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.655 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '16' offset '0'
+2024-11-30 13:26:27.656 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '17' offset '0'
+2024-11-30 13:26:27.656 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '18' offset '0'
+2024-11-30 13:26:27.656 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '19' offset '0'
+2024-11-30 13:26:27.657 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '15' offset '0'
+2024-11-30 13:26:27.659 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 13:26:27.659 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.660 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.660 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.661 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:27.661 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.661 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '16' offset '0'
+2024-11-30 13:26:27.661 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '17' offset '0'
+2024-11-30 13:26:27.661 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '18' offset '0'
+2024-11-30 13:26:27.661 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '19' offset '0'
+2024-11-30 13:26:27.662 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '15' offset '0'
+2024-11-30 13:26:27.663 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:27.663 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.663 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.664 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.691 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732953387663]
+2024-11-30 13:26:27.691 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 13:26:27.771 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.771 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.771 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.772 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerStopConsuming>>. Producers count '0'
+2024-11-30 13:26:27.772 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.772 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 13:26:27.772 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 13:26:27.773 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 13:26:27.773 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 13:26:27.773 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 13:26:27.774 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnExit :::: Redis Updation Completed.
+2024-11-30 13:26:27.775 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.775 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.775 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.775 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] Is All inmemory processed true
+2024-11-30 13:26:27.775 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [itForAllMessagesToProcess] AFTER WHILE Is All inmemory processed true
+2024-11-30 13:26:27.775 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<ConsumerFinally>>. Producers count '0'
+2024-11-30 13:26:27.776 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.776 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 13:26:27.776 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 13:26:27.776 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 13:26:27.776 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 13:26:27.781 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 13:26:27.783 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] ConsumerStopConsuming :::: Redis Updation Completed.
+2024-11-30 13:26:27.784 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.784 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.784 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.786 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [flushProducers           ] Flushing producers on <<OnPartitionRevoked>>. Producers count '0'
+2024-11-30 13:26:27.786 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Updating the Topic Partition and Offset information for topic 'smpp-dlr-handover-low'. Total Topics and Partitions to update 5
+2024-11-30 13:26:27.786 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '0' offset '0'
+2024-11-30 13:26:27.787 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '1' offset '0'
+2024-11-30 13:26:27.790 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '2' offset '0'
+2024-11-30 13:26:27.790 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '3' offset '0'
+2024-11-30 13:26:27.790 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Topic 'smpp-dlr-handover-low' Partition '4' offset '0'
+2024-11-30 13:26:27.792 [FATAL] [                         ] [c.i.b.c.k.c.KafkaUtility      ] [updateRedis              ] OnPartitionRevoked :::: Redis Updation Completed.
+2024-11-30 13:26:27.792 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.792 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [intInMemoryMessageDetails] Topic Name : smpp-dlr-handover-low, Consumer InMem Collection Size >>>>>>>> 0
+2024-11-30 13:26:27.792 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [resendInMemMessages      ] Consumer Process Completed ...................
+2024-11-30 13:26:27.815 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] Closed Consumer Consumer [mComponent=SMPP_DLR, mTopicName=smpp-dlr-handover-low, mLastCommitted=1732953387792]
+2024-11-30 13:26:27.817 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [process                  ] #### Completely Stopped the consumer ************ 
+2024-11-30 13:26:29.071 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [stopMe                   ] Got up after 2 seconds of sleep.
+2024-11-30 13:26:29.071 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Although some of the consumer messages may be stuck in memory. Try to clear them.
+2024-11-30 13:26:29.077 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerInmemory  ] Attempt Count : 1 Checking for the component 'smpp_dlr_handover~common~smpp_dlr_handover-low'Consumer Inmem size = '0'
+2024-11-30 13:26:29.077 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForConsumerStopped   ] Waiting for the inmemory to clear... Attempt Count : 1
+2024-11-30 13:26:29.078 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [waitForProducerInmemory  ] Although some of the Producer messages may be stuck in memory. Try to clear them.
+2024-11-30 13:26:29.078 [FATAL] [Thread-0                 ] [stractCommonComponentProcessor] [stopProcessing           ] smpp_dlr_handover-low Messages count in memory 0
+2024-11-30 13:26:29.078 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [flushProducers           ] Calling FLUSH PRODUCERS METHOD {}
+2024-11-30 13:26:29.078 [FATAL] [Thread-0                 ] [c.i.b.c.m.d.KafkaInformation  ] [isAllProducersCompleted  ] Checking for the producers to close.
+2024-11-30 13:26:29.078 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] SMPP_DLR Lock file not found. Something went wrong. Check the lock file settings.
+2024-11-30 13:26:29.084 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [logContent               ] Lock file updated ...
+2024-11-30 13:26:29.087 [FATAL] [Thread-0                 ] [c.i.b.c.c.p.ProcessorInfo     ] [shutdown                 ] SMPP_DLR Process Completed Successfully ...............
+2024-11-30 13:26:38.809 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '21' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:38.834 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '20' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:38.836 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '24' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:38.837 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '23' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:38.837 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '22' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.244 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '5' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.245 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '9' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.245 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '8' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.245 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '7' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.246 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '6' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.247 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '13' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.251 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '12' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.251 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '11' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.251 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '10' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.252 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '14' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.253 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '17' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.255 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '1' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.256 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '16' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.258 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '0' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.258 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '15' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.258 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '4' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.259 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '3' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.259 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '2' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.258 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '19' Redis offSet '0' Curr Offset '0'
+2024-11-30 13:26:39.260 [FATAL] [                         ] [c.i.b.c.k.c.Consumer          ] [onPartitionsAssigned     ] Topic 'smpp-dlr-handover-low' Partition '18' Redis offSet '0' Curr Offset '0'

@@ -1,0 +1,28 @@
+Dec 04, 2024 11:52:52 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : Wed Dec 04 11:52:52 IST 2024
+Dec 04, 2024 11:52:52 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : goto sleep for the milli second  : 1000
+Dec 04, 2024 11:52:53 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : Wed Dec 04 11:52:53 IST 2024
+Dec 04, 2024 11:52:53 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : goto sleep for the milli second  : 1000
+Dec 04, 2024 11:52:54 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Wed Dec 04 11:52:54 IST 2024
+Dec 04, 2024 11:52:54 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000
+Dec 04, 2024 11:52:54 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : Wed Dec 04 11:52:54 IST 2024
+Dec 04, 2024 11:52:54 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : goto sleep for the milli second  : 1000
+Dec 04, 2024 11:52:55 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : Wed Dec 04 11:52:55 IST 2024
+Dec 04, 2024 11:52:55 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-InmemoryReaper]: t_TimerThread-InmemoryReaper : goto sleep for the milli second  : 1000
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Wed Dec 04 11:52:56 IST 2024
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Wed Dec 04 11:52:56 IST 2024
+Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000

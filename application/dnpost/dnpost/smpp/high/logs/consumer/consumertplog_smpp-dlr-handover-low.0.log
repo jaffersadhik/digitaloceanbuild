@@ -1,0 +1,10 @@
+Nov 19, 2024 7:47:15 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: smpp-dlr-handover-low : Tue Nov 19 07:47:15 IST 2024
+Nov 19, 2024 7:47:16 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: sleepForAWhile(1000); : mTopicName smpp-dlr-handover-low : Tue Nov 19 07:47:16 IST 2024
+Nov 19, 2024 7:47:16 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: smpp-dlr-handover-low : Tue Nov 19 07:47:16 IST 2024
+Nov 19, 2024 7:47:17 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: sleepForAWhile(1000); : mTopicName smpp-dlr-handover-low : Tue Nov 19 07:47:17 IST 2024
+Nov 19, 2024 7:47:17 AM com.itextos.beacon.smslog.ConsumerTPLog log
+INFO: smpp-dlr-handover-low : Tue Nov 19 07:47:17 IST 2024

@@ -1,0 +1,36 @@
+Nov 19, 2024 8:05:14 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppDlrFallbackTableReader]: t_SmppDlrFallbackTableReader : Tue Nov 19 08:05:14 IST 2024
+Nov 19, 2024 8:05:14 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppDlrFallbackTableReader]: t_SmppDlrFallbackTableReader : goto sleep for the milli second  : 5000
+Nov 19, 2024 8:05:15 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Tue Nov 19 08:05:15 IST 2024
+Nov 19, 2024 8:05:15 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000
+Nov 19, 2024 8:05:17 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Tue Nov 19 08:05:17 IST 2024
+Nov 19, 2024 8:05:17 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000
+Nov 19, 2024 8:05:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Tue Nov 19 08:05:19 IST 2024
+Nov 19, 2024 8:05:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000
+Nov 19, 2024 8:05:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppDlrFallbackTableReader]: t_SmppDlrFallbackTableReader : Tue Nov 19 08:05:19 IST 2024
+Nov 19, 2024 8:05:19 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppDlrFallbackTableReader]: t_SmppDlrFallbackTableReader : goto sleep for the milli second  : 5000
+Nov 19, 2024 8:05:21 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Tue Nov 19 08:05:21 IST 2024
+Nov 19, 2024 8:05:21 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000
+Nov 19, 2024 8:05:23 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Tue Nov 19 08:05:23 IST 2024
+Nov 19, 2024 8:05:23 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000
+Nov 19, 2024 8:05:24 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppDlrFallbackTableReader]: t_SmppDlrFallbackTableReader : Tue Nov 19 08:05:24 IST 2024
+Nov 19, 2024 8:05:24 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppDlrFallbackTableReader]: t_SmppDlrFallbackTableReader : goto sleep for the milli second  : 5000
+Nov 19, 2024 8:05:25 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : Tue Nov 19 08:05:25 IST 2024
+Nov 19, 2024 8:05:25 AM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_SmppRedisOperation:1]: t_SmppRedisOperation:1 : goto sleep for the milli second  : 2000

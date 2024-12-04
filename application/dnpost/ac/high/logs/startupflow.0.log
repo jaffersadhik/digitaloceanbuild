@@ -1,0 +1,402 @@
+Nov 18, 2024 7:22:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 18, 2024 7:22:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 18, 2024 7:22:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 18, 2024 7:22:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 18, 2024 7:22:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 18, 2024 7:22:22 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.3  topicName : interface-async-process-high
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@957e06}}
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@957e06}
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 18, 2024 7:22:23 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 19, 2024 8:09:25 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 8:09:25 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 19, 2024 8:09:25 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 19, 2024 8:09:25 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 19, 2024 8:09:25 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 19, 2024 8:09:25 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.3  topicName : interface-async-process-high
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 19, 2024 8:09:26 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 20, 2024 7:17:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 7:17:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 20, 2024 7:17:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 20, 2024 7:17:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 20, 2024 7:17:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 20, 2024 7:17:04 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.3  topicName : interface-async-process-high
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 20, 2024 7:17:05 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:18:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:18:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:18:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 23, 2024 1:18:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:18:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 23, 2024 1:18:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.3  topicName : interface-async-process-high
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}}
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@27462a88}
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:18:43 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 23, 2024 1:20:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:20:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 23, 2024 1:20:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 23, 2024 1:20:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 23, 2024 1:20:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 23, 2024 1:20:48 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=1, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.3  topicName : interface-async-process-high
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@659499f1}}
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@659499f1}
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 23, 2024 1:20:49 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:41:02 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.3  topicName : interface-async-process-high
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~2~null-172.21.0.3  topicName : interface-async-process-high
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~3~null-172.21.0.3  topicName : interface-async-process-high
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}}
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:41:03 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 28, 2024 9:42:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:42:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 28, 2024 9:42:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 28, 2024 9:42:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 28, 2024 9:42:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 28, 2024 9:42:38 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=3, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.2  topicName : interface-async-process-high
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~2~null-172.21.0.2  topicName : interface-async-process-high
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~3~null-172.21.0.2  topicName : interface-async-process-high
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}}
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6221a451}
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 28, 2024 9:42:41 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 7:17:15 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:17:15 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 7:17:15 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 30, 2024 7:17:15 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 7:17:15 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 30, 2024 7:17:15 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 30, 2024 7:17:16 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=1]
+Nov 30, 2024 7:17:16 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 7:17:16 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 7:17:16 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 30, 2024 7:17:16 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 30, 2024 7:17:16 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 7:17:16 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~2~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~3~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~4~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~5~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}}
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 7:17:17 AM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'
+Nov 30, 2024 1:26:13 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Invoking for Component 'INTERFACE_ASYNC_PROCESS' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:13 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Processing for the cluster Type 'COMMON'
+Nov 30, 2024 1:26:13 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : COMMON topicName : interface_async_process-high
+Nov 30, 2024 1:26:13 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster :  common
+Nov 30, 2024 1:26:13 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: key :  interface_async_process~common~interface_async_process-high
+Nov 30, 2024 1:26:13 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Creating Kafka Consumers for INTERFACE_ASYNC_PROCESS-COMMON-interface_async_process-high
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Component map : KafkaClusterComponentMap [mComponent=INTERFACE_ASYNC_PROCESS, mPlatformClusterType=COMMON, mKafkaProducerClusterName=trans-platform, mKafkaConsumerClusterName=trans-platform, mKafkaConsumerGroupName=group_interface_async_process, mKafkaClientConsumerCount=5, mSleepTimeInMillis=100, mThreadsCount=1, mIntlThreadCount=1, mMaxProducersPerTopic=3]
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer Kafka Cluster name : 'trans-platform'
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster found : 'KafkaClusterInfo [mKafkaClusterName=trans-platform, mKafkaProducerProperties=/platform/properties/bulk/kafka-producer.properties, mKafkaConsumerProperties=/platform/properties/bulk/kafka-consumer.properties]'
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Topic Name to use :'interface_async_process-high'
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Final Topic name to use : 'interface-async-process-high'
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Producer Properties found : '/kafka-producer.properties_do1'
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Kafka Cluster Consumer Properties found : '/kafka-consumer.properties_do1'
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~1~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~2~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~3~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~4~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerClients : main~interface_async_process~consumer~5~null-172.21.0.2  topicName : interface-async-process-high
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: clusterInMemCollection : {common={interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}}
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: aTopicsToConsume : 'interface_async_process-high
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: platformCluster : 'COMMON
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Consumer to start for the Cluster Type Name : 'common' Cluster COMMON topics : common topicInMemCollection : {interface_async_process-high=com.itextos.beacon.commonlib.kafkaservice.consumer.ConsumerInMemCollection@6e6f2380}
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: createConsumerThreads : aClusterName : common aPlatformCluster :  COMMON aTopicName : interface_async_process-high aClassName : com.itextos.beacon.interfaces.generichttpapi.processor.async.AsyncRequestProcessor
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: AbstractCommonComponentProcessor contsructer Entered
+Nov 30, 2024 1:26:14 PM com.itextos.beacon.smslog.StartupFlowLog log
+INFO: Thread 'Thread~common~interface_async_process~interface_async_process-high~1'started for Component 'INTERFACE_ASYNC_PROCESS' Cluster 'common' Actual Cluster 'COMMON' Topic name 'interface_async_process-high' Thread index '1' with sleep time millis '100'

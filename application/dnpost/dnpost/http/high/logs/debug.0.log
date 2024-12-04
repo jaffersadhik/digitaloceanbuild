@@ -1,0 +1,32 @@
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 18, 2024 7:37:05 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 8:07:58 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 19, 2024 8:07:58 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 23, 2024 1:18:44 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 23, 2024 1:20:53 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 28, 2024 9:41:06 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 28, 2024 9:42:40 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 30, 2024 7:17:20 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : httpclienthandover
+Nov 30, 2024 1:26:18 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'HTTP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]

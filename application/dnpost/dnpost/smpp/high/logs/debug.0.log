@@ -1,0 +1,80 @@
+Nov 19, 2024 7:46:54 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 19, 2024 7:46:54 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 19, 2024 7:46:54 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 7:46:55 AM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 19, 2024 7:47:52 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 19, 2024 7:47:52 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 19, 2024 7:47:52 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 7:47:53 AM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 19, 2024 8:07:19 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 19, 2024 8:07:19 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 19, 2024 8:07:19 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 19, 2024 8:07:20 AM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 20, 2024 7:19:41 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 20, 2024 7:19:41 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 20, 2024 7:19:41 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 20, 2024 7:19:42 AM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 23, 2024 1:18:53 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 23, 2024 1:18:53 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 23, 2024 1:18:53 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:18:55 PM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 23, 2024 1:21:02 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 23, 2024 1:21:02 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 23, 2024 1:21:02 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 23, 2024 1:21:04 PM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 28, 2024 9:41:15 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 28, 2024 9:41:15 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 28, 2024 9:41:15 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:41:16 PM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 28, 2024 9:42:46 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 28, 2024 9:42:46 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 28, 2024 9:42:46 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 28, 2024 9:42:52 PM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 30, 2024 7:17:28 AM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 30, 2024 7:17:28 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 30, 2024 7:17:28 AM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 7:17:30 AM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null
+Nov 30, 2024 1:26:27 PM com.itextos.beacon.smslog.DebugLog log
+INFO: module : smppdlrhandover
+Nov 30, 2024 1:26:27 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Starting the application SMPP_DLR
+Nov 30, 2024 1:26:27 PM com.itextos.beacon.smslog.DebugLog log
+INFO: Invoking for Component 'SMPP_DLR' with Startup Arguments StartupRuntimeArguments [mPlatformCluster=[], mInterfaceGroup=[], mMessageType=null, mMessagePriority=[], mClientIds=[]]
+Nov 30, 2024 1:26:29 PM com.itextos.beacon.smslog.DebugLog log
+INFO: lClusters null

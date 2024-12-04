@@ -1,0 +1,10 @@
+Nov 28, 2024 9:41:35 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PrometheusControl]: t_PrometheusControl : goto sleep for the milli second  : 300000
+Nov 28, 2024 9:41:38 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-PLATFORM_ERROR_INFO]: t_TimerThread-PLATFORM_ERROR_INFO : Thu Nov 28 21:41:38 IST 2024
+Nov 28, 2024 9:41:38 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-PLATFORM_ERROR_INFO]: t_TimerThread-PLATFORM_ERROR_INFO : goto sleep for the milli second  : 30000
+Nov 28, 2024 9:41:40 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : Thu Nov 28 21:41:40 IST 2024
+Nov 28, 2024 9:41:40 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PartitionInfoCollection]: t_PartitionInfoCollection : goto sleep for the milli second  : 5000

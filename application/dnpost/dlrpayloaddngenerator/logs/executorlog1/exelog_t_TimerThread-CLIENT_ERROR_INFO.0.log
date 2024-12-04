@@ -1,0 +1,40 @@
+Nov 28, 2024 9:40:25 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-CLIENT_DLR_PREF]: t_TimerThread-CLIENT_DLR_PREF : Thu Nov 28 21:40:25 IST 2024
+Nov 28, 2024 9:40:25 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-CLIENT_DLR_PREF]: t_TimerThread-CLIENT_DLR_PREF : goto sleep for the milli second  : 30000
+Nov 28, 2024 9:40:28 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-PLATFORM_ERROR_INFO]: t_TimerThread-PLATFORM_ERROR_INFO : Thu Nov 28 21:40:28 IST 2024
+Nov 28, 2024 9:40:28 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-PLATFORM_ERROR_INFO]: t_TimerThread-PLATFORM_ERROR_INFO : goto sleep for the milli second  : 30000
+Nov 28, 2024 9:40:29 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : Thu Nov 28 21:40:29 IST 2024
+Nov 28, 2024 9:40:29 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000
+Nov 28, 2024 9:40:32 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-CARRIER_ERROR_INFO]: t_TimerThread-CARRIER_ERROR_INFO : Thu Nov 28 21:40:32 IST 2024
+Nov 28, 2024 9:40:32 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-CARRIER_ERROR_INFO]: t_TimerThread-CARRIER_ERROR_INFO : goto sleep for the milli second  : 30000
+Nov 28, 2024 9:40:35 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : Thu Nov 28 21:40:35 IST 2024
+Nov 28, 2024 9:40:35 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000
+Nov 28, 2024 9:40:41 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : Thu Nov 28 21:40:41 IST 2024
+Nov 28, 2024 9:40:41 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000
+Nov 28, 2024 9:40:42 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : Thu Nov 28 21:40:42 IST 2024
+Nov 28, 2024 9:40:42 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_KafkaCustomPropertiesReload]: t_KafkaCustomPropertiesReload : goto sleep for the milli second  : 30000
+Nov 28, 2024 9:40:43 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_MessageRemovePropertyReader]: t_MessageRemovePropertyReader : Thu Nov 28 21:40:43 IST 2024
+Nov 28, 2024 9:40:43 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_MessageRemovePropertyReader]: t_MessageRemovePropertyReader : goto sleep for the milli second  : 30000
+Nov 28, 2024 9:40:47 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PrometheusControl]: t_PrometheusControl : Thu Nov 28 21:40:47 IST 2024
+Nov 28, 2024 9:40:47 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_PrometheusControl]: t_PrometheusControl : goto sleep for the milli second  : 300000
+Nov 28, 2024 9:40:47 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : Thu Nov 28 21:40:47 IST 2024
+Nov 28, 2024 9:40:47 PM com.itextos.beacon.smslog.ExecutorLog1 log
+INFO: [GENERAL] [t_TimerThread-APPLICATION_CONFIG]: t_TimerThread-APPLICATION_CONFIG : goto sleep for the milli second  : 6000
