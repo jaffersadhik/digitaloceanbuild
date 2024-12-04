@@ -1,4 +1,0 @@
-Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.TopicLog log
-INFO: [GENERAL] [interface_async_process-low]: goto sleep mSleepInMillis : 100  mTopicName : interface_async_process-low : Wed Dec 04 11:52:56 IST 2024
-Dec 04, 2024 11:52:56 AM com.itextos.beacon.smslog.TopicLog log
-INFO: [GENERAL] [interface_async_process-low]: mTopicName : interface_async_process-low : Wed Dec 04 11:52:56 IST 2024

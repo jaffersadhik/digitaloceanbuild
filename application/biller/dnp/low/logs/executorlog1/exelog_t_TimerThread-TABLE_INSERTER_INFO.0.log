@@ -1,8 +1,0 @@
-Nov 20, 2024 10:04:25 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : Wed Nov 20 10:04:25 IST 2024
-Nov 20, 2024 10:04:25 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : goto sleep for the milli second  : 1000
-Nov 20, 2024 10:04:26 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : Wed Nov 20 10:04:26 IST 2024
-Nov 20, 2024 10:04:26 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_deliveries]: t_T2DbTableWrapper : t2db_deliveries : goto sleep for the milli second  : 1000

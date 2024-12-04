@@ -1,6 +1,0 @@
-2024-11-23 13:19:04.233 [ERROR] [Thread-4                 ] [c.i.b.p.d.StartApplication    ] [lambda$main$0            ] Shutdownhook invoked for the Fallback Poller.
-2024-11-23 13:21:14.946 [ERROR] [Thread-4                 ] [c.i.b.p.d.StartApplication    ] [lambda$main$0            ] Shutdownhook invoked for the Fallback Poller.
-2024-11-28 21:41:28.161 [ERROR] [Thread-4                 ] [c.i.b.p.d.StartApplication    ] [lambda$main$0            ] Shutdownhook invoked for the Fallback Poller.
-2024-11-28 21:42:17.470 [ERROR] [Thread-4                 ] [c.i.b.p.d.StartApplication    ] [lambda$main$0            ] Shutdownhook invoked for the Fallback Poller.
-2024-11-30 07:17:40.794 [ERROR] [Thread-4                 ] [c.i.b.p.d.StartApplication    ] [lambda$main$0            ] Shutdownhook invoked for the Fallback Poller.
-2024-11-30 13:26:40.605 [ERROR] [Thread-4                 ] [c.i.b.p.d.StartApplication    ] [lambda$main$0            ] Shutdownhook invoked for the Fallback Poller.
