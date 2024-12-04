@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  mysql-master:
+    image: mysql:8.0.34
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_USER: amapi
+      MYSQL_PASSWORD: amapi123
+      MYSQL_DATABASE: gw
+      TZ: Asia/Kolkata
+      MYSQL_MAX_CONNECTIONS: 2000
+    ports:
+      - "30001:3306"  # Map port 3306 inside the container to 30001 on the host
+    volumes:
+      - /home/mysqldata/masterdata:/var/lib/mysql  # Map the local storage path on the host to the container
+      - './etc/my.cnf:/etc/my.cnf'
+    restart: always  # Ensures the container restarts automatically if stopped
+
+volumes:
+  mysql-master-storage:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/mysqldata/masterdata
+      o: bind
+
