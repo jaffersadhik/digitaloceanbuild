@@ -1,0 +1,6 @@
+services:
+  smppconcatehandover:
+    image: 10.122.0.2:5000/beacon:17nov2024
+    environment: [module=smppconcatehandover,profile=do1, id=1, cluster.names=$CLUSTER]
+    volumes: ['./logs:/opt/jboss/wildfly/logs']
+version: '3'

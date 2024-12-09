@@ -1,0 +1,6 @@
+services:
+  dpg:
+    image: 10.122.0.2:5000/beacon:17nov2024
+    environment: [module=dpg,profile=do1, id=1, dlrpayloadgen.cluster=$CLUSTER]
+    volumes: ['./logs:/opt/jboss/wildfly/logs']
+version: '3'
