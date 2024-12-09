@@ -1,0 +1,11 @@
+services:
+  ic:
+    image: 10.122.0.2:5000/beacon:17nov2024
+    environment: [
+       id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m,module=ic,hostname=10.122.0.10,segment=ch5,profile=do1,priority=$PRIORITY]
+    volumes: ['./logs:/opt/jboss/wildfly/logs']
+    restart: always
+    logging:
+      driver: "none"
+version: '3'
+
