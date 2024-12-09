@@ -1,6 +1,0 @@
-Nov 20, 2024 9:47:59 AM com.itextos.beacon.smslog.ConsumerTPLog log
-INFO: t2db-submission-low : Wed Nov 20 09:47:59 IST 2024
-Nov 20, 2024 9:48:00 AM com.itextos.beacon.smslog.ConsumerTPLog log
-INFO: sleepForAWhile(1000); : mTopicName t2db-submission-low : Wed Nov 20 09:48:00 IST 2024
-Nov 20, 2024 9:48:00 AM com.itextos.beacon.smslog.ConsumerTPLog log
-INFO: t2db-submission-low : Wed Nov 20 09:48:00 IST 2024

@@ -1,8 +1,0 @@
-Dec 04, 2024 11:50:38 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_no_payload_dn]: t_T2DbTableWrapper : t2db_no_payload_dn : Wed Dec 04 11:50:38 IST 2024
-Dec 04, 2024 11:50:38 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_no_payload_dn]: t_T2DbTableWrapper : t2db_no_payload_dn : goto sleep for the milli second  : 1000
-Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_no_payload_dn]: t_T2DbTableWrapper : t2db_no_payload_dn : Wed Dec 04 11:50:39 IST 2024
-Dec 04, 2024 11:50:39 AM com.itextos.beacon.smslog.ExecutorLog1 log
-INFO: [GENERAL] [t_T2DbTableWrapper : t2db_no_payload_dn]: t_T2DbTableWrapper : t2db_no_payload_dn : goto sleep for the milli second  : 1000

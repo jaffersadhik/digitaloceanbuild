@@ -1,8 +1,0 @@
-Nov 20, 2024 9:57:17 AM com.itextos.beacon.smslog.TopicLog log
-INFO: [GENERAL] [t2db_deliveries-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_deliveries-high : Wed Nov 20 09:57:17 IST 2024
-Nov 20, 2024 9:57:17 AM com.itextos.beacon.smslog.TopicLog log
-INFO: [GENERAL] [t2db_deliveries-high]: mTopicName : t2db_deliveries-high : Wed Nov 20 09:57:17 IST 2024
-Nov 20, 2024 9:57:17 AM com.itextos.beacon.smslog.TopicLog log
-INFO: [GENERAL] [t2db_deliveries-high]: goto sleep mSleepInMillis : 100  mTopicName : t2db_deliveries-high : Wed Nov 20 09:57:17 IST 2024
-Nov 20, 2024 9:57:17 AM com.itextos.beacon.smslog.TopicLog log
-INFO: [GENERAL] [t2db_deliveries-high]: mTopicName : t2db_deliveries-high : Wed Nov 20 09:57:17 IST 2024
