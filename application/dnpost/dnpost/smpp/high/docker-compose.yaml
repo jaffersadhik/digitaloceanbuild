@@ -1,6 +1,0 @@
-services:
-  smpppost:
-    image: 10.122.0.2:5000/beacon:17nov2024
-    environment: [module=smppdlrhandover,profile=do1,modvalue=$MOD,priority=high,id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m]
-    volumes: ['./logs:/opt/jboss/wildfly/logs']
-version: '3'

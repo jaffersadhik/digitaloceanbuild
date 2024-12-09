@@ -1,7 +1,7 @@
 services:
-  rch:
+  ac:
     image: 10.122.0.2:5000/beacon:17nov2024
-    environment: [module=rch,profile=do1,
-      priority=low, id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m]
+    environment: [module=ac,profile=do1,
+      priority=$PRIORITY, id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m]
     volumes: ['./logs:/opt/jboss/wildfly/logs']
 version: '3'
