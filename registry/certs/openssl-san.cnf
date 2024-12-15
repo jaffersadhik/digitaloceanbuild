@@ -22,5 +22,5 @@ subjectAltName = @alt_names
 [ alt_names ]
 DNS.1 = dockerregistry
 # Add more DNS or IP entries as needed, like:
- IP.1 = 10.122.0.2
+ IP.1 = 10.139.244.148
 
