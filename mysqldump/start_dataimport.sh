@@ -10,5 +10,5 @@ mysql -h 127.0.0.1 -P 30001 -u root  -p payload <  payload.sql
 mysql -h 127.0.0.1 -P 30001 -u root  -p messaging <  messaging.sql
 mysql -h 127.0.0.1 -P 30001 -u root  -p logging <  logging.sql
 mysql -h 127.0.0.1 -P 30001 -u root  -p imp <  imp.sql
-
+mysql -h 127.0.0.1 -P 30001 -u root  -p billing < billing.sql
 

@@ -1,0 +1,2 @@
+INSERT INTO `service` VALUES
+('sms','SMS','2021-07-14 10:58:25','2021-07-14 10:58:25');
