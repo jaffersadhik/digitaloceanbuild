@@ -1,0 +1,1 @@
+INSERT INTO `billing_currency_master` VALUES ('AED','United Arab Emirates'),('AUD','Australian Dollar'),('CAD','Canadian Dollar'),('CHF','Swiss Franc'),('EUR','Euro'),('GBP','British Pound'),('INR','Indian Rupee'),('JPY','Japanese Yen'),('NZD','New Zealand Dollar'),('USD','US Dollar');
