@@ -1,0 +1,7 @@
+{"level":30,"time":1734793139416,"pid":1,"hostname":"9b841d67a92f","msg":"Server listening at http://0.0.0.0:3003"}
+{"level":30,"time":1734793139425,"pid":1,"hostname":"9b841d67a92f","msg":"listening on 3003"}
+{"level":30,"time":1734793176152,"pid":1,"hostname":"9b841d67a92f","reqId":"w1to20e0iqbe03dzh5p614v2nju42e1cigiv","req":{"method":"GET","url":"/","hostname":"0.0.0.0:3003","remoteAddress":"172.31.0.1","remotePort":42816},"msg":"incoming request"}
+{"level":30,"time":1734793176156,"pid":1,"hostname":"9b841d67a92f","reqId":"w1to20e0iqbe03dzh5p614v2nju42e1cigiv","res":{"statusCode":200},"responseTime":3.601720929145813,"msg":"request completed"}
+{"level":30,"time":1734793184876,"pid":1,"hostname":"9b841d67a92f","reqId":"xj06mptl5t2c6841palhz0ekump72v6p5o27","req":{"method":"GET","url":"/mui","hostname":"0.0.0.0:3003","remoteAddress":"172.31.0.1","remotePort":58710},"msg":"incoming request"}
+{"level":30,"time":1734793184876,"pid":1,"hostname":"9b841d67a92f","reqId":"xj06mptl5t2c6841palhz0ekump72v6p5o27","msg":"Route GET:/mui not found"}
+{"level":30,"time":1734793184876,"pid":1,"hostname":"9b841d67a92f","reqId":"xj06mptl5t2c6841palhz0ekump72v6p5o27","res":{"statusCode":404},"responseTime":0.5942660570144653,"msg":"request completed"}
