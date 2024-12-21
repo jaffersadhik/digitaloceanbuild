@@ -1,0 +1,20 @@
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('1','common','account_sync');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('30','common','capping_chk');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('15','common','dlr_wait_retry');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('10','common','duplicate_chk');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('12','common','duplicate_dn');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('6','common','http_dlr_handover');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('7','common','intrim_dlr');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('2','common','kafka_service');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('3','common','kannel_redis');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('4','common','messageid_generator');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('9','common','pri_dnd_chk');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('5','common','shortcode_provider');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('21','common','smpp_client_dn');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('27','common','smpp_consumer');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('29','common','smpp_session');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('8','common','timebound_chk');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('20','common','wallet_chk');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('13','trans','dn_payload');
+insert into cluster_component_datasource_map_master(datasource_map_id,cluster_name,component_name )  values('16','trans','smpp_concat');
+
