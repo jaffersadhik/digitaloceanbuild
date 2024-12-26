@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  qpr:
+    image: dockerregistry:5000/beacon:18dec2024
+    volumes:
+      - './config/req_receiver.properties:/req_receiver.properties'
+      - './logs:/opt/jboss/wildfly/logs' 
+    environment: [module=qpr,profile=do3]
+    ports: [8081:8081]

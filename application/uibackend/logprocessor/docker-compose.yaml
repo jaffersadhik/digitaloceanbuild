@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  logprocessor:
+    image: dockerregistry:5000/beacon:18dec2024
+    volumes:
+      - './logs:/opt/jboss/wildfly/logs'
+      - './csv:/csv'
+      - './sqlite:/sqlite'
+    environment:
+      - module=qplp
+      - profile=do3
+

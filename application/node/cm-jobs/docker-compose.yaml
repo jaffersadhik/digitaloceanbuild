@@ -1,0 +1,8 @@
+version: '3'
+services:
+  api:
+    image: dockerregistry:5000/node-cmjobs:24dec2024
+    ports:
+      - "3001:3001"
+    volumes: ['./logs:/usr/src/app/log','./.env:/usr/src/app/.env']
+  
