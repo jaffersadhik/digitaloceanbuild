@@ -1,0 +1,17 @@
+gunzip pg_summary_backup_19Dec2024.sql.gz 
+gunzip pg_config_backup_19Dec2024.sql.gz 
+
+psql -h 127.0.0.1 -U appuser -W -d billing -f pg_config_backup_19Dec2024.sql 
+psql -h 127.0.0.1 -U appuser -W -d billing -f pg_summary_backup_19Dec2024.sql 
+
+psql -h 127.0.0.1 -U appuser -W -d billing -f postgresql_billing_tables_create.sql
+psql -h 127.0.0.1 -U appuser -W -d billing -f postgresql_stage_tables_create.sql
+
+psql -h 127.0.0.1 -U appuser -W -d billing
+\copy smslog.sub_del_log_20241217 from '/home/dbuser/pg_scripts/2024_sample/sub_del_log_20241217.dump';
+
+\copy smslog.sub_del_log_fmsg_info_20241217 from '/home/dbuser/pg_scripts/2024_sample/sub_del_log_fmsg_info_20241217.dump';
+
+\copy smslog.full_message_20241217 from '/home/dbuser/pg_scripts/2024_sample/full_message_20241217.dump';
+
+quit
