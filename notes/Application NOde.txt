@@ -1,0 +1,231 @@
+1.install docker
+2.install docker-compose
+
+copy SSL Sertification
+
+3 cd /home/project
+4. git clone https://github.com/jaffersadhik/digitaloceanbuild.git 
+5. cp -rp certs/do2/dockerregistry\:5000 /etc/docker/certs.d/.
+6. cd /home/project/digitaloceanbuild
+7. mkdir -p /etc/docker/certs.d
+8. cp -rp certs/do2/dockerregistry\:5000 /etc/docker/certs.d/.
+9. service docker restart
+
+
+Ap[plication Deployment Script Copy
+
+10.mdir -p /home/deployments
+11.cd /home/deployments
+12.cp -rp /home/project/digitaloceanbuild/application .
+13. tree application
+
+application/
+├── biller
+│   ├── clienthandovert2tb
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── dnnopayloadt2tb
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── dnp
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── dnpostlogt2tb
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── dnt2tb
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── dnt2tbbkup
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── errorlogt2tb
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── fullmsg
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── restart.sh
+│   ├── stop.sh
+│   ├── subt2tb
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   └── t2e
+│       └── all
+│           └── docker-compose.yaml
+├── dnpost
+│   ├── ac
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── dlrpayloaddngenerator
+│   │   └── docker-compose.yaml
+│   ├── dnpost
+│   │   ├── http
+│   │   │   └── all
+│   │   │       └── docker-compose.yaml
+│   │   └── smpp
+│   │       ├── all
+│   │       │   └── docker-compose.yaml
+│   │       └── poller
+│   │           └── docker-compose.yaml
+│   ├── duplicatecheckcleanup
+│   │   └── docker-compose.yaml
+│   ├── kannelstatusupdator
+│   │   └── docker-compose.yaml
+│   ├── poller
+│   │   ├── dnfp
+│   │   │   └── docker-compose.yaml
+│   │   ├── ifp
+│   │   │   └── docker-compose.yaml
+│   │   └── scheduleblockoutpoller
+│   │       └── docker-compose.yaml
+│   ├── rc
+│   │   └── all
+│   │       └── docker-compose.yaml
+│   ├── restart.sh
+│   ├── smppconcatehandover
+│   │   └── docker-compose.yaml
+│   └── stop.sh
+├── interface
+│   ├── dn1
+│   │   └── docker-compose.yaml
+│   ├── http1
+│   │   ├── config
+│   │   │   └── log4j2-common.xml
+│   │   ├── docker-compose.yaml
+│   │   └── docker-compose.yaml_debug
+│   └── smpp1
+│       └── docker-compose.yaml
+└── router
+    └── ic
+        └── all
+            └── docker-compose.yaml
+
+
+
+
+pull the Latest Source Code from Git
+
+mvn clean install
+
+docker image build of Back End
+
+docker-compose build
+
+docker image build of Http Interface
+
+docker image build of Dn Interface
+
+docker image build of Other Http Interface
+
+
+  200  cd /home/project/beaconjs.git-/
+  201  git branch -a
+  202  git pull
+
+  203  mvn clean install
+
+  
+
+Middle Ware Build
+
+  210  cd docker-beacon
+  211  docker-compose build
+  212  docker tag dk-reg.mas:5000/beacon:17nov2024 dockerregistry:5000/beacon:17nov2024
+  213  docker push dockerregistry:5000/beacon:17nov2024
+
+Web Interface Build
+
+  216  cd ../docker-tomacat/
+
+ 
+  218  docker-compose -f docker-compose-http.yml build
+  225  docker tag dk-reg.mas:5000/beacontomcathttp:11dec2024 dockerregistry:5000/beacontomcathttp:11dec2024
+  226  docker push dockerregistry:5000/beacontomcathttp:11dec2024
+ 
+  227  docker-compose -f docker-compose-dn.yml build
+  228  docker tag dk-reg.mas:5000/beacontomcatdn:17nov2024 dockerregistry:5000/beacontomcatdn:17nov2024
+  229  docker push dockerregistry:5000/beacontomcatdn:17nov2024
+ 
+  230  docker-compose -f docker-compose-other.yml build
+  231  docker tag dk-reg.mas:5000/beacontomcatother:17nov2024 dockerregistry:5000/beacontomcatother:17nov2024
+  232  docker push dockerregistry:5000/beacontomcatother:17nov2024
+ 
+
+---------------------------------------
+Application Redis Data generation--> its will create the instance id in redis which is used by all instance for generate message id
+
+
+cd /home/deployments/application/dnpost/redisdatagenerator
+docker-compose up
+
+Note: Mandatory do have redis data for the application to start
+
+----------------------------------------------
+Interface Start: App01(App01)
+
+cd /home/deployments/application/interface/http1
+root@ubuntu-app-01:/home/deployments/application/interface/http1# docker-compose up -d
+Creating network "http1_default" with the default driver
+Creating http1_japi_1 ... done
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555&msg=Dear Jaffer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+{"req_id":"103122742524228111018300","req_time":"2024-12-12 10:25:24.690","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+
+http://157.245.103.112:1075/metrics
+
+------------------------------------------------------
+
+
+DNReceveiver Start(App01)
+
+cd /home/deployments/application/interface/dn1
+
+docker-compose up -d
+
+-------------------------------------------------------
+
+SMPP Interface Start(App01)
+
+/home/deployments/application/interface/smpp1
+
+docker-compose up -d
+
+--------------------------------------------------------
+
+Start DNPost Component(App04)
+
+cd /home/deployments/application/digitaldnpost
+
+docker-compose up -d
+
+------------------------------------------------------------------
+
+
+Start Biller Component(App04)
+
+cd /home/deployments/application/digitalbiller
+
+docker-compose up -d
+
+------------------------------------------------------------------
+
+
+Testing : 
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+{"req_id":"105122774856678391294300","req_time":"2024-12-12 13:48:56.697","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+
+
+select * from deliveries_20241212 where file_id='105122774856678391294300'\G; 
+
+select * from submission_20241212 where file_id='105122774856678391294300'\G; 
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

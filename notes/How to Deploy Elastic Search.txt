@@ -1,0 +1,7 @@
+How to Deploy Elastic Search
+
+cd /home/deployments
+cp -rp /home/projects/digitaloceanbuild/resource/elasticsearch/elasticsearch .
+cd elasticsearch
+./makedir.sh
+./start_elasticsearch.sh

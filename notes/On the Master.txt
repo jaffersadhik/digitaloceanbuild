@@ -1,0 +1,43 @@
+https://github.com/jaffersadhik/digitaloceanbuild.git
+
+On the Master:
+==============
+
+CREATE USER 'repl'@'%' IDENTIFIED BY 'repl123';
+GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';
+FLUSH PRIVILEGES;
+
+
+FLUSH TABLES WITH READ LOCK;
+SHOW MASTER STATUS;
+
+
+mysql> SHOW MASTER STATUS;
++------------------+----------+--------------+------------------+-------------------+
+| File             | Position | Binlog_Do_DB | Binlog_Ignore_DB | Executed_Gtid_Set |
++------------------+----------+--------------+------------------+-------------------+
+| mysql-bin.000001 |      157 | gw           |                  |                   |
++------------------+----------+--------------+------------------+-------------------+
+
+
+On the Slave:
+=============
+
+CHANGE MASTER TO
+MASTER_HOST='mysql-master',
+MASTER_USER='repl',
+MASTER_PASSWORD='repl123',
+MASTER_LOG_FILE='<File from master>',
+MASTER_LOG_POS=<Position from master>;
+
+
+START SLAVE;
+
+SHOW SLAVE STATUS\G
+
+
+
+
+
+
+

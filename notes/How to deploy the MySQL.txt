@@ -1,0 +1,12 @@
+How to deploy the MySQL
+
+cd /home/deployments
+cp -rp /home/projects/digitaloceanbuild/resource/mysql/masterdb .
+cd masterdb
+./makedir.sh
+./start_mysql.sh:
+
+cd /home/projects/digitaloceanbuild/mysqldump/
+./createschema.sh
+./createuser.sh
+./start_dataimport.sh

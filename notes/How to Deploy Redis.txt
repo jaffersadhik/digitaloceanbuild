@@ -1,0 +1,7 @@
+Redis Deployment Steps(157.245.99.172)
+
+cd /home/deployment/
+cp -rp /home/projects/digitaloceanbuild/resource/redis/redis .
+cd redis
+./makedir.sh
+./start_redis.sh

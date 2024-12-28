@@ -1,0 +1,102 @@
+
+https://docs.google.com/spreadsheets/d/12jM-1779FE9i4ob_SVqFF4HRu8hqVdFSmlgJnJl5XXU/edit?gid=699789859#gid=699789859
+
+http://165.22.210.126:9180/mui/#/accounts/anew
+
+Jaffer/test@123
+
+Server List
+—————
+ubuntu-app-01 (Application Node) - 157.245.103.112 - 64 GB Memory / 8 Intel vCPUs / 200 GB Disk
+ssh root@157.245.103.112 (interface,Router,dnreceiver,smppinterface)
+
+ubuntu-app-04(Application Node 2)			    - 165.22.210.126
+ssh root@165.22.210.126(biller,dnpost)
+
+ubuntu-app-02 (Database Node) - 157.245.99.172 -  64 GB Memory / 8 Intel vCPUs / 200 GB Disk
+ssh root@157.245.99.172
+
+ubuntu-app-03 (Docker Node) - 139.59.19.224 - 16 GB Memory / 4 Intel vCPUs / 320 GB Disk
+ssh root@139.59.19.224
+
+
+SSH Password - Q2bHRKeuk9o6D
+
+Interconnection Via Private IP to each Other VM is not working 
+
+
+sample
+
+ubuntu-app-02 (Database Node)  <--> ssh root@165.22.210.126 ==> Ping notworking via private IP
+
+
+ubuntu-app-01 - 10.139.244.229 -- 157.245.103.112
+ubuntu-app-02 - 10.139.244.160 -- 157.245.99.172
+ubuntu-app-03 - 10.139.244.148 -- 139.59.19.224
+ubuntu-app-04 - 10.139.244.232 -- 165.22.210.126
+
+
+
+http://10.139.244.229:8280/password/reset?cli_id=4000001100000005&reset_api=1&reset_smpp=1
+
+
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555&msg=Dear Jaffer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+
+http://165.22.210.126/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=WPzDMqbaVqG8&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+http://165.22.210.126/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+http://165.22.210.126/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=14844578490&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+curl 'http://165.22.210.126/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=WPzDMqbaVqG8&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf'
+
+curl 'http://10.139.244.229/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555&msg=Dear Jaffer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf'
+
+
+
+ab -n 1 -c 1 'http://10.139.244.229/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=WPzDMqbaVqG8&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1' > t.out &
+
+
+SMPP:10.139.244.229:2775/2775:smpp:
+
+VSMSC Connection Detail
+
+IP: 10.139.244.229
+PORT: 2775
+username: smpp
+password: JY6Mrevm
+
+4000001200000000
+
+curl 'http://10.139.244.229:8280/password/reset?cli_id=4000001200000000&reset_smpp=1'
+
+root@ubuntu-app-01:/home/deployments/application/interface/other# curl 'http://10.139.244.229:8280/password/reset?cli_id=4000001200000000&reset_smpp=1'
+{"status":"success","timetaken":"102","reason":"","passwords":[{"type":"smpp","customer_password":"JY6Mrevm","dbinsert_password":"S/oP3/1xC1tLSVwWkltSZkZnSzFHaFlUdDGejeRUBwSciThNOQc9rKwC"}]}
+
+curl 'http://10.139.244.229:8280/password/reset?cli_id=4000001100000005&reset_ui=1'
+
+[{"type":"api","customer_password":"05wVLKk6zDkw","dbinsert_password":"b/r1PIobD7WumT0Sx5IVu3IzaUx1TUswY3MhtknFOwXChfXRUSjdeBXY"}]}
+
+
+curl 'http://10.139.244.229:8280/password/reset?cli_id=4000001100000006&reset_api=1'
+
+[{"type":"api","customer_password":"5W6j7NgPZ2dZ","dbinsert_password":"K/5qVuaZVUWLuPnJXV5gGmNxN0l6OUF3YlDOdcLuqakwexehIGHkFb2N"}]
+
+
+curl 'http://10.139.244.229:8280/password/reset?cli_id=4000001100000006&reset_api=1'
+
+
+,"passwords":[{"type":"api","customer_password":"G9nRo3McAuiW","dbinsert_password":"4im2yf6p064SxcMDYCk5UDJ2dkM4ZXdvcmuGU0C8QJbfZxLuRofqKGee"}]}
+
+
+
+curl 'http://10.139.244.229:8280/password/reset?cli_id=4000001500000000&reset_api=1'
+
+
+,"passwords":[{"type":"api","customer_password":"CpkiwIMkwDDf","dbinsert_password":"z5qpj+DmY32lR28/RnwMGlRra3RQWjY0WWProIKOPsuK1EU4bUC+Bgiw"}]}

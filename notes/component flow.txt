@@ -1,0 +1,58 @@
+IC
+==
+1.Validate the Parameter and set Default Value if its missed out example senderid
+2.sms message spam Check
+3.Mobile Number Global Black List Check
+4.DND Check
+5.Update SMS Price Info
+6. MCC MNC Finding
+7.Deciding Next Level Queue 
+
+Possible Next level Queue from IC:    
+1.PRC("platform_rejection_consumer")
+2.R3C("visulaized_link_consumer")
+3.SBCV("schedule_blockout_consumer_verify")
+4.VC("verify_consumer")
+5.DLTVC("dlt_verify_consumer")
+6.T2DB_ERROR_LOG("t2db_error_log")
+
+VC
+==
+1.Duplicate Check
+2.TimeBound Check
+3.Mobile Number Range Check for International 
+4.Currency Conversion For International
+5.Deciding Next Level Queue
+
+Possible Next level Queue from VC
+1.PRC("platform_rejection_consumer")
+2.T2DB_ERROR_LOG("t2db_error_log")
+3.WC("wallet_consumer")
+4.RC("router_consumer"),
+
+RC
+==
+1.do the Domestic Route Findout
+2.do the International Route Findout
+3.Deciding Next Level Queue
+
+Possible Next level Queue from RC
+
+1.PRC("platform_rejection_consumer")
+2.T2DB_ERROR_LOG("t2db_error_log")
+3.CH("carrier_handover")
+
+CH
+==
+1.Exsists Level Blockout Time Check
+2.Platform Level PayLoad Store in Redis
+3.Kannel Submission 
+3.Deciding Next Level Queue
+
+Possible Next level Queue from CH
+
+1.PRC("platform_rejection_consumer")
+2.T2DB_ERROR_LOG("t2db_error_log")
+3.RCH("retry_carrier_handover")
+4.SBC("schedule_blockout_consumer")
+5.SUBBC("submission_billing_consumer")

@@ -1,0 +1,371 @@
+Testing :
+
+1.Post Paid:
+==========
+
+Request:
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=WPzDMqbaVqG8&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+Respose :
+
+{"req_id":"105122793642170531434200","req_time":"2024-12-12 15:36:42.188","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+Status in Table:
+
+MySQL [billing_202412]> select dn_ori_sts_desc from deliveries_20241212 where file_id='105122793642170531434200'\G;
+*************************** 1. row ***************************
+dn_ori_sts_desc: DELIVRD
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.Pre Paid:
+=========
+
+
+Request:
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+Response:
+
+{"req_id":"105122794729351571475300","req_time":"2024-12-12 15:47:29.363","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+Status in Table:
+
+
+MySQL [billing_202412]> select dn_ori_sts_desc from deliveries_20241212 where file_id='105122794729351571475300'\G;
+*************************** 1. row ***************************
+dn_ori_sts_desc: DELIVRD
+1 row in set (0.001 sec)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+3.Multiple Mobile Numbers
+=======================
+
+Request:
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555,919487660738&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+Response:
+
+{"req_id":"105122795223235591495900","req_time":"2024-12-12 15:52:23.258","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+Status in Table:
+
+MySQL [billing_202412]> select dest,dn_ori_sts_desc from deliveries_20241212 where file_id='105122795223235591495900'\G;
+*************************** 1. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+*************************** 2. row ***************************
+           dest: 918454055555
+dn_ori_sts_desc: DELIVRD
+2 rows in set (0.001 sec)
+
+ERROR: No query specified
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.English Concatenate Message:
+============================
+
+Request:
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=STGOBN&type=PM&dest=917975156958&accesskey=WPzDMqbaVqG8&dlt_entity_id=1101418220000011006&dlt_template_id=1107167713401653270&msg=%20Welcome%20to%20Saint-Gobain%20Saathi!%20We%27re%20excited%20to%20help%20you%20manage%20your%20transactions%20easily%20through%20the%20Saint-Gobain%20Saathi%20App.%20To%20get%20started,%20simply%20upload%20your%20first%20transaction%20through%20the%20APP.%20Don%27t%20hesitate%20to%20reach%20out%20if%20you%20need%20assistance.%20-Saint%20Gobain%20India%20Private%20Limited
+
+
+Response:
+
+
+{"req_id":"105122795808008621526500","req_time":"2024-12-12 15:58:08.025","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+Status in Table:
+
+MySQL [billing_202412]> select dest,dn_ori_sts_desc from deliveries_20241212 where file_id='105122795808008621526500'\G;
+*************************** 1. row ***************************
+           dest: 917975156958
+dn_ori_sts_desc: DELIVRD
+*************************** 2. row ***************************
+           dest: 917975156958
+dn_ori_sts_desc: DELIVRD
+2 rows in set (0.001 sec)
+
+ERROR: No query specified
+
+
+5.Schedule Delivery:
+==================
+
+Request:
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=DRAGWL&type=PM&dest=918454057026&msg=Thank%20you%20for%20calling%20Dr.Agarwals%20Eye%20Hospital.%20We%20are%20sorry%20for%20missing%20your%20call.%20We%20will%20call%20you%20back%20at%20the%20earliest.%20For%20any%20queries%20or%20appointments%20say%20Hi%20on%20our%20WhatsApp%20by%20clicking%20https://api.whatsapp.com/send?phone=+917397434449%26text=Hi&accesskey=WPzDMqbaVqG8&schedule_time=2024-12-12%2016:30:00&dlt_entity_id=1101475170000031129&dlt_template_id=1107165052150444935&dlt_telemarketer_id=1701158165814572045
+
+Response:
+
+{"req_id":"105122870939107881787600","req_time":"2024-12-12 23:09:39.121","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+
+Record Scheduled Confirmation:
+
+MySQL [messaging]> select date_time_to_process from schedule_data where message_payload like '%105122870939107881787600%'
+    -> ;
++----------------------+
+| date_time_to_process |
++----------------------+
+| 2024-12-13 18:30:00  |
++----------------------+
+
+
+Two Part Message we find two Records:
+
+Database changed
+MySQL [billing_202412]> select dest,dn_ori_sts_desc from deliveries_20241212 where file_id='105122870939107881787600';
++--------------+-----------------+
+| dest         | dn_ori_sts_desc |
++--------------+-----------------+
+| 918454057026 | DELIVRD         |
+| 918454057026 | DELIVRD         |
++--------------+-----------------+
+
+
+6.Unicode Message:
+==================
+
+Request:
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=OZOSTR&type=UC&accesskey=WPzDMqbaVqG8&dlt_entity_id=1501447660000013058&dlt_template_id=1007169328991791841&dest=919487660738&msg=प्रिय ओज़ोस्टार्स सदस्य,%0A%0Aबधाई!!!%0A%0Aहम कुछ शानदार समाचार साझा करने के लिए रोमांचित हैं - आपको हमारे सम्मानित OZOSTARS लॉयल्टी प्रोग्राम में AAAAA में अपग्रेड कर दिया गया है! यह अपग्रेड आपकी निरंतर वफादारी और समर्थन के लिए हमारी सराहना को दर्शाता है, और हम आपको और भी अधिक विशिष्ट लाभ और पुरस्कार प्रदान करने के लिए उत्साहित हैं। अधिक जानकारी के लिए कृपया हमसे 18002020204 पर संपर्क करें%0A%0Aटीम ओजोन ओज़ोस्टार्स
+
+{"req_id":"105123031325246603305300","req_time":"2024-12-13 15:13:25.258","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+MySQL [billing_202412]> select dest,dn_ori_sts_desc from deliveries_20241213 where file_id='105123031325246603305300'\G;
+*************************** 1. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+*************************** 2. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+*************************** 3. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+*************************** 4. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+*************************** 5. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+*************************** 6. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+*************************** 7. row ***************************
+           dest: 919487660738
+dn_ori_sts_desc: DELIVRD
+7 rows in set (0.001 sec)
+
+
+7.Flash Message:
+================
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&accesskey=WPzDMqbaVqG8&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf&type=FL
+
+8.URL Shortner:
+===============
+
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&accesskey=WPzDMqbaVqG8&dest=918454057026&url_shortner=1&msg=Dear%20Kamran,%20Welcome%20to%20Technowizards%20and%20https://web.whatsapp.com/%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+9.without Entityid and Template id
+====================================
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&accesskey=WPzDMqbaVqG8&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards
+
+
+
+10.Extra Param case:
+====================
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=WPzDMqbaVqG8&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf&param1=test
+
+
+
+11.JSON:
+========
+
+
+url --location 'http://157.245.103.112/genericapi/JSONGenericReceiver'
+
+
+BODY :
+ {
+    "version": "1.0",
+    "accesskey": "WPzDMqbaVqG8",
+    "messages": [
+        {
+            "dest": [
+                "919225240152"
+            ],
+            "msg": "Dear Customer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards",
+            "header": "TECWDS",
+            "type": "PM",
+            "dlt_entity_id": "1701167644187715462",
+            "dlt_template_id": "1707168052236710609"
+        }
+    ]
+}
+
+RESPONSE:
+
+{
+    "req_id": "105123065445779163764400",
+    "req_time": "2024-12-13 18:54:45.794",
+    "status": {
+        "reason": "Application Accepted",
+        "code": "200",
+        "info": "ACCEPTED"
+    }
+}
+
+
+
+Table verification
+
+MySQL [billing_202412]> select dest,dn_ori_sts_desc from deliveries_20241213 where file_id='105123065445779163764400';
++--------------+-----------------+
+| dest         | dn_ori_sts_desc |
++--------------+-----------------+
+| 919225240152 | DELIVRD         |
++--------------+-----------------+
+
+
+
+
+{
+    "req_id": "105123070012218183782100",
+    "req_time": "2024-12-13 19:00:12.238",
+    "status": {
+        "reason": "Application Accepted",
+        "code": "200",
+        "info": "ACCEPTED"
+    }
+}
+
+
+MySQL [billing_202412]> select dest,dn_ori_sts_desc from deliveries_20241213 where file_id='105123070012218183782100';
++--------------+-----------------+
+| dest         | dn_ori_sts_desc |
++--------------+-----------------+
+| 919225240152 | DELIVRD         |
+| 919487660738 | DELIVRD         |
++--------------+-----------------+
+
+
+
+SMPP:
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=LSIqeA3pGMsi&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=STGOBN&type=PM&dest=917975156958&accesskey=LSIqeA3pGMsi&dlt_entity_id=1101418220000011006&dlt_template_id=1107167713401653270&msg=%20Welcome%20to%20Saint-Gobain%20Saathi!%20We%27re%20excited%20to%20help%20you%20manage%20your%20transactions%20easily%20through%20the%20Saint-Gobain%20Saathi%20App.%20To%20get%20started,%20simply%20upload%20your%20first%20transaction%20through%20the%20APP.%20Don%27t%20hesitate%20to%20reach%20out%20if%20you%20need%20assistance.%20-Saint%20Gobain%20India%20Private%20Limited
+
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=OZOSTR&type=UC&accesskey=LSIqeA3pGMsi&dlt_entity_id=1501447660000013058&dlt_template_id=1007169328991791841&dest=919487660738&msg=प्रिय ओज़ोस्टार्स सदस्य,%0A%0Aबधाई!!!%0A%0Aहम कुछ शानदार समाचार साझा करने के लिए रोमांचित हैं - आपको हमारे सम्मानित OZOSTARS लॉयल्टी प्रोग्राम में AAAAA में अपग्रेड कर दिया गया है! यह अपग्रेड आपकी निरंतर वफादारी और समर्थन के लिए हमारी सराहना को दर्शाता है, और हम आपको और भी अधिक विशिष्ट लाभ और पुरस्कार प्रदान करने के लिए उत्साहित हैं। अधिक जानकारी के लिए कृपया हमसे 18002020204 पर संपर्क करें%0A%0Aटीम ओजोन ओज़ोस्टार्स
+
+
+
+
+
+
+
+Cluster : bulk
+==============
+
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=05wVLKk6zDkw&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+{"req_id":"105123471940022494094100","req_time":"2024-12-15 11:19:40.031","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+MySQL [billing_202412]> select platform_cluster,car_delivery_status from deliveries_20241215 where file_id='105123471940022494094100'\G;
+*************************** 1. row ***************************
+   platform_cluster: bulk
+car_delivery_status: DELIVRD
+
+
+
+Cluster : trans
+==============
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=5W6j7NgPZ2dZ&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+{"req_id":"105123472750772534138700","req_time":"2024-12-15 11:27:50.779","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+MySQL [billing_202412]> select platform_cluster,car_delivery_status from deliveries_20241215 where file_id='105123472750772534138700'\G;
+*************************** 1. row ***************************
+   platform_cluster: trans
+car_delivery_status: DELIVRD
+1 row in set (0.001 sec)
+
+
+Cluster : otp
+==============
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=G9nRo3McAuiW&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+
+{"req_id":"105123472927447554154400","req_time":"2024-12-15 11:29:27.461","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+
+MySQL [billing_202412]> select platform_cluster,car_delivery_status from deliveries_20241215 where file_id='105123472927447554154400'\G;
+*************************** 1. row ***************************
+   platform_cluster: otp
+car_delivery_status: DELIVRD
+1 row in set (0.001 sec)
+
+
+
+
+Msg Type : Transaction:
+======================
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=G9nRo3McAuiW&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+
+{"req_id":"105123472927447554154400","req_time":"2024-12-15 11:29:27.461","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+
+MySQL [billing_202412]> select msg_type from submission_20241215 where file_id='105123472927447554154400';
++----------+
+| msg_type |
++----------+
+|        1 |
++----------+
+
+
+Msg Type : Promotional:
+======================
+
+http://157.245.103.112/genericapi/QSGenericReceiver?&version=1.0&header=TECWDS&type=PM&accesskey=CpkiwIMkwDDf&dest=918454055555&msg=Dear%20Jaffer,%20Welcome%20to%20Technowizards%20and%2012345%20is%20your%20OTP%20for%20portal%20Registration.%20Please%20do%20not%20share%20OTP%20with%20others.-Technowizards&dlt_entity_id=1701167644187715462&dlt_template_id=1707168052236710609&param1=1&dlt_telemarkter_id=12asdf
+
+
+{"req_id":"105123474720083574173000","req_time":"2024-12-15 11:47:20.096","status":{"reason":"Application Accepted","code":"200","info":"ACCEPTED"}}
+
+
+Database changed
+MySQL [billing_202412]> select msg_type from submission_20241215 where file_id='105123474720083574173000';
++----------+
+| msg_type |
++----------+
+|        0 |
++----------+
+
+MySQL [billing_202412]> select platform_cluster,car_delivery_status from deliveries_20241215 where file_id='105123474720083574173000'\G;
+*************************** 1. row ***************************
+   platform_cluster: bulk
+car_delivery_status: DELIVRD

@@ -1,0 +1,3 @@
+ mysqldump -u your_username -p --no-create-info --skip-triggers --compact your_database_name your_table_name > insert_statements.sql
+
+ mysql -u your_username -p your_database_name < insert_statements.sql

@@ -1,0 +1,67 @@
+How to Build The Source code and docker Image?
+
+Prerquest : JDK 21 and Maven  3.9.4,git ,docker 27.3.1 docker-compose  1.29.2 dockerregistry 
+
+Step 1:
+
+git clone https://github.com/jaffersadhik/beaconjs.git-.git
+
+step 1 A: 
+    
+    add the below in ~/.bashrc file
+  
+    export MAVEN_HOME=/opt/apache-maven-3.9.4
+    export PATH=$MAVEN_HOME/bin:$PATH
+
+
+Step 2:
+
+ cd beaconjs.git-/
+
+step 3:
+
+ source ~/.bashrc
+
+step 4 :
+
+ mvn clean install
+
+ Result : Jar and war files are generated under modules target folder
+
+Step 5 : Build Back end Docker Image and Tag and push
+
+cd docker-beacon
+
+docker-compose build
+
+docker tag dk-reg.mas:5000/beacon:17nov2024 dockerregistry:5000/beacon:17nov2024
+
+docker push dockerregistry:5000/beacon:17nov2024
+
+step 6 : Build HTTP interface  docker Image and Tag and Push
+
+cd ../docker-tomacat/
+
+docker-compose -f docker-compose-http.yml build
+
+docker tag dk-reg.mas:5000/beacontomcathttp:17nov2024 dockerregistry:5000/beacontomcathttp:17nov2024
+
+docker push dockerregistry:5000/beacontomcathttp:17nov2024
+
+step 7 : Build DN interface docker image and Tag and Push
+
+
+docker-compose -f docker-compose-dn.yml build
+
+docker tag dk-reg.mas:5000/beacontomcatdn:17nov2024 dockerregistry:5000/beacontomcatdn:17nov2024
+
+docker push dockerregistry:5000/beacontomcatdn:17nov2024
+
+step 8 : Build Other docker image and Tag and Push
+
+docker-compose -f docker-compose-other.yml build
+
+docker tag  dk-reg.mas:5000/beacontomcatother:17nov2024 dockerregistry:5000/beacontomcatother:17nov2024
+
+docker push dockerregistry:5000/beacontomcatother:17nov2024
+

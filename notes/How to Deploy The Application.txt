@@ -1,0 +1,30 @@
+How to Deploy Router Module:
+
+Pre request:
+  git docker docker-compose
+
+step 1: Login to Router VM:
+=======
+ ssh -p 22612 root@10.122.0.10
+
+step 2:
+  
+  git clone https://github.com/jaffersadhik/digitaloceanbuild.git
+
+step 3:
+
+  mkdir -p /home/deployments
+
+step 4:
+  
+  cd digitaloceanbuild
+step 5:
+
+  cp -rp application/router/ic/ /home/deployments/.
+
+step 6:
+  
+  cd /home/deployments/ic/
+
+  ./restart.sh 
+    

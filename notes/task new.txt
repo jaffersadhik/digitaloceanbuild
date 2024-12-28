@@ -1,0 +1,4 @@
+05-12-2024
+
+1.Kafka2Elastic Search Data Module Introduced in Platform.
+2.make consumer support Multiple Priority

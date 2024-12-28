@@ -1,0 +1,148 @@
+Http Interface:
+
+Kafka Sender :
+==============
+
+MariaDB [configuration]> select max_producers_per_topic,producer_properties_file_path from platform_cluster_component_kafka_cluster_map a,kafka_cluster b where a.component_name='interface_consumer' and a.platform_cluster_name='otp' and a.kafka_cluster_producer=b.kafka_cluster_name ;
++-------------------------+----------------------------------------------------+
+| max_producers_per_topic | producer_properties_file_path                      |
++-------------------------+----------------------------------------------------+
+|                       1 | /platform/properties/otp/kafka-producer.properties |
++-------------------------+----------------------------------------------------+
+ 
+Derive the Topic Name:
+=====================
+
+MariaDB [configuration]> select kafka_topic_prefix from platform_cluster_kafka_topic_map where platform_cluster_name='otp' and priority like '%1%';;
++--------------------+
+| kafka_topic_prefix |
++--------------------+
+| high               |
++--------------------+
+1 row in set (0.01 sec)
+
+ERROR: No query specified
+
+
+Topic Name : ComponentName+kafka_topic_prefix;
+
+
+MariaDB [configuration]> select * from platform_cluster_kafka_topic_map ;
++--------+-----------------------+----------------------+----------+----------+--------------------+---------------------+---------------------+
+| seq_no | platform_cluster_name | interface_group_name | msg_type | priority | kafka_topic_prefix | created_ts          | updated_ts          |
++--------+-----------------------+----------------------+----------+----------+--------------------+---------------------+---------------------+
+|      3 | NULL                  | NULL                 |     NULL | 0,1      | high               | 2021-10-05 22:36:39 | 2021-10-05 22:36:39 |
+|      6 | trans                 | NULL                 |     NULL | 0,1      | high               | 2023-10-02 12:13:22 | 2023-10-02 12:13:22 |
+|      7 | bulk                  | NULL                 |     NULL | 0,1      | high               | 2023-10-02 12:50:39 | 2023-10-02 12:50:39 |
+|     10 | otp                   | NULL                 |     NULL | 0,1      | high               | 2023-10-02 12:50:52 | 2023-10-02 12:50:52 |
++--------+-----------------------+----------------------+----------+----------+--------------------+---------------------+---------------------+
+
+==================================================================================================================================================================
+
+
+Router:
+
+Interface Consumer:
+==================
+
+Kafka Consumer
+
+MariaDB [configuration]> select kafka_client_consumer_count,consumer_properties_file_path,consumer_group_name from platform_cluster_component_kafka_cluster_map a,kafka_cluster b where a.component_name='interface_consumer' and a.platform_cluster_name='otp' and a.kafka_cluster_producer=b.kafka_cluster_name ;
++-----------------------------+----------------------------------------------------+--------------------------+
+| kafka_client_consumer_count | consumer_properties_file_path                      | consumer_group_name      |
++-----------------------------+----------------------------------------------------+--------------------------+
+|                           1 | /platform/properties/otp/kafka-consumer.properties | group_interface_consumer |
++-----------------------------+----------------------------------------------------+--------------------------+
+
+
+
+Environment Variable priority : low,high
+
+
+Topic Name : Component Name + priority
+
+
+========================================================================================================================================
+
+
+
+MariaDB [configuration]> select * from component;
++-----------------------------------+----------------------------------------------------+
+| component_name                    | description                                        |
++-----------------------------------+----------------------------------------------------+
+| account_sync                      | Account sync                                       |
+| aging_dn_processor                | Aging Dlr Processor                                |
+| aging_insert                      | Aging Insert Processor                             |
+| blockout_wallet_consumer          | Blockout Wallet Consumer                           |
+| capping_chk                       | Capping Check                                      |
+| carrier_handover                  | Carrier Handover component for the platfrom        |
+| client_dlr_handover               | Client Dlr Handover via SMPP , HTTP, DLR_QUERY     |
+| client_dlr_handover_http          | Client Dlr Handover via HTTP                       |
+| dlr_internal_process              | Dlr Internal Processor                             |
+| dlr_processor                     | Dlr Processor                                      |
+| dlr_query_dn                      | Dlr Query for DN request                           |
+| dlr_query_mt                      | Dlr Query for MT request                           |
+| dlr_receiver                      | Dlr Receiver                                       |
+| dlr_retry                         | Dlr Retry processor for Tempararry Carrier Failuer |
+| dlr_wait_retry                    | Dlr retry for wait and delivery                    |
+| dlt_verify_consumer               | DLT Verify Consumer                                |
+| dn_payload                        | Dlr payload store in redis                         |
+| dummy_carrier_handover            | Dummy Carrier Handover                             |
+| duplicate_chk                     | Duplicate Check                                    |
+| duplicate_dn                      | Duplicate Check in SingleDN process                |
+| final_process_dn                  | Final DLR Processor for Billing                    |
+| final_process_mt                  | Final Biller Process for MT                        |
+| http_dlr_handover                 | Http Dlr Handover                                  |
+| interface_async_process           | Interface Async Process                            |
+| interface_consumer                | Input Reader for Primary Redis                     |
+| intrim_dlr                        | Intrim Dlr for Redis Configuration                 |
+| k2e_deliveries                    | elastic search deliveries                          |
+| k2e_submission                    | elastic search submission                          |
+| kafka_service                     | Kafka Service                                      |
+| kannel_redis                      | Kannel Availability and Store Size Check           |
+| messageid_generator               | Message Identifier Generator                       |
+| optin_chk                         | Optin Check                                        |
+| platform_rejection_consumer       | Platfrom Rejection Consumer Component              |
+| pri_dnd_chk                       | Primary DND Check                                  |
+| pri_optout_chk                    | Primary Optout Check                               |
+| retry_carrier_handover            | Retry Carrier Handover                             |
+| router_consumer                   | Route finder logic component for the platform      |
+| schedule_blockout_consumer        | Sche / Blockout consumer                           |
+| schedule_blockout_consumer_verify | Verify  the msg belongs to Sch / Blockout.         |
+| sec_dnd_chk                       | Secondary DND Check                                |
+| sec_optout_chk                    | Secondary Optout Check                             |
+| shortcode_provider                | Short Code Provider component                      |
+| single_dlr_processor              | Single Dlr Processor                               |
+| smpp_client_dn                    | SMPP DN Client Redis                               |
+| smpp_concat                       | SMPP Concatenate Redis                             |
+| smpp_consumer                     | SMPP Consumer                                      |
+| smpp_dlr_handover                 | Smpp Dlr Handover                                  |
+| smpp_session                      | SMPP Session Information                           |
+| submission_billing_consumer       | Submission Billing Consumer                        |
+| t2db_blockout                     | blockout                                           |
+| t2db_client_handover_log          | Topic to Table for the Client Handover log         |
+| t2db_client_handover_master_log   | Topic to Table for the Client Handover  Master Log |
+| t2db_client_handover_retry_data   | Topic to Table for the Client Handover Retry data  |
+| t2db_deliveries                   | deliveries                                         |
+| t2db_dn_error_based_retry         | dn_error_based_retry                               |
+| t2db_error_log                    | error_log                                          |
+| t2db_full_message                 | full_message                                       |
+| t2db_interim_deliveries           | interim_deliveries                                 |
+| t2db_interim_failuers             | interim_failuers                                   |
+| t2db_no_payload_dn                | no_payload_dn                                      |
+| t2db_schedule                     | schedule                                           |
+| t2db_smpp_post_log                | smpp_post_log                                      |
+| t2db_submission                   | submission                                         |
+| timebound_chk                     | Message Time Bound Check                           |
+| update_aging                      | Aging Update Processor                             |
+| verify_consumer                   | Message Verify Component for the platform          |
+| visulaized_link_consumer          | R3C Consumer                                       |
+| wallet_chk                        | wallet_chk                                         |
+| wallet_consumer                   | Wallet Consumer                                    |
++-----------------------------------+----------------------------------------------------+
+69 rows in set (0.00 sec)
+
+====================================================================================================================================================================
+
+select * from inmemory_loader_config;
+

@@ -1,0 +1,127 @@
+log file structure
+
+HOME_LOG_DIR : /opt/jboss/wildfly/logs/
+
+root@90059b2e41ed:/opt/jboss/wildfly/logs# ls -lrgt
+total 144
+drwxr-xr-x 2 root  4096 Dec 12 10:42 application
+drwxr-xr-x 2 root  4096 Dec 12 10:42 table2db
+drwxr-xr-x 2 root  4096 Dec 12 10:42 k2e
+drwxr-xr-x 2 root  4096 Dec 12 10:42 executorlog2
+-rw-r--r-- 1 root     0 Dec 12 11:03 debug.0.log.lck
+-rw-r--r-- 1 root     0 Dec 12 11:03 startupflow.0.log.lck
+-rw-r--r-- 1 root 15912 Dec 12 11:03 debug.0.log
+drwxr-xr-x 2 root  4096 Dec 12 11:03 aux
+drwxr-xr-x 2 root  4096 Dec 12 11:03 topic
+-rw-r--r-- 1 root 49579 Dec 12 11:03 startupflow.0.log
+drwxr-xr-x 2 root  4096 Dec 12 11:03 timetaken
+drwxr-xr-x 2 root  4096 Dec 12 11:03 consumer
+drwxr-xr-x 2 root  4096 Dec 12 11:03 kafkareceiver
+-rw-r--r-- 1 root     0 Dec 12 11:03 entry.0.log.lck
+-rw-r--r-- 1 root   157 Dec 12 11:03 entry.0.log
+-rw-r--r-- 1 root     0 Dec 12 11:03 removelogbuffer.0.log.lck
+-rw-r--r-- 1 root     0 Dec 12 11:03 kafkainformation.0.log.lck
+drwxr-xr-x 2 root  4096 Dec 12 11:03 executorlog1
+-rw-r--r-- 1 root   831 Dec 12 11:03 removelogbuffer.0.log
+-rw-r--r-- 1 root  1262 Dec 12 11:03 kafkainformation.0.log
+drwxr-xr-x 2 root  4096 Dec 12 11:03 kafkasender
+-rw-r--r-- 1 root     0 Dec 12 11:03 smslog.0.log.lck
+-rw-r--r-- 1 root  8033 Dec 12 11:03 smslog.0.log
+-rw-r--r-- 1 root     0 Dec 12 11:03 exit.0.log.lck
+-rw-r--r-- 1 root   156 Dec 12 11:03 exit.0.log
+drwxr-xr-x 2 root  4096 Dec 12 11:03 producer
+root@90059b2e41ed:/opt/jboss/wildfly/logs# cd kafkasender/
+root@90059b2e41ed:/opt/jboss/wildfly/logs/kafkasender# ls -lrt
+total 40
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_FULL_MESSAGE.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_SUBMISSION.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_DELIVERIES.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 transsender.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_DELIVERIES_BKUP.0.log.lck
+-rw-r--r-- 1 root root   745 Dec 12 11:03 transsender.0.log
+-rw-r--r-- 1 root root  8506 Dec 12 11:03 kafkasender_T2DB_SUBMISSION.0.log
+-rw-r--r-- 1 root root 12164 Dec 12 11:03 kafkasender_T2DB_FULL_MESSAGE.0.log
+-rw-r--r-- 1 root root  2327 Dec 12 11:03 kafkasender_T2DB_DELIVERIES_BKUP.0.log
+-rw-r--r-- 1 root root  4668 Dec 12 11:03 kafkasender_T2DB_DELIVERIES.0.log
+root@90059b2e41ed:/opt/jboss/wildfly/logs/kafkasender# ls -lrt
+total 40
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_FULL_MESSAGE.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_SUBMISSION.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_DELIVERIES.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 transsender.0.log.lck
+-rw-r--r-- 1 root root     0 Dec 12 11:03 kafkasender_T2DB_DELIVERIES_BKUP.0.log.lck
+-rw-r--r-- 1 root root   745 Dec 12 11:03 transsender.0.log
+-rw-r--r-- 1 root root  8506 Dec 12 11:03 kafkasender_T2DB_SUBMISSION.0.log
+-rw-r--r-- 1 root root 12164 Dec 12 11:03 kafkasender_T2DB_FULL_MESSAGE.0.log
+-rw-r--r-- 1 root root  2327 Dec 12 11:03 kafkasender_T2DB_DELIVERIES_BKUP.0.log
+-rw-r--r-- 1 root root  4668 Dec 12 11:03 kafkasender_T2DB_DELIVERIES.0.log
+root@90059b2e41ed:/opt/jboss/wildfly/logs/kafkasender# pwd
+
+
+
+root@90059b2e41ed:/opt/jboss/wildfly/logs/kafkasender# cd ../kafkareceiver/
+root@90059b2e41ed:/opt/jboss/wildfly/logs/kafkareceiver# ls -lrt
+total 4
+-rw-r--r-- 1 root root    0 Dec 12 11:03 kafkareceiver_interface_consumer.0.log.lck
+-rw-r--r-- 1 root root 3480 Dec 12 11:03 kafkareceiver_interface_consumer.0.log
+root@90059b2e41ed:/opt/jboss/wildfly/logs/kafkareceiver#
+
+
+
+root@90059b2e41ed:/opt/jboss/wildfly/logs# cd topic/
+root@90059b2e41ed:/opt/jboss/wildfly/logs/topic# ls -lrt
+total 16
+-rw-r--r-- 1 root root    0 Dec 12 11:03 topiclog_interface_consumer-low_initiated.0.log.lck
+-rw-r--r-- 1 root root    0 Dec 12 11:03 topiclog_interface_consumer-low.0.log.lck
+-rw-r--r-- 1 root root    0 Dec 12 11:03 topiclog_interface_consumer-high_initiated.0.log.lck
+-rw-r--r-- 1 root root    0 Dec 12 11:03 topiclog_interface_consumer-high.0.log.lck
+-rw-r--r-- 1 root root 3604 Dec 12 11:51 topiclog_interface_consumer-low_initiated.0.log
+-rw-r--r-- 1 root root 3604 Dec 12 11:51 topiclog_interface_consumer-low.0.log
+-rw-r--r-- 1 root root 3604 Dec 12 11:51 topiclog_interface_consumer-high_initiated.0.log
+-rw-r--r-- 1 root root 2665 Dec 12 11:51 topiclog_interface_consumer-high.0.log
+
+
+
+root@90059b2e41ed:/opt/jboss/wildfly/logs# cd producer/
+root@90059b2e41ed:/opt/jboss/wildfly/logs/producer# ls -lrt
+total 1000
+-rw-r--r-- 1 root root      0 Dec 12 11:03 producertopic.0.log.lck
+-rw-r--r-- 1 root root      0 Dec 12 11:03 producertplog_t2db-full-message-low.0.log.lck
+-rw-r--r-- 1 root root      0 Dec 12 11:03 producertplog_t2db-submission-low.0.log.lck
+-rw-r--r-- 1 root root      0 Dec 12 11:03 producertplog_t2db-deliveries-low.0.log.lck
+-rw-r--r-- 1 root root   6138 Dec 12 11:03 producertopic.0.log
+-rw-r--r-- 1 root root      0 Dec 12 11:03 producertplog_t2db-deliveries-bkup-low.0.log.lck
+-rw-r--r-- 1 root root      0 Dec 12 11:03 producerflush.0.log.lck
+-rw-r--r-- 1 root root   4219 Dec 12 11:57 producertplog_t2db-submission-low.0.log
+-rw-r--r-- 1 root root   4345 Dec 12 11:57 producertplog_t2db-full-message-low.0.log
+-rw-r--r-- 1 root root   4088 Dec 12 11:57 producertplog_t2db-deliveries-low.0.log
+-rw-r--r-- 1 root root   3960 Dec 12 11:57 producertplog_t2db-deliveries-bkup-low.0.log
+-rw-r--r-- 1 root root 985941 Dec 12 11:57 producerflush.0.log
+
+
+
+
+root@90059b2e41ed:/opt/jboss/wildfly/logs/application# ls -lrt
+total 1312
+-rw-r--r-- 1 root root      0 Dec 12 10:42 sp.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 templatefinder.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 inmemory.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 timeadjustlog.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 topic2table.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 prometheusLog.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 kafkaservice.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 kafkaconsumer.log
+-rw-r--r-- 1 root root      0 Dec 12 10:42 ic.log
+-rw-r--r-- 1 root root 665713 Dec 12 11:03 commonlib.log
+-rw-r--r-- 1 root root 665713 Dec 12 11:03 application.log
+root@90059b2e41ed:/opt/jboss/wildfly/logs/application# tail -f application.log
+2024-12-12 11:03:27.425 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Trying to attach producer Producer [mComponent=T2DB_DELIVERIES, mTopicName=t2db-deliveries-low, lastFlushed=1733981607423] to the consumers of 'dlr_processor~trans
+2024-12-12 11:03:27.426 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Consumers are not available for the component 'DNP' and Cluster 'TRANSACTION' Trying with the default cluster group.
+2024-12-12 11:03:27.426 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Trying to attach producer 'Producer [mComponent=T2DB_DELIVERIES, mTopicName=t2db-deliveries-low, lastFlushed=1733981607423]' to the consumers of 'dlr_processor~DEFAULT
+2024-12-12 11:03:27.426 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] >>>>>>>>>> Again. Consumers List is coming as null even for the Component Cluster 'dlr_processor~DEFAULT'
+2024-12-12 11:03:27.426 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Available keys 'interface_consumer~common'
+2024-12-12 11:03:27.546 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Trying to attach producer Producer [mComponent=T2DB_DELIVERIES_BKUP, mTopicName=t2db-deliveries-bkup-low, lastFlushed=1733981607543] to the consumers of 'dlr_processor~trans
+2024-12-12 11:03:27.546 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Consumers are not available for the component 'DNP' and Cluster 'TRANSACTION' Trying with the default cluster group.
+2024-12-12 11:03:27.547 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Trying to attach producer 'Producer [mComponent=T2DB_DELIVERIES_BKUP, mTopicName=t2db-deliveries-bkup-low, lastFlushed=1733981607543]' to the consumers of 'dlr_processor~DEFAULT
+2024-12-12 11:03:27.547 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] >>>>>>>>>> Again. Consumers List is coming as null even for the Component Cluster 'dlr_processor~DEFAULT'
+2024-12-12 11:03:27.547 [FATAL] [                         ] [c.i.b.c.m.d.KafkaInformation  ] [attachProducerToConsumer ] Available keys 'interface_consumer~common'

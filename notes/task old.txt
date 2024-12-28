@@ -1,0 +1,65 @@
+IN THE PROJECT NAME OF BEACON
+
+DURATION :15-JUL-2023 to 01-APR-2024
+
+
+Major BUG Fixes
+
+1.Promotion SMS DN not working case BUG fixed
+2.Other than INR Currency not Working BUG Fixed
+3.Internation SMS AED Currency not working BUG fixed
+4.Internation CLient Wise routing not working BUG fixed.
+5.the SMS Rate Cost of Customer of Dubai changed while EUR value is changed BUG Fixed
+6.In the BATCH DELETE process of Scheduling SMS to make it a SINGLE DELETE to avoid the duplicate Possiblity of SMS.
+7.Kannel submission HTTP Timed out Hardcode value increase to 1000 Milli Second to avoid the duplicate issue in International Platform.
+8.Middleware Log are make it as developer readable Format improved 
+9.ILDL SMS Delivery Issue BUG fixed
+10.ILDL Senderid Rejection Issue BUG fixed.
+.
+
+ 
+Improments:
+
+1. deployment script changed from shell script to docker-compose.yaml file
+
+2. builds are released as a docker container.
+
+3. Now we are tag the released docker container image
+
+4. more than 150 module as a 150 git project converted to Single git project.
+
+5. before there is no option to tag the source code,now we are able to tag the release in source code in git repository
+
+6. build the artifact release from source code taken time reduced from 8 minutes to 2.5 minutes it will help to reduce the development time
+
+7. Total SMS platform released Binary Size reduced from  41 GB to 400 MB.it will help the product move any where easily which saved Bandwith.
+
+8. remove the JFROG java release jar file registry dependency.
+
+9. Introduce the docker registry to maintain the docker container image release tag.
+
+10. Toatally more than 300 releases are done in the perspective of improvement and BUG fixes.
+
+11. Running Infrastructure Resource reduced from X core Y RAM GB to Y core X RAM GB which will help to reduce the monthly Infra Rental cost.
+
+12. Introduce ELK (Elasticsearch Logstash Kibana) for log analysis in Development Environment.
+
+13. recreate the Development Environment from scratch.(mysql,kafka,redis,postgres,elasticsearch,docker,docker-compose,logstash,kibana,application Running Environment)
+
+14. recreate the prometheus Alertmanager and Kibana for monitoring the Application.
+
+15. dockerize the kannel which will help to automate the carrier configuration in Future.
+
+16. production and development deployment scripts are manintain in Git Repository
+
+17.Processing the SMS in MiddleWare LAYER involved 11 JVM that was merged as a single JVM that will reduce the RUNNING Infrastructure Resoure and perfomance of processing the SMS reduced to 		10 to 15 Milli Second in Middle WARE LAYER.
+
+18.MCC,MNC Column add in Submision Table.
+
+19.Intetified Optimized value of Theard count for reduced VM .(STILL WORKING)
+
+
+20.explore and achive SSL enabled in Kannel opensource GateWay.
+21.explore and achive Dubai Carrier specific TAG will be add in Kannel configuration
+22.introduce docker kannel in Beacon Platform and make its new kannel added process is simple. 
+23.Major production Releases are  initial docker deployment,beacon deployment and tiger deployment achieve by multiple production release

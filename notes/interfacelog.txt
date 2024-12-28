@@ -1,0 +1,117 @@
+root@ubuntu-app-01:/home/deployments/application/interface/http1# docker exec -it 048344563b20 /bin/sh
+# bash
+root@048344563b20:/opt/tomcat# cd /opt/jboss/wildfly/logs/
+root@048344563b20:/opt/jboss/wildfly/logs# tail -f qsreceiver.0.log
+284     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDestisValidMobileNumber :true
+296     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     processSingleMessage lClientStatus : SUCCESS
+678     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     send2Mw telemarketerid : InterfaceMessage
+73      com.itextos.beacon.interfaces.generichttpapi.processor.handover.MiddlewareHandler       middleWareHandover telemarketerid : lMessageRequest      The MessageRequest object Handover to Kafka........ Message Request from : 'API'
+ isKafkaAvailable : true
+Kafka handover status -true
+Request Start time : '2024-12-12 10:25:23.666' End time : '2024-12-12 10:25:24.695' Processing time : '1029' milliseconds
+
+##########################################
+
+^C
+root@048344563b20:/opt/jboss/wildfly/logs# tail -100 qsreceiver.0.log
+##########################################
+
+Dec 11, 2024 5:44:44 PM com.itextos.beacon.smslog.QSReceiverLog log
+INFO:
+##########################################
+QS request received in doGet
+ servletName : QSGenericReceiver
+ aRequestType : null
+buildJson Json
+ source_ip:  '27.107.168.78' request received time: '1733919284579 '
+ JSONRequestProcessor : aRequestString : {"accesskey":"LSIqeA3pGMsi","schedule_time":null,"encrypt":null,"messages":[{"msg":"Dear Jaffer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards","msg_tag":"","type":"PM","dest":["918454055555"],"url_shortner":"","dcs":"","email_from_name":"","app_country":"","param10":"","expiry":"","dlt_telemarketer_id":"","param7":"","email_to":"","dlt_template_id":"1707168052236710609","param8":"","param5":"","param6":"","dlr_req":"","udhi":"","param9":"","template_values":[],"param3":"","param4":"","param1":"1","urltrack":"","param2":"","country_cd":"","port":"","udh":"","header":"TECWDS","max_split":"","template_id":"","dlt_entity_id":"1701167644187715462","cust_ref":"","email_subject":"","email_from":""}],"servletName":"QSGenericReceiver","version":"1.0"}  aResponseType : gen_qs
+reqStatus : RequestStatus [mStatusCode=SUCCESS, mStatusDesc=Request Accepted, mMessageid=102122574444583211113900, mResponseTime=1733919284583, mBatchNo=null]
+ messageCount:  '1'
+
+194     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     getSingleMessage
+209     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     getSingleMessage        Destination array is :  '1 JSONRequestProcessor :  aMessageJson.toJSONString() : {"msg":"Dear Jaffer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards","msg_tag":"","type":"PM","dest":["918454055555"],"url_shortner":"","dcs":"","email_from_name":"","app_country":"","param10":"","expiry":"","dlt_telemarketer_id":"","param7":"","email_to":"","dlt_template_id":"1707168052236710609","param8":"","param5":"","param6":"","dlr_req":"","udhi":"","param9":"","template_values":[],"param3":"","param4":"","param1":"1","urltrack":"","param2":"","country_cd":"","port":"","udh":"","header":"TECWDS","max_split":"","template_id":"","dlt_entity_id":"1701167644187715462","cust_ref":"","email_subject":"","email_from":""}
+
+272     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     processSingleMessageInterfaceMessage : getTelemarketerId() :
+
+MessageValidater
+
+55      com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validate
+71      com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateMessageRequest
+413     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateMessage
+481     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        processNonTemplateMessage
+375     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString
+379     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString lEncryptedStr :
+404     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString finished
+564     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateHeader
+684     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDestinationPort
+579     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateMessageExpiry
+645     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateAppCountry
+665     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateCountryCode
+709     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateVLinkMessage
+725     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateCustomerRefrenceNumber
+174     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDltTemplateId
+162     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDltEntityId
+215     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDest
+375     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString
+379     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString lEncryptedStr :
+404     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString finished
+279     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDestMobile Number Validation Details : mPassedMobileNumber : 918454055555   mMobileNumber : 918454055555     mAppendCountryCode : false     mCountryCodeToAppend :  mIsCountryCodeAppended : false   mIsValidMobileNumber : true        mIsIntlMobileNumber : false     mIsIntlMobileNumber : false
+284     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDestisValidMobileNumber :true
+296     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     processSingleMessage lClientStatus : SUCCESS
+678     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     send2Mw telemarketerid : InterfaceMessage
+73      com.itextos.beacon.interfaces.generichttpapi.processor.handover.MiddlewareHandler       middleWareHandover telemarketerid : lMessageRequest      The MessageRequest object Handover to Kafka........ Message Request from : 'API'
+ isKafkaAvailable : true
+Kafka handover status -true
+Request Start time : '2024-12-11 17:44:44.578' End time : '2024-12-11 17:44:44.606' Processing time : '28' milliseconds
+
+##########################################
+
+Dec 12, 2024 10:25:24 AM com.itextos.beacon.smslog.QSReceiverLog log
+INFO:
+##########################################
+QS request received in doGet
+ servletName : QSGenericReceiver
+ aRequestType : null
+buildJson Json
+ source_ip:  '27.107.168.78' request received time: '1733979323672 '
+ JSONRequestProcessor : aRequestString : {"accesskey":"LSIqeA3pGMsi","schedule_time":null,"encrypt":null,"messages":[{"msg":"Dear Jaffer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards","msg_tag":"","type":"PM","dest":["918454055555"],"url_shortner":"","dcs":"","email_from_name":"","app_country":"","param10":"","expiry":"","dlt_telemarketer_id":"","param7":"","email_to":"","dlt_template_id":"1707168052236710609","param8":"","param5":"","param6":"","dlr_req":"","udhi":"","param9":"","template_values":[],"param3":"","param4":"","param1":"1","urltrack":"","param2":"","country_cd":"","port":"","udh":"","header":"TECWDS","max_split":"","template_id":"","dlt_entity_id":"1701167644187715462","cust_ref":"","email_subject":"","email_from":""}],"servletName":"QSGenericReceiver","version":"1.0"}  aResponseType : gen_qs
+reqStatus : RequestStatus [mStatusCode=SUCCESS, mStatusDesc=Request Accepted, mMessageid=103122742524228111018300, mResponseTime=1733979324228, mBatchNo=null]
+ messageCount:  '1'
+
+194     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     getSingleMessage
+209     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     getSingleMessage        Destination array is :  '1 JSONRequestProcessor :  aMessageJson.toJSONString() : {"msg":"Dear Jaffer, Welcome to Technowizards and 12345 is your OTP for portal Registration. Please do not share OTP with others.-Technowizards","msg_tag":"","type":"PM","dest":["918454055555"],"url_shortner":"","dcs":"","email_from_name":"","app_country":"","param10":"","expiry":"","dlt_telemarketer_id":"","param7":"","email_to":"","dlt_template_id":"1707168052236710609","param8":"","param5":"","param6":"","dlr_req":"","udhi":"","param9":"","template_values":[],"param3":"","param4":"","param1":"1","urltrack":"","param2":"","country_cd":"","port":"","udh":"","header":"TECWDS","max_split":"","template_id":"","dlt_entity_id":"1701167644187715462","cust_ref":"","email_subject":"","email_from":""}
+
+272     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     processSingleMessageInterfaceMessage : getTelemarketerId() :
+
+MessageValidater
+
+55      com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validate
+71      com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateMessageRequest
+413     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateMessage
+481     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        processNonTemplateMessage
+375     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString
+379     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString lEncryptedStr :
+404     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString finished
+564     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateHeader
+684     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDestinationPort
+579     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateMessageExpiry
+645     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateAppCountry
+665     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateCountryCode
+709     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateVLinkMessage
+725     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateCustomerRefrenceNumber
+174     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDltTemplateId
+162     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDltEntityId
+215     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDest
+375     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString
+379     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString lEncryptedStr :
+404     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        decryptString finished
+279     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDestMobile Number Validation Details : mPassedMobileNumber : 918454055555   mMobileNumber : 918454055555     mAppendCountryCode : false     mCountryCodeToAppend :  mIsCountryCodeAppended : false   mIsValidMobileNumber : true        mIsIntlMobileNumber : false     mIsIntlMobileNumber : false
+284     com.itextos.beacon.interfaces.generichttpapi.processor.validate.MessageValidater        validateDestisValidMobileNumber :true
+296     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     processSingleMessage lClientStatus : SUCCESS
+678     com.itextos.beacon.interfaces.generichttpapi.processor.request.JSONRequestProcessor     send2Mw telemarketerid : InterfaceMessage
+73      com.itextos.beacon.interfaces.generichttpapi.processor.handover.MiddlewareHandler       middleWareHandover telemarketerid : lMessageRequest      The MessageRequest object Handover to Kafka........ Message Request from : 'API'
+ isKafkaAvailable : true
+Kafka handover status -true
+Request Start time : '2024-12-12 10:25:23.666' End time : '2024-12-12 10:25:24.695' Processing time : '1029' milliseconds
+
+##########################################

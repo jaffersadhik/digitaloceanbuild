@@ -1,0 +1,78 @@
+step 0: API Token: Generate a DigitalOcean API token from the DigitalOcean Control Panel.
+
+step 0.a: Login to any one of our Digital Ocean VM
+
+step 1: download kubectl
+
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+
+step 2: Install the DigitalOcean CLI (doctl) on your VM:
+
+curl -sL https://github.com/digitalocean/doctl/releases/download/v1.94.0/doctl-1.94.0-linux-amd64.tar.gz | tar -xzv
+
+sudo mv doctl /usr/local/bin/
+
+step 3: uthenticate doctl with your DigitalOcean API token:
+
+doctl auth init
+
+(Enter your API token when prompted.)
+
+step 4: Create a Kubernetes Cluster
+
+doctl kubernetes cluster create my-cluster \
+  --region blr1  \
+  --node-pool "name=beaon-apps-pool;size=s-2vcpu-4gb;count=3" \
+  --vpc-uuid 96a1d32b-2ae2-40e8-8c35-d4aee4ac0927
+
+step 5: Verify access:
+
+kubectl get nodes
+
+
+step 6: getting VM IP
+
+ip addr show
+
+Look for the private IP (e.g., 10.0.0.2).
+
+
+step 6: Restrict Kubernetes API Access to the VM's Private IP
+
+Modify the Cluster's API Access:
+
+DigitalOcean Kubernetes clusters expose the API publicly by default. To restrict access:
+
+Go to the DigitalOcean Control Panel.
+
+Navigate to Kubernetes > Your Cluster > Settings.
+
+Under API Access, select Restrict Access to Specific IP Ranges.
+
+Add your VM's private IP (e.g., 10.0.0.2/32).
+
+Update the Cluster's Firewall:
+
+Ensure the cluster's firewall allows traffic only from the VPC's private IP range.
+
+step 7: Configure kubectl to Use the Private IP
+
+7.a Retrieve the cluster's private API endpoint:
+
+doctl kubernetes cluster get my-cluster --format "Endpoint"
+
+The endpoint will look something like https://private-<cluster-id>.k8s.ondigitalocean.com.
+
+7.b Update your kubeconfig to use the private endpoint:
+
+doctl kubernetes cluster kubeconfig show my-cluster > ~/.kube/config
+
+7.c Verify access:
+
+kubectl get nodes
+
+kubectl get pods -A
+
+If everything is configured correctly, you should be able to access the cluster.
