@@ -1,0 +1,9 @@
+services:
+  japi:
+    image: dockerregistry:5000/beacontomcatother:31dec2024
+    environment: [
+       id=1, _JAVA_OPTIONS=-Xmx512m -Xms256m,profile=do3 , module=all,hostip=10.122.0.5]
+    ports: ['9380:8080']
+    volumes: ['./config/log4j2-common.xml:/log4j2-common.xml','./logs:/opt/jboss/wildfly/logs','./config/logging.properties:/opt/tomcat/conf/logging.properties','./tomcatlog:/opt/tomcat/logs']
+    restart: always
+version: '3'

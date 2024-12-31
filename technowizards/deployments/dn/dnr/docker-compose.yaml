@@ -1,0 +1,10 @@
+services:
+  japi:
+    image: dockerregistry:5000/beacontomcatdn:31dec2024
+    environment: [
+       id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m,profile=do3 , module=all,hostip=10.122.0.5]
+    ports: ['8180:8080']
+    restart: always
+    logging:
+      driver: "none"
+version: '3'

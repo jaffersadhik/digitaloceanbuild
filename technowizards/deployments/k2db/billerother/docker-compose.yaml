@@ -1,0 +1,10 @@
+services:
+  ic:
+    image: dockerregistry:5000/beacon:31dec2024
+    environment: [
+      id=1, _JAVA_OPTIONS=-Xmx1g -Xms512m,module=billerother,hostname=10.122.0.10,segment=ch5,profile=do3,priority=$PRIORITY,dlrpayloadgen.cluster=$CLUSTER,modvalue=$MOD,cluster.names=$CLUSTER]
+    volumes: ['./logs:/opt/jboss/wildfly/logs']
+    restart: always
+    logging:
+      driver: "none"
+version: '3'

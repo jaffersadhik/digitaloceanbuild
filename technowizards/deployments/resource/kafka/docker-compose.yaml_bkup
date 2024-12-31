@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  kafka:
+    image: bitnami/kafka:latest
+    container_name: kafkanode166
+    environment:
+      KAFKA_LOG_RETENTION_HOURS: "48"           # Retention time in hours
+      KAFKA_BROKER_ID: "1"
+      KAFKA_ZOOKEEPER_CONNECT: "10.122.0.4:30080"  # Zookeeper connection string
+      KAFKA_LISTENERS: "PLAINTEXT://0.0.0.0:9092"
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://10.122.0.4:30091" # Advertised listener address
+      KAFKA_LOG_DIRS: "/bitnami/kafka/data"      # Kafka log directory
+    ports:
+      - "30091:9092"                             # Map container port 9092 to host port 30091
+    volumes:
+      - kafka-storage:/bitnami/kafka             # Mount persistent storage for Kafka data
+
+volumes:
+  kafka-storage:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/kafkadata                # Replace with an appropriate host path
+      o: bind
+

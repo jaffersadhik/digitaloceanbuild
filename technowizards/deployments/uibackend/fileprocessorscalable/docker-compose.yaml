@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  logprocessor:
+    image: dockerregistry:5000/fileprocessorother:31dec2024
+    volumes:
+      - './logs:/opt/jboss/wildfly/logs'
+      - './tomcatlog:/opt/tomcat/logs'  
+    environment:
+      - profile=do3
+      - propertyip=224  
+

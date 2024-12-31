@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  logprocessor:
+    image: dockerregistry:5000/beacon:18dec2024
+    volumes:
+      - './logs:/opt/jboss/wildfly/logs'
+      - nfs-volume:/csv
+      - './sqlite:/sqlite'  
+    environment: [module=qplp,profile=do3]
+volumes:
+  nfs-volume:
+    driver: vieux/sshfs
+    driver_opts:
+      share: "nfs://10.139.244.160/nfsshare/csv"
