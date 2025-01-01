@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine # Use the official PostgreSQL image (alpine for a smaller size)
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: mydatabase
+    ports:
+      - "15432:5432" # Map the default PostgreSQL port to the host
+    volumes:
+      - /home/postgresdata/data:/var/lib/postgresql/data # Persist data using a named volume

@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  redis:
+    image: redis:7
+    ports:
+      - "30018:6379"  # Expose Redis on the default port
+    volumes:
+      - redis-data:/data  # Mounts the volume to persist Redis data
+    networks:
+      - redis_network
+    restart: unless-stopped  # Automatically restart unless manually stopped
+
+volumes:
+  redis-data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/redisdata/dnpayload1  # Replace with the desired host path
+      o: bind
+
+networks:
+  redis_network:
+    driver: bridge
