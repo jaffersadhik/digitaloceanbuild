@@ -1,0 +1,29 @@
+docker plugin install vieux/sshfs
+
+docker plugin install trajano/nfs-volume-plugin
+docker plugin enable trajano/nfs-volume-plugin
+version: '3.8'
+
+services:
+  app:
+    image: your-app-image:latest
+    container_name: app
+    volumes:
+      - nfs-volume:/app/data  # Mount the NFS share as a volume
+    networks:
+      - app-network
+    restart: always
+
+volumes:
+  nfs-volume:
+    driver: vieux/sshfs
+    driver_opts:
+      share: "nfs://<nfs-server-ip>/nfsshare"  # NFS server and share path
+      # Optionally, specify username and password for authentication
+      # volume_opt:
+      #   - "username=your-username"
+      #   - "password=your-password"
+
+networks:
+  app-network:
+    driver: bridge

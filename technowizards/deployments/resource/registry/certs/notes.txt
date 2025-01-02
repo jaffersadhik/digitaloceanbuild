@@ -1,0 +1,1 @@
+kubectl create configmap registry-ca --from-file=ca.crt=./ca.crt
