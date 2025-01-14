@@ -1,0 +1,738 @@
+Dec 25, 2024 12:36:25 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Dec 25, 2024 12:36:25 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Dec 25, 2024 12:36:25 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Dec 25, 2024 12:36:25 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Dec 25, 2024 12:36:25 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Dec 25, 2024 12:36:25 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=1, description=configuration]'
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/configuration, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Dec 25, 2024 12:36:26 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Dec 25, 2024 1:04:47 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=1, description=configuration]'
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/configuration, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Dec 25, 2024 1:04:48 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 6:15:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Jan 08, 2025 6:15:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Jan 08, 2025 6:15:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 6:15:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Jan 08, 2025 6:15:10 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=13, description=cm]'
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/cm, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 6:15:11 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 6:18:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=13, description=cm]'
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/cm, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 6:18:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=1, description=configuration]'
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/configuration, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:16:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Jan 08, 2025 9:53:37 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=13, description=cm]'
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/cm, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:53:38 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=1, description=configuration]'
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/configuration, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 9:55:21 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 10:12:40 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Jan 08, 2025 10:12:40 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Jan 08, 2025 10:12:40 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 10:12:40 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 10:12:40 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 10:12:40 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Jan 08, 2025 10:12:41 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=13, description=cm]'
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/cm, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 10:12:42 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=1, description=configuration]'
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/configuration, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 08, 2025 10:30:04 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 09, 2025 5:40:43 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Jan 09, 2025 5:40:43 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Jan 09, 2025 5:40:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=13, description=cm]'
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/cm, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 09, 2025 5:40:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 09, 2025 5:48:07 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Jan 09, 2025 5:48:07 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Jan 09, 2025 5:48:08 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=13, description=cm]'
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/cm, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 09, 2025 5:48:09 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=1, description=configuration]'
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/configuration, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=2, description=accounts]'
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/accounts, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 10, 2025 4:56:20 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=0, description=System DB]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=0, description=System DB]'
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mysql://10.139.244.160:30001/, numTestsPerEvictionRun=1, password=Sy5Cf8@123, maxIdle=2, minEvictableIdleTimeMillis=290000, timeBetweenEvictionRunsMillis=1000, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=11, description=topic2table]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=11, description=topic2table]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=10, description=r3c]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=10, description=r3c]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=12, description=r3c_pb]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=12, description=r3c_pb]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=5, description=payload]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=5, description=payload]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=7, description=messaging]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=7, description=messaging]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=8, description=logging]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=8, description=logging]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=3, description=listing]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=3, description=listing]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=9, description=httpclienthandover]
+Jan 14, 2025 7:19:44 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=9, description=httpclienthandover]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=1, description=configuration]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=1, description=configuration]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=4, description=carrier_handover]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=4, description=carrier_handover]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=6, description=billing]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=6, description=billing]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=2, description=accounts]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=2, description=accounts]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=13, description=cm]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=13, description=cm]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=14, description=billingbkup]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=14, description=billingbkup]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: ConnectionPoolFactory Adding configuration for JndiInfo [id=57, description=pg_billing]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Select from sysconfig.jndi_info  jndi info : JndiInfo [id=57, description=pg_billing]
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO: Creating connection pool : connection ID : 'JndiInfo [id=13, description=cm]'
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  Created dataSourceConfig  : {maxWaitMillis=-1, minIdle=2, initialSize=1, maxWait=-1, url=jdbc:mariadb://10.139.244.160:30001/cm, numTestsPerEvictionRun=3, password=Sy5Cf8@123, maxIdle=3, minEvictableIdleTimeMillis=1800000, timeBetweenEvictionRunsMillis=-1, maxTotal=3, driverClassName=org.mariadb.jdbc.Driver, username=cfguser, maxActive=3}
+Jan 14, 2025 7:19:45 PM com.itextos.beacon.commonlib.commondbpool.log.DataSourceLog log
+INFO:  isDataSourceCreated : true

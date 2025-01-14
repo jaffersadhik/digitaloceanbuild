@@ -2,12 +2,18 @@ version: '3.8'
 
 services:
   logprocessor:
-    image: dockerregistry:5000/beacon:31dec2024
+    image: dockerregistry:5000/queryprocesor:11jan2025
     volumes:
       - './logs:/opt/jboss/wildfly/logs'
-      - './csv:/csv'
-      - './sqlite:/sqlite'
+      - '/home/data/fileprocessor/cm-prod/log_download/csv:/csv'
+      - '/home/data/sqlite:/sqlite'
+      - './config/log4j2-common.xml:/log4j2-common.xml'
     environment:
-      - module=qplp
+      - module=qptp
       - profile=do3
+    networks:
+      - uibackendnetwork
+networks:
+  uibackendnetwork:
+    external: true
 

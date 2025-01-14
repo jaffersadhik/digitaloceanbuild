@@ -6,8 +6,13 @@ services:
     volumes:
       - './logs:/opt/jboss/wildfly/logs'
       - './tomcatlog:/opt/tomcat/logs' 
-      - './config/logging.properties:/opt/tomcat/conf/logging.properties' 
+      - './config/logging.properties:/opt/tomcat/conf/logging.properties'
+      - '/home/data/fileprocessor:/fileprocessordata' 
     environment:
-      - profile=do3
+      - profile=do2
       - propertyip=224  
-
+    networks:
+      - uibackendnetwork
+networks:
+  uibackendnetwork:
+    external: true

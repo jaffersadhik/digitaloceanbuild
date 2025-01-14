@@ -1,0 +1,105 @@
+Sat Jan 11 13:25:25 IST 2025 : [ServletInitializer] InitializePollers Servlet started...
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO][selectRedisServerDetails] Begin
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO][selectRedisServerDetails] sql:select * from redis_info_cm where status = ? order by rid
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO][selectRedisServerDetails] Begin
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO][selectRedisServerDetails] sql:select * from redis_info_cm where status = ? order by rid
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO][selectRedisServerDetails] redis config list 1
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO][selectRedisServerDetails] redis config list 1
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  Begin
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  sql:select * from redis_info_cm where status = ? order by rid
+Sat Jan 11 13:25:25 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  taskQueue1
+Sat Jan 11 13:25:51 IST 2025 : [FileSender][sendToFileQueue] HO status for id[pu3lbindsnfbauk3lu7arfd2d9x73u0u4igz] to Queue[CsvToExcelConverter] :Success.
+Sat Jan 11 13:25:51 IST 2025 : [FileSender][sendToFileQueue] json -{id=pu3lbindsnfbauk3lu7arfd2d9x73u0u4igz, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/1ca5cf38-c127-463c-83d2-0b51e1c81191.csv}
+Sat Jan 11 13:25:51 IST 2025 : [FileSender][sendToFileQueue] End.
+Sat Jan 11 13:25:52 IST 2025 : CsvToExcelConvertionRequestConsumer5[CsvToExcelConvertor] Request consumed:{id=pu3lbindsnfbauk3lu7arfd2d9x73u0u4igz, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/1ca5cf38-c127-463c-83d2-0b51e1c81191.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Sat Jan 11 13:25:52 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=pu3lbindsnfbauk3lu7arfd2d9x73u0u4igz, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/1ca5cf38-c127-463c-83d2-0b51e1c81191.csv, excel_rows_limit=1000000}
+Sat Jan 11 13:25:53 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/1ca5cf38-c127-463c-83d2-0b51e1c81191_1.xlsx]
+Sat Jan 11 13:25:53 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/1ca5cf38-c127-463c-83d2-0b51e1c81191_1.xlsx]
+Sat Jan 11 13:25:53 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/1ca5cf38-c127-463c-83d2-0b51e1c81191.zip
+Sat Jan 11 13:25:53 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/1ca5cf38-c127-463c-83d2-0b51e1c81191.zip
+Sun Jan 12 07:41:12 IST 2025 : [FileSender][sendToFileQueue] HO status for id[5iut81o438cyrnh8x2rh3dhndb7rx6ddj1xd] to Queue[CsvToExcelConverter] :Success.
+Sun Jan 12 07:41:12 IST 2025 : [FileSender][sendToFileQueue] json -{id=5iut81o438cyrnh8x2rh3dhndb7rx6ddj1xd, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/6973670d-b304-4075-b889-0ab44da19ba1.csv}
+Sun Jan 12 07:41:12 IST 2025 : [FileSender][sendToFileQueue] End.
+Sun Jan 12 07:41:12 IST 2025 : CsvToExcelConvertionRequestConsumer2[CsvToExcelConvertor] Request consumed:{id=5iut81o438cyrnh8x2rh3dhndb7rx6ddj1xd, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/6973670d-b304-4075-b889-0ab44da19ba1.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Sun Jan 12 07:41:12 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=5iut81o438cyrnh8x2rh3dhndb7rx6ddj1xd, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/6973670d-b304-4075-b889-0ab44da19ba1.csv, excel_rows_limit=1000000}
+Sun Jan 12 07:41:13 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/6973670d-b304-4075-b889-0ab44da19ba1_1.xlsx]
+Sun Jan 12 07:41:13 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/6973670d-b304-4075-b889-0ab44da19ba1_1.xlsx]
+Sun Jan 12 07:41:13 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/6973670d-b304-4075-b889-0ab44da19ba1.zip
+Sun Jan 12 07:41:13 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/6973670d-b304-4075-b889-0ab44da19ba1.zip
+Mon Jan 13 09:39:21 IST 2025 : [FileSender][sendToFileQueue] HO status for id[uph66l9yagrtmrvx26ugzx3g1us356c53d2y] to Queue[CsvToExcelConverter] :Success.
+Mon Jan 13 09:39:21 IST 2025 : [FileSender][sendToFileQueue] json -{id=uph66l9yagrtmrvx26ugzx3g1us356c53d2y, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/dbed44c7-254b-454c-8c58-f1920eb9b3de.csv}
+Mon Jan 13 09:39:21 IST 2025 : [FileSender][sendToFileQueue] End.
+Mon Jan 13 09:39:21 IST 2025 : CsvToExcelConvertionRequestConsumer3[CsvToExcelConvertor] Request consumed:{id=uph66l9yagrtmrvx26ugzx3g1us356c53d2y, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/dbed44c7-254b-454c-8c58-f1920eb9b3de.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Mon Jan 13 09:39:21 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=uph66l9yagrtmrvx26ugzx3g1us356c53d2y, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/dbed44c7-254b-454c-8c58-f1920eb9b3de.csv, excel_rows_limit=1000000}
+Mon Jan 13 09:39:21 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/dbed44c7-254b-454c-8c58-f1920eb9b3de_1.xlsx]
+Mon Jan 13 09:39:21 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/dbed44c7-254b-454c-8c58-f1920eb9b3de_1.xlsx]
+Mon Jan 13 09:39:21 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/dbed44c7-254b-454c-8c58-f1920eb9b3de.zip
+Mon Jan 13 09:39:21 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/dbed44c7-254b-454c-8c58-f1920eb9b3de.zip
+Mon Jan 13 11:28:00 IST 2025 : [FileSender][sendToFileQueue] HO status for id[rvgx1snkj009wtbpowxsgruqm9ntv6k6afp0] to Queue[CsvToExcelConverter] :Success.
+Mon Jan 13 11:28:00 IST 2025 : [FileSender][sendToFileQueue] json -{id=rvgx1snkj009wtbpowxsgruqm9ntv6k6afp0, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/e8c96a7e-b570-4c3d-9711-d3216c0077fc.csv}
+Mon Jan 13 11:28:00 IST 2025 : [FileSender][sendToFileQueue] End.
+Mon Jan 13 11:28:00 IST 2025 : CsvToExcelConvertionRequestConsumer4[CsvToExcelConvertor] Request consumed:{id=rvgx1snkj009wtbpowxsgruqm9ntv6k6afp0, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/e8c96a7e-b570-4c3d-9711-d3216c0077fc.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Mon Jan 13 11:28:00 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=rvgx1snkj009wtbpowxsgruqm9ntv6k6afp0, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/e8c96a7e-b570-4c3d-9711-d3216c0077fc.csv, excel_rows_limit=1000000}
+Mon Jan 13 11:28:01 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/e8c96a7e-b570-4c3d-9711-d3216c0077fc_1.xlsx]
+Mon Jan 13 11:28:01 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/e8c96a7e-b570-4c3d-9711-d3216c0077fc_1.xlsx]
+Mon Jan 13 11:28:01 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/e8c96a7e-b570-4c3d-9711-d3216c0077fc.zip
+Mon Jan 13 11:28:01 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/e8c96a7e-b570-4c3d-9711-d3216c0077fc.zip
+Mon Jan 13 11:28:10 IST 2025 : [FileSender][sendToFileQueue] HO status for id[duzj54ppf7ntsd28achy6bxwqhtltncci008] to Queue[CsvToExcelConverter] :Success.
+Mon Jan 13 11:28:10 IST 2025 : [FileSender][sendToFileQueue] json -{id=duzj54ppf7ntsd28achy6bxwqhtltncci008, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/7bdf26c0-aba5-4166-ba03-8acb3fea9945.csv}
+Mon Jan 13 11:28:10 IST 2025 : [FileSender][sendToFileQueue] End.
+Mon Jan 13 11:28:11 IST 2025 : CsvToExcelConvertionRequestConsumer2[CsvToExcelConvertor] Request consumed:{id=duzj54ppf7ntsd28achy6bxwqhtltncci008, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/7bdf26c0-aba5-4166-ba03-8acb3fea9945.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Mon Jan 13 11:28:11 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=duzj54ppf7ntsd28achy6bxwqhtltncci008, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/7bdf26c0-aba5-4166-ba03-8acb3fea9945.csv, excel_rows_limit=1000000}
+Mon Jan 13 11:28:11 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/7bdf26c0-aba5-4166-ba03-8acb3fea9945_1.xlsx]
+Mon Jan 13 11:28:11 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/7bdf26c0-aba5-4166-ba03-8acb3fea9945_1.xlsx]
+Mon Jan 13 11:28:11 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/7bdf26c0-aba5-4166-ba03-8acb3fea9945.zip
+Mon Jan 13 11:28:11 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/7bdf26c0-aba5-4166-ba03-8acb3fea9945.zip
+Mon Jan 13 11:30:00 IST 2025 : [FileSender][sendToFileQueue] HO status for id[h3bfklll8r8ucgtlcvkykba5gkxcaih1dipk] to Queue[CsvToExcelConverter] :Success.
+Mon Jan 13 11:30:00 IST 2025 : [FileSender][sendToFileQueue] json -{id=h3bfklll8r8ucgtlcvkykba5gkxcaih1dipk, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/66a4391f-ab8a-406e-828a-93ac66e0cae0.csv}
+Mon Jan 13 11:30:00 IST 2025 : [FileSender][sendToFileQueue] End.
+Mon Jan 13 11:30:00 IST 2025 : CsvToExcelConvertionRequestConsumer1[CsvToExcelConvertor] Request consumed:{id=h3bfklll8r8ucgtlcvkykba5gkxcaih1dipk, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/66a4391f-ab8a-406e-828a-93ac66e0cae0.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Mon Jan 13 11:30:00 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=h3bfklll8r8ucgtlcvkykba5gkxcaih1dipk, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/66a4391f-ab8a-406e-828a-93ac66e0cae0.csv, excel_rows_limit=1000000}
+Mon Jan 13 11:30:00 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/66a4391f-ab8a-406e-828a-93ac66e0cae0_1.xlsx]
+Mon Jan 13 11:30:00 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/66a4391f-ab8a-406e-828a-93ac66e0cae0_1.xlsx]
+Mon Jan 13 11:30:00 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/66a4391f-ab8a-406e-828a-93ac66e0cae0.zip
+Mon Jan 13 11:30:00 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/66a4391f-ab8a-406e-828a-93ac66e0cae0.zip
+Mon Jan 13 13:15:12 IST 2025 : [FileSender][sendToFileQueue] HO status for id[csr8wukv18znteae4hdr2j0bgmzaip6v41is] to Queue[CsvToExcelConverter] :Success.
+Mon Jan 13 13:15:12 IST 2025 : [FileSender][sendToFileQueue] json -{id=csr8wukv18znteae4hdr2j0bgmzaip6v41is, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/6cdadbc3-ff45-4717-a398-b62fd6e4c262.csv}
+Mon Jan 13 13:15:12 IST 2025 : [FileSender][sendToFileQueue] End.
+Mon Jan 13 13:15:13 IST 2025 : CsvToExcelConvertionRequestConsumer2[CsvToExcelConvertor] Request consumed:{id=csr8wukv18znteae4hdr2j0bgmzaip6v41is, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/6cdadbc3-ff45-4717-a398-b62fd6e4c262.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Mon Jan 13 13:15:13 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=csr8wukv18znteae4hdr2j0bgmzaip6v41is, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/6cdadbc3-ff45-4717-a398-b62fd6e4c262.csv, excel_rows_limit=1000000}
+Mon Jan 13 13:15:13 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/6cdadbc3-ff45-4717-a398-b62fd6e4c262_1.xlsx]
+Mon Jan 13 13:15:13 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/6cdadbc3-ff45-4717-a398-b62fd6e4c262_1.xlsx]
+Mon Jan 13 13:15:13 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/6cdadbc3-ff45-4717-a398-b62fd6e4c262.zip
+Mon Jan 13 13:15:13 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/6cdadbc3-ff45-4717-a398-b62fd6e4c262.zip
+Mon Jan 13 14:51:00 IST 2025 : [FileSender][sendToFileQueue] HO status for id[v1rmb68bnzacvqor2gn3yknk0ew0wfuv9cm5] to Queue[CsvToExcelConverter] :Success.
+Mon Jan 13 14:51:00 IST 2025 : [FileSender][sendToFileQueue] json -{id=v1rmb68bnzacvqor2gn3yknk0ew0wfuv9cm5, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/d0118682-2b1d-443b-a1f8-c1544e3f3467.csv}
+Mon Jan 13 14:51:00 IST 2025 : [FileSender][sendToFileQueue] End.
+Mon Jan 13 14:51:01 IST 2025 : CsvToExcelConvertionRequestConsumer5[CsvToExcelConvertor] Request consumed:{id=v1rmb68bnzacvqor2gn3yknk0ew0wfuv9cm5, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/d0118682-2b1d-443b-a1f8-c1544e3f3467.csv} and will be removed from Q[CsvToExcelConverter] and processing business logic
+Mon Jan 13 14:51:01 IST 2025 : CsvToExcelConvertor [process]  Begin, request info {id=v1rmb68bnzacvqor2gn3yknk0ew0wfuv9cm5, csv_download_path=/fileprocessordata/cm-prod/log_download/csv/d0118682-2b1d-443b-a1f8-c1544e3f3467.csv, excel_rows_limit=1000000}
+Mon Jan 13 14:51:01 IST 2025 : CsvToExcelConvertor [convertCsvFileToExcel]  Excel (1) files created [/fileprocessordata/cm-prod/log_download/csv/d0118682-2b1d-443b-a1f8-c1544e3f3467_1.xlsx]
+Mon Jan 13 14:51:01 IST 2025 : ZipUtility [archive]  Begin srcFiles=[/fileprocessordata/cm-prod/log_download/csv/d0118682-2b1d-443b-a1f8-c1544e3f3467_1.xlsx]
+Mon Jan 13 14:51:01 IST 2025 : ZipUtility [archive]  Archive(1 files) success, targetFileName /fileprocessordata/cm-prod/log_download/csv/d0118682-2b1d-443b-a1f8-c1544e3f3467.zip
+Mon Jan 13 14:51:01 IST 2025 : CsvToExcelConvertor [process]  End, Zip file /fileprocessordata/cm-prod/log_download/csv/d0118682-2b1d-443b-a1f8-c1544e3f3467.zip
+Tue Jan 14 17:59:12 IST 2025 : [ServletInitializer] InitializePollers Servlet started...
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] Begin
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] Begin
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] Begin
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] sql:select * from redis_info_cm where status = ? order by rid
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] sql:select * from redis_info_cm where status = ? order by rid
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] sql:select * from redis_info_cm where status = ? order by rid
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] Begin
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] sql:select * from redis_info_cm where status = ? order by rid
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] redis config list 1
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  Begin
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] redis config list 1
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  sql:select * from redis_info_cm where status = ? order by rid
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] redis config list 1
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO][selectRedisServerDetails] redis config list 1
+Tue Jan 14 17:59:12 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  taskQueue1
+Tue Jan 14 19:19:32 IST 2025 : [ServletInitializer] InitializePollers Servlet started...
+Tue Jan 14 19:19:32 IST 2025 : [GenericDAO][selectRedisServerDetails] Begin
+Tue Jan 14 19:19:32 IST 2025 : [GenericDAO][selectRedisServerDetails] sql:select * from redis_info_cm where status = ? order by rid
+Tue Jan 14 19:19:32 IST 2025 : [GenericDAO][selectRedisServerDetails] redis config list 1
+Tue Jan 14 19:19:32 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  Begin
+Tue Jan 14 19:19:32 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  sql:select * from redis_info_cm where status = ? order by rid
+Tue Jan 14 19:19:32 IST 2025 : [GenericDAO] [selectRedisServerDetailsAsMap]  taskQueue1

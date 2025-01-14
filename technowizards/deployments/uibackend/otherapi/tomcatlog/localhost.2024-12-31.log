@@ -1,0 +1,33 @@
+31-Dec-2024 09:04:22.649 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+31-Dec-2024 09:04:22.649 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:22.658 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+31-Dec-2024 09:04:22.658 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:22.661 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+31-Dec-2024 09:04:22.662 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:22.664 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+31-Dec-2024 09:04:22.664 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:22.666 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+31-Dec-2024 09:04:22.666 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:22.667 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+31-Dec-2024 09:04:22.667 FINE [Thread-1] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:38.291 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+31-Dec-2024 09:04:38.297 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+31-Dec-2024 09:04:38.297 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:42.572 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+31-Dec-2024 09:04:42.573 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+31-Dec-2024 09:04:42.573 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:46.708 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+31-Dec-2024 09:04:46.708 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+31-Dec-2024 09:04:46.709 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:50.802 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+31-Dec-2024 09:04:50.802 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+31-Dec-2024 09:04:50.803 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:55.002 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+31-Dec-2024 09:04:55.003 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+31-Dec-2024 09:04:55.003 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:04:59.130 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+31-Dec-2024 09:04:59.131 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+31-Dec-2024 09:04:59.131 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+31-Dec-2024 09:05:03.246 FINE [main] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+31-Dec-2024 09:05:03.247 FINE [main] org.apache.catalina.core.StandardContext.filterStart Starting filters
+31-Dec-2024 09:05:03.247 FINE [main] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'

@@ -1,0 +1,944 @@
+Jan 12, 2025 6:56:51 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {}
+Jan 12, 2025 6:56:51 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736645211387]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 7:12:40 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646159125], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736646160018]}}}
+Jan 12, 2025 10:58:39 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736659718166], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736659719108]}}}
+Jan 12, 2025 7:54:21 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691859192], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691860164], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691860995]}}}
+Jan 12, 2025 7:54:21 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691859192], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691860164], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691860995]}}}
+Jan 12, 2025 7:54:21 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691859192], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691860164], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736691860995]}}}
+Jan 12, 2025 8:46:14 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736694974532], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736694973009], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736694973851]}}}
+Jan 12, 2025 8:46:14 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736694974532], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736694973009], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736694973851]}}}
+Jan 12, 2025 9:35:04 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736697904851], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736697903324], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736697904182]}}}
+Jan 12, 2025 9:35:04 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736697904851], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736697903324], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736697904182]}}}
+Jan 12, 2025 10:21:27 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736700685154], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736700686132], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736700686991]}}}
+Jan 12, 2025 11:05:17 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736703315400], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736703316418], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736703317283]}}}
+Jan 12, 2025 11:05:17 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736703315400], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736703316418], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736703317283]}}}
+Jan 12, 2025 11:19:32 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736704170478], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736704171507], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736704172364]}}}
+Jan 12, 2025 11:19:32 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736704170478], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736704171507], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736704172364]}}}
+Jan 13, 2025 9:22:58 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736740378691], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736740377217], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736740378107]}}}
+Jan 13, 2025 11:11:54 AM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736746914270], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736746912838], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736746913700]}}}
+Jan 13, 2025 5:19:27 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736768966389], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736768965116], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736768965602]}}}
+Jan 13, 2025 5:19:27 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736768966389], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736768965116], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736768965602]}}}
+Jan 13, 2025 6:19:41 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736772579211], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736772580443], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736772580937]}}}
+Jan 14, 2025 12:07:03 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736836622213], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736836621163], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736836621524]}}}
+Jan 14, 2025 1:01:11 PM com.itextos.beacon.smslog.KILog log
+INFO: mKafkaProducerCollection : {interfaces~trans={interface-consumer-high={1=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736839869989], 2=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736839868964], 3=Producer [mComponent=IC, mTopicName=interface-consumer-high, lastFlushed=1736839869305]}}}

@@ -5,8 +5,15 @@ services:
     image: dockerregistry:5000/fileprocessorother:31dec2024
     volumes:
       - './logs:/opt/jboss/wildfly/logs'
-      - './tomcatlog:/opt/tomcat/logs'  
+      - './tomcatlog:/opt/tomcat/logs' 
+      - '/home/data/fileprocessor:/fileprocessordata'
     environment:
-      - profile=do3
-      - propertyip=224  
-
+      - profile=do2
+      - propertyip=224 
+    ports:
+      - 7001:8080 
+    networks:
+      - uibackendnetwork
+networks:
+  uibackendnetwork:
+    external: true

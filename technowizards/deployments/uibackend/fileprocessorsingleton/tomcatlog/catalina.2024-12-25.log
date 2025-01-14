@@ -1,0 +1,41 @@
+25-Dec-2024 20:20:56.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+25-Dec-2024 20:20:56.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+25-Dec-2024 20:20:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+25-Dec-2024 20:20:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+25-Dec-2024 20:20:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-49-generic
+25-Dec-2024 20:20:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Dec-2024 20:20:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-21
+25-Dec-2024 20:20:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-2513
+25-Dec-2024 20:20:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Dec-2024 20:20:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+25-Dec-2024 20:20:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+25-Dec-2024 20:20:56.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Dec-2024 20:20:56.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Dec-2024 20:20:56.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Dec-2024 20:20:56.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Dec-2024 20:20:56.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Dec-2024 20:20:56.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+25-Dec-2024 20:20:56.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Dec-2024 20:20:56.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Dec-2024 20:20:56.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Dec-2024 20:20:56.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Dec-2024 20:20:56.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Dec-2024 20:20:56.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+25-Dec-2024 20:20:56.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+25-Dec-2024 20:20:56.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+25-Dec-2024 20:20:56.384 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+25-Dec-2024 20:20:56.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Dec-2024 20:20:56.732 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [506] milliseconds
+25-Dec-2024 20:20:56.785 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Dec-2024 20:20:56.785 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+25-Dec-2024 20:20:56.801 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/webapps/initialstage.war]
+25-Dec-2024 20:21:02.576 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/webapps/initialstage.war] has finished in [5,775] ms
+25-Dec-2024 20:21:02.577 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/webapps/scheduleprocessor.war]
+25-Dec-2024 20:21:06.907 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Dec-2024 20:21:06.919 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/webapps/scheduleprocessor.war] has finished in [4,342] ms
+25-Dec-2024 20:21:06.920 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/webapps/cronjobs.war]
+25-Dec-2024 20:21:11.008 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/webapps/cronjobs.war] has finished in [4,087] ms
+25-Dec-2024 20:21:11.008 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/webapps/campaignfinisher.war]
+25-Dec-2024 20:21:15.255 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/webapps/campaignfinisher.war] has finished in [4,247] ms
+25-Dec-2024 20:21:15.258 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Dec-2024 20:21:15.267 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18533] milliseconds
