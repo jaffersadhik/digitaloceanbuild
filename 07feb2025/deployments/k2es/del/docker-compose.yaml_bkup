@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  subk2es:
+    image: dockerregistry:5000/beacon:18dec2024
+    volumes:
+      - './config/kafka2es_sub.properties:/kafka2es.properties'
+      - './config/log4j2-common.xml:/log4j2-common.xml'  
+      - './logs:/opt/jboss/wildfly/logs' 
+    environment: [module=k2es,appmode=submission,priority=$PRIORITY,threadcount=1,topicgroupid=2]

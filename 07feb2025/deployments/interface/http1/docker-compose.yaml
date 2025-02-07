@@ -1,0 +1,18 @@
+services:
+  japi:
+    image: dockerregistry:5000/beacontomcathttp:31dec2024
+    environment: [
+       id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m,profile=do1 , module=all,hostname=10.122.0.2,handovergw=unitia]
+    ports: ['8080:8080']
+    volumes: ['./logs:/opt/jboss/wildfly/logs']
+    restart: always
+    logging:
+      driver: "none"
+    networks:
+      - interface
+networks:
+  interface:
+    external: true
+
+
+version: '3'

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  qpr:
+    image: dockerregistry:5000/queryprocesor:11jan2025
+    volumes:
+      - './config/req_receiver.properties:/req_receiver.properties'
+      - './config/log4j2-common.xml:/log4j2-common.xml'  
+      - './logs:/opt/jboss/wildfly/logs' 
+    environment: [module=qpr,profile=do1]
+    ports: [8081:8081]
+    networks:
+      - uibackendnetwork
+networks:
+  uibackendnetwork:
+    external: true 

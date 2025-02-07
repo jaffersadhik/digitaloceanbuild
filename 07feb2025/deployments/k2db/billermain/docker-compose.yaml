@@ -1,0 +1,16 @@
+services:
+  ic:
+    image: dockerregistry:5000/beacon:31dec2024
+    environment: [
+      id=1, _JAVA_OPTIONS=-Xmx1g -Xms512m,module=billermain,hostname=10.122.0.2,segment=ch2,profile=do1,priority=$PRIORITY,dlrpayloadgen.cluster=$CLUSTER,modvalue=$MOD,cluster.names=$CLUSTER]
+    volumes: ['./logs:/opt/jboss/wildfly/logs']
+    restart: always
+    logging:
+      driver: "none"
+    networks:
+      - k2db
+networks:
+  k2db:
+    external: true
+
+version: '3'

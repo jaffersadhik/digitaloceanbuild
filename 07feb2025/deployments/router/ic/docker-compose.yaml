@@ -1,0 +1,15 @@
+services:
+  ic:
+    image: dockerregistry:5000/beacon:31dec2024
+    environment: [
+       id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m,module=ic,hostname=10.122.0.2,segment=ch2,profile=do1,priority=$PRIORITY]
+    restart: always
+    logging:
+      driver: "none"
+    networks:
+      - router
+networks:
+  router:
+    external: true
+version: '3'
+

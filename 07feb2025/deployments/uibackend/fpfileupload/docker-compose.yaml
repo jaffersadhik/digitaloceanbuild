@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  logprocessor:
+    image: dockerregistry:5000/fileprocessorfileupload:31dec2024
+    volumes:
+      - './logs:/opt/jboss/wildfly/logs'
+      - './tomcatlog:/opt/tomcat/logs' 
+      - '/home/data/fileprocessor:/fileprocessordata'
+      - './config/logging.properties:/opt/tomcat/conf/logging.properties'
+    environment:
+      - profile=do1
+      - propertyip=224 
+      - handovergw=unitia
+      - hostname=10.122.0.2
+    ports:
+      - 7001:8080 
+    networks:
+      - uibackendnetwork
+networks:
+  uibackendnetwork:
+    external: true

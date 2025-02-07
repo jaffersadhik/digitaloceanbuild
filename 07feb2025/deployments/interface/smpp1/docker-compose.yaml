@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  smppinterface:
+    image: dockerregistry:5000/beacon:31dec2024
+    container_name: smppinterface
+    ports:
+      - "2775:2775"
+    environment:
+      - id=1
+      - _JAVA_OPTIONS=-Xmx256m -Xms256m
+      - module=smppinterface
+      - profile=do1
+      - modvalue=0,1,2,3
+      - cluster.names=trans,bulk,otp,intl,gui
+      - concat.redis.index=0,1,2,3
+      - cluster=trans,bulk,otp,intl,gui
+      - hostname=10.122.0.2
+      - segment=chk3s
+      - handovergw=unitia
+    restart: always
+    networks:
+      - interface
+networks:
+  interface:
+    external: true
+
