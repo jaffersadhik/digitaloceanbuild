@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  zookeeper:
+    image: bitnami/zookeeper:latest
+    container_name: zookeeper
+    environment:
+      ALLOW_ANONYMOUS_LOGIN: "yes"      # Allow anonymous login to Zookeeper
+    ports:
+      - "30080:2181"                    # Map container port 2181 to host port 30080
+    volumes:
+      - zookeeper-storage:/bitnami/zookeeper  # Mount persistent storage for Zookeeper data
+
+volumes:
+  zookeeper-storage:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/zookeeperdata       # Replace with the host path for Zookeeper data
+      o: bind
+
