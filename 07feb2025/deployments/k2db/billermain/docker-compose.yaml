@@ -5,6 +5,7 @@ services:
       id=1, _JAVA_OPTIONS=-Xmx1g -Xms512m,module=billermain,hostname=10.122.0.2,segment=ch2,profile=do1,priority=$PRIORITY,dlrpayloadgen.cluster=$CLUSTER,modvalue=$MOD,cluster.names=$CLUSTER]
     volumes: ['./logs:/opt/jboss/wildfly/logs']
     restart: always
+    ports: ['1078:1075']
     logging:
       driver: "none"
     networks:
