@@ -3,6 +3,7 @@ version: '3.8'
 services:
   subk2es:
     image: dockerregistry:5000/beacon:31dec2024
+    ports: ['1080:1075']
     volumes:
       - './config/kafka2es_sub.properties:/kafka2es.properties'
       - './logs:/opt/jboss/wildfly/logs' 
