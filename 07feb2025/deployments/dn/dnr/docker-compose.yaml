@@ -3,7 +3,7 @@ services:
     image: dockerregistry:5000/beacontomcatdn:31dec2024
     environment: [
        id=1, _JAVA_OPTIONS=-Xmx256m -Xms256m,profile=do1, module=all,hostip=10.122.0.5]
-    ports: ['8180:8080']
+    ports: ['8180:8080','1084:1075']
     restart: always
     logging:
       driver: "none"
