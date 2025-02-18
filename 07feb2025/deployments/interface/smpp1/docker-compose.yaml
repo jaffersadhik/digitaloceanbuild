@@ -16,7 +16,7 @@ services:
       - cluster.names=trans,bulk,otp,intl,gui
       - concat.redis.index=0,1,2,3
       - cluster=trans,bulk,otp,intl,gui
-      - hostname=10.122.0.2
+      - hostname=10.122.0.7
       - segment=chk3s
       - handovergw=unitia
     restart: always
