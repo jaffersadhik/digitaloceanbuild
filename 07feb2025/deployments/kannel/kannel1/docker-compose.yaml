@@ -1,0 +1,57 @@
+services:
+  bearerbox1:
+    image: dockerregistry:5000/kannelmysqlssl:2.0
+    environment: [TZ=Asia/Kolkata]
+    restart: always
+    volumes: ['./log1/:/var/log/kannel/', './config:/etc/kannel',
+    './data1/spool/:/var/spool/kannel/']
+    ports: ['16101:17101']
+    logging:
+      driver: "none"
+    command: /usr/local/src/kannel/gateway/gw/bearerbox /etc/kannel/kannel1.conf
+    depends_on:
+      - mysql
+  bearerbox2:
+    image: dockerregistry:5000/kannelmysqlssl:2.0
+    environment: [TZ=Asia/Kolkata]
+    restart: always
+    volumes: ['./log2/:/var/log/kannel/', './config:/etc/kannel',
+    './data2/spool/:/var/spool/kannel/']
+    ports: ['16201:17101']
+    logging:
+      driver: "none"
+    command: /usr/local/src/kannel/gateway/gw/bearerbox /etc/kannel/kannel2.conf
+    depends_on:
+      - mysql
+  smsbox1:
+    image: dockerregistry:5000/kannelmysqlssl:2.0
+    environment: [TZ=Asia/Kolkata]
+    restart: always
+    volumes: ['./log1/:/var/log/kannel/', './config:/etc/kannel']
+    ports: ['16103:35001']
+    logging:
+      driver: "none"
+    command: /usr/local/src/kannel/gateway/gw/smsbox /etc/kannel/kannel1.conf
+    depends_on:
+      - bearerbox1
+  smsbox2:
+    image: dockerregistry:5000/kannelmysqlssl:2.0
+    environment: [TZ=Asia/Kolkata]
+    restart: always
+    volumes: ['./log2/:/var/log/kannel/', './config:/etc/kannel']
+    ports: ['16203:35001']
+    logging:
+      driver: "none"
+    command: /usr/local/src/kannel/gateway/gw/smsbox /etc/kannel/kannel2.conf
+    depends_on:
+      - bearerbox2
+  mysql:
+    image: product2/mariadb:1.0
+    environment: [MYSQL_ALLOW_EMPTY_PASSWORD=yes, MYSQL_DATABASE=gw, TZ=Asia/Kolkata]
+    restart: always
+    logging:
+      driver: "none"
+    volumes: ['./data/mysql:/var/lib/mysql', './log/mysql:/var/log/mysql/',
+      './config/mysql:/etc/mysql']
+version: '3'
+
